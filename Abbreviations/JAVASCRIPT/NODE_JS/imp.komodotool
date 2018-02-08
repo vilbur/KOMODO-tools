@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "imp", 
+  "value": [
+    "import [[%tabstop1:Module]]\tfrom './[[%tabstop:]][[%tabstop1:Module]]';[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ejs_else", 
+  "value": [
+    "<%", 
+    "\t", 
+    "\tsetTimeout( function(){", 
+    "\t\t//ko.find.replaceAllInMacro(window, 1, '(?<=%)\\s+(?=tabstop)|(?<=\\[)\\s+(?=\\[)|(?<=\\])\\s+(?=\\])', '', false, 2, 1, false, false);", 
+    "\t\tko.find.replaceAllInMacro(window, 1, '%%', '', false, 2, 1, false, false);\t\t", 
+    "\t}, 100);", 
+    "", 
+    "%>", 
+    "<%% } else { %%>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

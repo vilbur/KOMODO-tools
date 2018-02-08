@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "true", 
+    "keyboard_shortcut": "", 
+    "name": "fak_person_lastName", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "$faker->lastName,[[%tabstop:]]"
+    ], 
+    "version": "1.0.12"
+}

@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "if_text_selected", 
+  "value": [
+    "[[%tabstop:var scimoz\t= ko.views.manager.currentView.scimoz;]]", 
+    "[[%tabstop:var sel_text\t= scimoz.selText;", 
+    "var word_cursor\t= ko.interpolate.getWordUnderCursor(scimoz);", 
+    "", 
+    "]]if([[%tabstop:sel_text [[%tabstop:!]]== [[%tabstop:'[[%tabstop1:]]']] ]][[%tabstop:&&]] [[%tabstop:word_cursor [[%tabstop:!]]== [[%tabstop:'[[%tabstop1:]][[%tabstop:]]']]]])[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
+}

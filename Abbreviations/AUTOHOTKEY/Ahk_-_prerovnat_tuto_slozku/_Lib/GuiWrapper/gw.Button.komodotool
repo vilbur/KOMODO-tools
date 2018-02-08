@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "gw.Button", 
+  "value": [
+    "[[%tabstop:this.]][[%tabstop:gw]].AddControl(\"btn[[%tabstop1:Name]]\", \"Button\",\"w128\", \"[[%tabstop1:Name]]\", Func(\"[[%tabstop:EventFn]]\"))[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

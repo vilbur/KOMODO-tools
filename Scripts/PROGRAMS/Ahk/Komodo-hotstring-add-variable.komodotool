@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Komodo-hotstring-add-variable", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Fri Oct 24 2014 07:19:06 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "", 
+    "var lang = ko.views.manager.currentView.languageObj.name;", 
+    "", 
+    "if ( lang=='PHP' || lang=='Autohotkey' ) {", 
+    "", 
+    "\t", 
+    "", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

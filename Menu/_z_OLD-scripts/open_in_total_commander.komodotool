@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "open_in_total_commander", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Thu Sep 17 2015 14:08:16 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "_part = komodo.findPart('macro', 'TOTAL OPEN')", 
+    "if (!_part) {alert(\"Couldn't find a macro called 'TOTAL OPEN' when executing macro.\"); return", 
+    "}", 
+    "ko.projects.invokePart(_part);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs/code/Komodo/icons/total_commander_open.ico"
+}

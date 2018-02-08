@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Go to curent file in Total Commander", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "", 
+    "", 
+    "alert(  ko.extensions.getCurrentFilePath('\\\\')  );"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

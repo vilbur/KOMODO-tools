@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "conf", 
+  "value": [
+    "MsgBox, 4, , [[%tabstop:message]], [[%tabstop:5]]", 
+    "IfMsgBox, No", 
+    "    return [[%tabstop:]]", 
+    "[[%tabstop:IfMsgBox, Timeout", 
+    "    return [[%tabstop:]]]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

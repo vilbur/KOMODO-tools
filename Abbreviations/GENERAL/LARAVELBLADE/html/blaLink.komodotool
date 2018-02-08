@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@Link", 
+  "value": [
+    "!@#_anchor\\HTML::link([[%tabstop:$url]], '[[%tabstop:title]]', [[[%tabstop:$attributes]]])!@#_currentPos"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

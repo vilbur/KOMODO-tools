@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "repo", 
+  "value": [
+    ",", 
+    "\"[[%tabstop1:package]]\": {", 
+    "\t\"type\": \"path\",", 
+    "\t\"url\": \"packages/vilbur/[[%tabstop1:package]]\",", 
+    "\t\"options\": {", 
+    "\t\t\"symlink\": true", 
+    "\t}", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

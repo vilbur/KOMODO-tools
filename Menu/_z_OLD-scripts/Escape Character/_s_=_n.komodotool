@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "     \\s => \\n", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Sat Oct 11 2014 08:39:24 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 1, '\\\\s+', '\\\\n', false, 2, 1, false, false);", 
+    "ko.find.replaceAllInMacro(window, 1, '^\\\\s+', '', false, 2, 1, false, false);", 
+    "", 
+    "//ko.commands.doCommand('cmd_save')", 
+    "ko.commands.doCommand('cmd_cancel')"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

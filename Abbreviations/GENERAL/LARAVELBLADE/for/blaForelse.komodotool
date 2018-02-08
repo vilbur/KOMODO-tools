@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@Forelse", 
+  "value": [
+    "@forelse($[[%tabstop1:model]]s as $[[%tabstop1:model]])", 
+    "    @include('resources.[[%tabstop1:model]]s.[[%tabstop:viewFile]]', $[[%tabstop1:model]])", 
+    "@empty", 
+    "    <p>No [[%tabstop1:model]]s exist.</p>", 
+    "@endforelse!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

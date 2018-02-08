@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "getParentPath", 
+  "value": [
+    "for %%%a in (\"%[[%tabstop:~dp0]]\\.\") do for %%%b in (\"%%%~dpa\\.\") do set \"[[%tabstop:batch]]_[[%tabstop:parent]]_path=%%%~dpnxb\"!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

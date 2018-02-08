@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Delete lines with selected string", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "try {", 
+    "    scimoz = ko.views.manager.currentView.scimoz;", 
+    "    var selectedText = scimoz.selText;", 
+    "    if (komodo.view) { komodo.view.setFocus(); }", 
+    "    ////// IF NOTHING IS SELECTED", 
+    "    if (selectedText == '' ) {", 
+    "        alert('Select text which line you want to extract from text');", 
+    "", 
+    "    }else {", 
+    "        /*     select line which NOT contain the word    */", 
+    "        ko.commands.doCommand('cmd_selectAll')", 
+    "        ko.find.replaceAllInMacro(window, 0, '^.*('+selectedText+').*$', '', false, 2, 0, false, false);", 
+    "", 
+    "    }", 
+    "} finally {", 
+    "    ko.views.manager.currentView.scimoz.endUndoAction()", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

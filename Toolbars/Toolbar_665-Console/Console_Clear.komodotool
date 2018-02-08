@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Console Clear", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "trigger_enabled": false, 
+  "value": [
+    "var consoleEL = document.getElementById('console-widget');", 
+    "if(consoleEL)", 
+    "\tconsoleEL.contentWindow.document.getElementById('output').innerHTML = ''"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/console.svg"
+}

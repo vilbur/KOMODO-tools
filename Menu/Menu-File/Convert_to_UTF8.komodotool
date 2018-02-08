@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Convert to UTF8", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Mon Sep 22 2014 05:48:13 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.commands.doCommand('cmd_save')", 
+    "ko.commands.doCommand('cmd_focusEditor')"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://famfamfamsilk/skin/icons/text_replace.png"
+}

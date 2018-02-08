@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "vueTemplate", 
+  "value": [
+    "<template>", 
+    "\t<div>", 
+    "\t\t[[%tabstop:]]", 
+    "\t</div>", 
+    "</template>", 
+    "<script>", 
+    "    export default {[[%tabstop:]]};", 
+    "</script>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

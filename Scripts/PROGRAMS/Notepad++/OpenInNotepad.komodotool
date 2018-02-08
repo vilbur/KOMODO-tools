@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "OpenInNotepad", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    " ", 
+    " ", 
+    "/** OpenInNotepad", 
+    " */", 
+    "ko.extensions.OpenInNotepad = function(path) {", 
+    "   ko.extensions.runCmd ('start \"\" %Commander_Path%\\\\_Utilities\\\\Notepad++\\\\Notepad++', ko.extensions.getPath(path,'\\\\\\\\') );", 
+    "};"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_startup"
+}

@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Opened *.komodotool Activate - remove suffix '_X'", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "rank": 100, 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Tue Feb 28 2017 19:19:04 GMT+0100 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "/**", 
+    " * TODO: CREAATE NEW VERSION OF REPLACED IN FILES POWERED BY SYSTEM !!!!", 
+    " *", 
+    " *", 
+    " *", 
+    " */", 
+    "ko.find.replaceAllInMacro(window, 2, '\\\"name\\\":\\\\s*\\\"(\\\\w+)_X\\\",', '\\\"name\\\": \\\"\\\\1\\\",', false, 2, 1, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "async": 0, 
+  "type": "macro"
+}

@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "SetKmdPref_unused", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    " //var prefs = Components.classes['@activestate.com/koPrefService;1'].getService(Components.interfaces.koIPrefService).prefs;", 
+    "//prefs.setBooleanPref(\"editFoldLines\", false);", 
+    "", 
+    "", 
+    "//prefs.setStringPref(\"ui.tabs.sidepanes.state\", '{\"widgets\":{},\"panes\":{\"workspace_bottom_area\":{\"collapsed\":true,\"children\":[[{\"id\":\"scc-widget\"}],[{\"id\":\"breakpoints-tabpanel\"}],[{\"id\":\"runoutput-desc-tabpanel\"}],[{\"id\":\"projectUnitTestsResults_tabpanel\"}],[{\"id\":\"notifications-widget\"}],[{\"id\":\"klint_tabpanel\"}],[{\"id\":\"console-widget\"}]],\"selectedTab\":\"scc-widget\"},\"workspace_right_area\":{\"collapsed\":false,\"children\":[[{\"id\":\"DOMviewbox\"}]],\"selectedTab\":\"DOMviewbox\"},\"workspace_left_area\":{\"collapsed\":false,\"children\":[[{\"id\":\"dbexplorer_viewbox\"}],[{\"id\":\"collab-panel\"}]],\"selectedTab\":\"dbexplorer_viewbox\"},\"__komodo_floating_pane__87\":{\"collapsed\":false,\"children\":[[{\"id\":\"openfilesViewbox\"},{\"id\":\"codebrowserviewbox\"}]],\"left\":1054,\"top\":60,\"innerWidth\":206,\"innerHeight\":991,\"type\":\"vertical\",\"orient\":\"vertical\",\"selectedTab\":\"openfilesViewbox\"},\"__komodo_floating_pane__91\":{\"collapsed\":false,\"children\":[[{\"id\":\"placesViewbox\"}]],\"left\":1265,\"top\":60,\"innerWidth\":206,\"innerHeight\":991,\"type\":\"vertical\",\"orient\":\"vertical\",\"selectedTab\":\"placesViewbox\"},\"__komodo_floating_pane__95\":{\"collapsed\":false,\"children\":[[{\"id\":\"toolbox2viewbox\"}]],\"left\":1476,\"top\":60,\"innerWidth\":206,\"innerHeight\":991,\"type\":\"vertical\",\"orient\":\"vertical\",\"selectedTab\":\"toolbox2viewbox\"}}}');", 
+    "", 
+    "//prefs.setStringPref(\"editFoldStyle\",\"curvytree\");\t\t\t", 
+    "//prefs.setStringPref(\"editFoldStyle\",\"squaretree\");", 
+    "ko.extensions.SetKomodoPreferences(\"editFoldLines\",1);", 
+    "ko.extensions.SetKomodoPreferences(\"editFoldLines\",0);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

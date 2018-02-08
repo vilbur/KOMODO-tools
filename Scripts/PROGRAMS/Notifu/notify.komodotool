@@ -1,0 +1,30 @@
+{
+	"async"	: 1, 
+	"icon"	: "chrome://fugue/skin/icons/tick.png", 
+	"keyboard_shortcut"	: "", 
+	"language"	: "JavaScript", 
+	"name"	: "notify", 
+	"rank"	: 100, 
+	"trigger"	: "trigger_startup", 
+	"trigger_enabled"	: 0, 
+	"type"	: "macro", 
+	"value"	: [
+		"/*", 
+		"\tWRAPPER FOR Notify.ahk", 
+		"\tRun Ahk Notify tray message", 
+		"", 
+		"\t@PARAMS", 
+		"\t\t@param string\t$type\t\ttype of message \"info|warn|error\"", 
+		"\t\t@param string\t$title\t\ttitle of message", 
+		"\t\t@param string\t$message\tcontent of message", 
+		"\t\t@param int\t\t$timer\t\thow long message will be dispalyied, seconds or miliseconds", 
+		"\t\t@param boolean\t$force\t\tmessage will not be overridden by next if 1 NOTE: default for type \"info\" is 0 other types has default 1", 
+		"", 
+		"*/", 
+		"", 
+		"ko.extensions.Notify = (function(type='info', title='', message='-', timer=5, force=0 ) {", 
+		"\tko.extensions.runCmd ( \"%path_ahk%\\Lib\\Notify.ahk\", [ type,title,message,timer,force ]\t)\t\t", 
+		"});"
+	], 
+	"version"	: "1.0.12"
+}

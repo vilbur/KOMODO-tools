@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "SaveLoadSelection", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    " ", 
+    "if( typeof ko.extensions.oSelection === 'undefined' )", 
+    "\treturn;", 
+    "", 
+    "ko.extensions.oSelection.saveLoad();"
+  ], 
+  "trigger": "trigger_startup", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/selection-select-input.png"
+}

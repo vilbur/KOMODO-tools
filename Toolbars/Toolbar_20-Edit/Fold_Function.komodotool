@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Fold_Function", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "rank": 100, 
+  "trigger": "trigger_startup", 
+  "value": [
+    "var _Fold = new ko.extensions.Fold('close',0)"
+  ], 
+  "version": "1.0.12", 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/arrow8.svg"
+}

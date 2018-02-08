@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "border OFF", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Fri Jun 16 2017 13:59:56 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 0, '^(\\\\s*)(?:(?!\\\\/\\\\*).)*(border:.*(?=;*$))', '\\\\1/* \\\\2 */', false, 2, 0, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

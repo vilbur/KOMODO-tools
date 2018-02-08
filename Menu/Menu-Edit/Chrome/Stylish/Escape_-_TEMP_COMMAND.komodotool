@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Escape '<' - TEMP COMMAND", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Tue Jul 11 2017 06:09:19 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "", 
+    "/* THIS IS TEMP QUICK COMMAND */", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 1, '<', '&lt;', false, 0, 1, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "comm", 
+  "value": [
+    "[[%tabstop:/*\t================================================================================================\t*/", 
+    "/*\t[[%tabstop:HEADER FOR MAIN COMMENTS OF FILE]]\t*/", 
+    "/*\t================================================================================================\t*/]]", 
+    "[[%tabstop:/*\t------------------------------------------------------------------\t*/", 
+    "/*\t[[%tabstop:Header for section]]\t*/", 
+    "/*\t------------------------------------------------------------------\t*/]]", 
+    "[[%tabstop:/*", 
+    "\t================== [[%tabstop:MAIN GROUPS OF SELECTORS GROUPS]] ==================", 
+    "*/]]", 
+    "[[%tabstop:/*", 
+    "\t------ [[%tabstop:GROUPS OF SELECTORS FOO & BAR]] ------", 
+    "*/]]", 
+    "[[%tabstop:/* [[%tabstop:Selector]] */]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

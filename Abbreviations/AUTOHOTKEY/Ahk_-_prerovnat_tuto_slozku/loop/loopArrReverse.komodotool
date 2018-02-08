@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "loopArrReverse", 
+  "value": [
+    "Loop, % [[%tabstop:$[[%tabstop1:array]]]]", 
+    "{", 
+    "\t$reverse\t:= $[[%tabstop1:array]]+1-A_Index", 
+    "\t$item\t:= % $[[%tabstop1:array]]%$reverse%", 
+    "    [[%tabstop:]]", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

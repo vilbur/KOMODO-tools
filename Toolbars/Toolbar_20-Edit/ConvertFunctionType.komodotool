@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "Alt+Shift+T", 
+  "name": "ConvertFunctionType", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "trigger_enabled": false, 
+  "value": [
+    "new ko.extensions.ConvertFunction(ko.views.manager.currentView.scimoz.selText);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://openoffice/skin/icons/view-function-selection.png"
+}

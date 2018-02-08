@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "compileDll", 
+  "value": [
+    "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /target:library /out:test.dll d:\\Work\\CG_TEMP\\dll\\test.cs", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

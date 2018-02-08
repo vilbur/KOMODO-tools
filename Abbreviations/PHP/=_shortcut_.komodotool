@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "Ctrl+Shift+>", 
+  "name": "=> (shortcut)", 
+  "value": [
+    "<%", 
+    "\tvar scimoz\t= ko.views.manager.currentView.scimoz;", 
+    "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
+    "\tvar char_precede\t=  scimoz.getWCharAt(scimoz.currentPos-1);", 
+    "//alert( char_precede==' ' );", 
+    "\tswitch (lang) {", 
+    "\t\t//case 'PHP':\tsnippet = \"=>\";break;", 
+    "\t\tcase 'JavaScript':\tsnippet = char_precede.match(/\\s/) ? '=> ': ' => ' ;break;", 
+    "\t\tdefault:\tsnippet = \"=>\";", 
+    "\t}", 
+    "", 
+    "%>", 
+    "<%=snippet%>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

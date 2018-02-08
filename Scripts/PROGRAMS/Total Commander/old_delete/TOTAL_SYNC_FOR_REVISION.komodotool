@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "TOTAL SYNC_FOR_REVISION", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "var file_path = ko.views.manager.currentView.koDoc.file.path;", 
+    "ko.run.output.endSession();", 
+    "var bat = 'c:\\\\GoogleDrive\\\\Programs\\\\code\\\\wamp\\\\laravel\\\\laravel_batch\\\\sync\\\\sync_from_komodo.bat';", 
+    "ko.run.runEncodedCommand( window, bat + ' '+file_path);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": 1, 
+  "type": "macro"
+}

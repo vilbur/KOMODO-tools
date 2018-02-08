@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "gw.Tabs", 
+  "value": [
+    "global [[%tabstop1:Name]]Tabs", 
+    "[[%tabstop:this.]][[%tabstop:gw]].AddControl(\"Tabs\", \"Tab2\", \"v[[%tabstop1:Name]]Tabs AltSubmit\", \"[[%tabstop:Tab1]]|[[%tabstop:Tab2]]\")[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

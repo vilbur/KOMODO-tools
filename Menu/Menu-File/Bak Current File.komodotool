@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Bak Current File", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postsave", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "//alert( ko.extensions.currentFileBak());", 
+    "if(ko.extensions.currentFileBak()!==true)", 
+    "\tko.extensions.currentFileBakRevert()"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "chrome://famfamfamsilk/skin/icons/database_copy.png"
+}

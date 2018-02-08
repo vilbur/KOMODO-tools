@@ -1,0 +1,21 @@
+{
+	"async"	: 0, 
+	"icon"	: "file:///C:/GoogleDrive/Programs/code/Komodo/icons/sync.ico", 
+	"keyboard_shortcut"	: "", 
+	"language"	: "JavaScript", 
+	"name"	: "Sync current file", 
+	"rank"	: 100, 
+	"trigger"	: "trigger_postopen", 
+	"trigger_enabled"	: 0, 
+	"type"	: "macro", 
+	"value"	: [
+		"// Macro recorded on: Thu Sep 17 2015 13:18:02 GMT+0200 (Central Europe Standard Time)", 
+		"komodo.assertMacroVersion(3);", 
+		"if (komodo.view) { komodo.view.setFocus(); }", 
+		"_part = komodo.findPart('macro', 'TOTAL SYNC')", 
+		"if (!_part) {alert(\"Couldn't find a macro called 'TOTAL SYNC' when executing macro.\"); return", 
+		"}", 
+		"ko.projects.invokePart(_part);"
+	], 
+	"version"	: "1.0.12"
+}

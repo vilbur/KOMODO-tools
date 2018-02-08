@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ret", 
+  "value": [
+    "<% var Var = new ko.extensions.Variable() %>", 
+    "return [[%tabstop:]]<%=Var.lineEnd%>[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png"
+}

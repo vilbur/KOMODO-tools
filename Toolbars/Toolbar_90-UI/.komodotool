@@ -1,0 +1,15 @@
+{
+	"async"	: 0, 
+	"icon"	: "c:GoogleDriveTotalComanderIconsAlphabetAikawnsAlue.ico", 
+	"keyboard_shortcut"	: "", 
+	"language"	: "JavaScript", 
+	"name"	: "New Userscript", 
+	"rank"	: 100, 
+	"trigger"	: "trigger_postopen", 
+	"trigger_enabled"	: 0, 
+	"type"	: "macro", 
+	"value"	: [
+
+	], 
+	"version"	: "1.0.12"
+}

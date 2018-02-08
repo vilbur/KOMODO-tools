@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "set", 
+  "value": [
+    "<% var Var = new ko.extensions.Variable() %>", 
+    "/** set [[%tabstop1:variable]]", 
+    "*/", 
+    "[[%tabstop:]][[%tabstop1:variable]](<%=Var.prefix%>[[%tabstop1:variable]][[%tabstop: <%=Var.delimeter%> [[%tabstop:\"[[%tabstop:]]\"]]]]){", 
+    "\tthis.[[%tabstop1:variable]]\t<%=Var.delimeter%> <%=Var.prefix%>[[%tabstop:[[%tabstop1:variable]]]]<%=Var.lineEnd%>[[%tabstop:]]", 
+    "\treturn this<%=Var.lineEnd%>", 
+    "}[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

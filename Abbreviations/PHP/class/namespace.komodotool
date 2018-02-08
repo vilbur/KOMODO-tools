@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "namespace", 
+  "value": [
+    "<%", 
+    "/* Write namespace of file", 
+    " * Browse file, if file is not browsed, current file is used", 
+    " *", 
+    " * Generate string:'namespace App\\Foo\\Class;'", 
+    "*/", 
+    "var browsed_path\t= ko.filepicker.browseForFile();", 
+    "var current_file\t= ko.views.manager.currentView.koDoc.file.path;", 
+    "var file_path\t= browsed_path ? browsed_path : current_file;", 
+    "var class_name\t= file_path.split(/[\\\\\\/]+/g).pop().split(/\\./g).shift();", 
+    "", 
+    "", 
+    "var _namespace\t= ko.extensions.getNamespace( file_path );", 
+    "", 
+    "%>", 
+    "[[%tabstop:namespace ]]<%=_namespace%>\\<%=class_name%>[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

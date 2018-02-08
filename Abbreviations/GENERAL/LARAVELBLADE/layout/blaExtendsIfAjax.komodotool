@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@ExtIfAjax", 
+  "value": [
+    "@extends([[%tabstop:\\Request::ajax()]] ? 'layout.[[%tabstop:app]].[[%tabstop:ajax_wrapper]]' : 'layout.[[%tabstop:model]]')", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

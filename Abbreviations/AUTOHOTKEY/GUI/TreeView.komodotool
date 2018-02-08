@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "true", 
+    "keyboard_shortcut": "", 
+    "name": "TreeView", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "TreeView [[%tabstop1:]]"
+    ], 
+    "version": "1.0.12"
+}

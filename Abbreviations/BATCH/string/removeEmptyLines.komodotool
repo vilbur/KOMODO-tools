@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "removeEmptyLines", 
+  "value": [
+    ":remove_empty_lines", 
+    "findstr /v /r /c:\"^$\" /c:\"^\\ *$\" \"%[[%tabstop1:filePath]]%\">>\"%[[%tabstop1:filePath]]%.remove\"", 
+    "move /y \"%[[%tabstop1:filePath]]%.remove\" \"%[[%tabstop1:filePath]]%\"!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

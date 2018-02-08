@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "rXr", 
+  "value": [
+    "[[%tabstop:$[[%tabstop1:String]] := ]]RegExReplace( [[%tabstop:$[[%tabstop1:String]]]], [[%tabstop:\"[[%tabstop:search]]\"]], [[%tabstop:\"[[%tabstop:$1]]\"]] )!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

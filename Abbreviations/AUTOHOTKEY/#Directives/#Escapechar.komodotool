@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "false", 
+    "keyboard_shortcut": "", 
+    "name": "#Escapechar", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "#Escapechar"
+    ], 
+    "version": "1.0.12"
+}

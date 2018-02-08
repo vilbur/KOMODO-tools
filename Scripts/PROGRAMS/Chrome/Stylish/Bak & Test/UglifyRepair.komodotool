@@ -1,0 +1,12 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "UglifyRepair", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

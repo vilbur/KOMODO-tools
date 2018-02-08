@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "CLIP => @script", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Sat Jul 25 2015 20:12:56 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "try {", 
+    "", 
+    "", 
+    "    if (komodo.view) { komodo.view.setFocus(); }", 
+    "    ko.commands.doCommand('cmd_pasteAndSelect');", 
+    "    ko.find.replaceAllInMacro(window, 1, '.*(?=js\\\\\\\\)(.*)', '{!! HTML::script(\\'\\\\1\\') !!}', false, 2, 0, false, false);", 
+    "    ko.find.replaceAllInMacro(window, 1, '[\\\\\\\\/]', '/', false, 2, 0, false, false);", 
+    "", 
+    "", 
+    "} finally {", 
+    "    ko.views.manager.currentView.scimoz.endUndoAction()", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

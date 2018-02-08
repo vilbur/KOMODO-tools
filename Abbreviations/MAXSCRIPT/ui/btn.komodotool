@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "btn", 
+  "value": [
+    "button btn[[%tabstop1:Name]] \"[[%tabstop1:Name]]\" width:[[%tabstop2:wm]] height:[[%tabstop3:hs]]  pos:[px+=[[%tabstop2:wm]],py+=[[%tabstop:0]]] tooltip:\"LMB: [[%tabstop:]]\\nRMB: [[%tabstop:]]\"", 
+    "    on btn[[%tabstop1:Name]] pressed    do print(\"pressed\")", 
+    "    on btn[[%tabstop1:Name]] rightclick do print(\"rightclick\")!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

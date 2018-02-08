@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@Form", 
+  "value": [
+    "{!! \\Form::open([ 'id'=>'form-[[%tabstop:id]]', 'url'=>'/[[%tabstop:url]]', 'class' =>'ajax-form', files'=>[[%tabstop:true]]]) !!}", 
+    "    [[%tabstop:]]", 
+    "{!! \\Form::submit('[[%tabstop:Register]]', ['class' => 'btn btn-default']) !!}", 
+    "{!! \\Form::close() !!}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

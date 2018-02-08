@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "TotalCommander_GoToFileInClip_REVISION", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Fri Feb 06 2015 11:06:41 GMT+0100 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "", 
+    "scimoz = ko.views.manager.currentView.scimoz;", 
+    "ko.commands.doCommand('cmd_left');", 
+    "ko.commands.doCommand('cmd_pasteAndSelect');", 
+    "var clipBoardText = scimoz.selText;", 
+    "if (clipBoardText.length>0) {", 
+    "    ko.commands.doCommand('cmd_delete');", 
+    "}", 
+    "", 
+    "", 
+    "clipBoardText.replace(/([^\\\\])\\\\([^\\\\])/g,\"$1//$2\")", 
+    "clipBoardText.replace(/([^\\/])\\/([^\\/])/g,\"$1//$2\")", 
+    "", 
+    "", 
+    "ko.run.runEncodedCommand(window,'\"c:\\\\GoogleDrive\\\\TotalComander\\\\TCMC\\\\TCMC.exe\" 200 CMcm_FocusRight 200 CDS \"'+clipBoardText+'\"\"\"');", 
+    ""
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": 1, 
+  "type": "macro"
+}

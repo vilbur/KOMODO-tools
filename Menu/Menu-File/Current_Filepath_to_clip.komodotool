@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "Ctrl+Shift+C", 
+  "name": "Current Filepath to clip", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postsave", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    " ", 
+    "var curent_path\t= ko.views.manager.currentView.koDoc.file.path.replaceAll('(%20)', '_');", 
+    "var curent_path_uri\t= ko.views.manager.currentView.koDoc.file.URI.replaceAll('(%20)', '_');", 
+    "", 
+    "", 
+    "//alert('curent_path_uri:\\n'+curent_path_uri);", 
+    "", 
+    "\t   ", 
+    "var _findPart_path\t= (new ko.extensions.FindPart(curent_path_uri)).getPath('absolute');", 
+    "", 
+    "", 
+    "\t\t   ", 
+    "var file_path_to_clip\t=  _findPart_path ? _findPart_path : curent_path", 
+    "", 
+    "//alert('file_path_to_clip:\\n'+file_path_to_clip);", 
+    "", 
+    "ko.run.output.endSession(); ", 
+    "ko.run.runEncodedCommand( window, 'set /p=\"'+file_path_to_clip+'\"<nul| clip' ) "
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro"
+}

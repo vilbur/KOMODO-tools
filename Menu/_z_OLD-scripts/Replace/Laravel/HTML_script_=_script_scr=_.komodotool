@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "HTML::script => <script scr=''>", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Mon Nov 23 2015 20:05:56 GMT+0100 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 2, '{\\\\!\\\\! HTML\\\\:\\\\:script\\\\(\\\\\\'(\\\\S+)\\\\\\'\\\\) \\\\!\\\\!}', '<script src=\\\"{{ asset(\\'\\\\1\\') }}\\\"></script>', false, 2, 0, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

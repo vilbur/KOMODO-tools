@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "line_pos_start", 
+  "value": [
+    "[[%tabstop:var [[%tabstop:line_start_pos]]\t= ]][[%tabstop:scimoz.]]positionFromLine([[%tabstop:line_index]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

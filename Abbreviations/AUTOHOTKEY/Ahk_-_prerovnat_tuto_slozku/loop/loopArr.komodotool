@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "loopArr", 
+  "value": [
+    "Loop, % $[[%tabstop1:array]]", 
+    "\t[[%tabstop:$[[%tabstop1:array]]%A_Index%]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

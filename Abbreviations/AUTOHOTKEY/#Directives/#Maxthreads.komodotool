@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "false", 
+    "keyboard_shortcut": "", 
+    "name": "#Maxthreads", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "#Maxthreads"
+    ], 
+    "version": "1.0.12"
+}

@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "GoToFunction", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "/*", 
+    " ", 
+    "\t1) Circle function definitions ! vymyslet tak aby nekolidovalo s funkci 2) , propadne to nedelat a pouzivat CodeFinder();", 
+    "\t2) go to function definition if function name selected\tE.G: IF selected 'fooFunction()' GO 'function fooFunction(){}'\t", 
+    "\t3) go to variable getter\\setter function if variable selected\tE.G: IF selected 'foo_var' GO 'function setFooVar(){}' OR GO function getFooVar()", 
+    "\t", 
+    "*/"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

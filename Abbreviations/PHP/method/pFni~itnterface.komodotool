@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "pFni", 
+  "value": [
+    "/**", 
+    "*/", 
+    "public function [[%tabstop:fnName]]($[[%tabstop:parameter]]);[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png"
+}

@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "true", 
+    "keyboard_shortcut": "", 
+    "name": "assJson", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "assertJson([[%tabstop:template]]);[[%tabstop:]]"
+    ], 
+    "version": "1.0.12"
+}

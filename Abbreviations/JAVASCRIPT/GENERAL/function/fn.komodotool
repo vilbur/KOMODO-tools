@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn", 
+  "value": [
+    "function([[%tabstop:]])", 
+    "{", 
+    "\t[[%tabstop:]]", 
+    "};[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png"
+}

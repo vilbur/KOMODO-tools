@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "BeforeFileSave_Comment_Off", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "try {", 
+    "\tko.extensions.WinsplitLayoutCommentsToggle(false)", 
+    "} finally {", 
+    "\tko.views.manager.currentView.scimoz.endUndoAction()", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 0, 
+  "type": "macro", 
+  "trigger": "trigger_presave"
+}

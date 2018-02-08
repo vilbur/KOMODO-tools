@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "<!-- --> to {{-- --}}", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Mon Jul 20 2015 11:17:46 GMT+0200 (Central Europe Standard Time)", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "try {", 
+    "", 
+    "    komodo.assertMacroVersion(3);", 
+    "    if (komodo.view) { komodo.view.setFocus(); }", 
+    "    ko.find.replaceAllInMacro(window, 1, '<!--', '{{---- ', false, 0, 0, false, false);", 
+    "    ko.find.replaceAllInMacro(window, 1, '-->', ' ----}}', false, 0, 0, false, false);", 
+    "", 
+    "} finally {", 
+    "    ko.views.manager.currentView.scimoz.endUndoAction()", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "findAll", 
+  "value": [
+    "<%/* http://docs.komodoide.com/SDK/api/legacy/find#find_functions__findallinview */%>", 
+    "ko.find.findAllInMacro(window, [[%tabstop:1-selected_text]], [[%tabstop:'[[%tabstop:pattern]]']], 2, 1, false, false);!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo_auto_ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

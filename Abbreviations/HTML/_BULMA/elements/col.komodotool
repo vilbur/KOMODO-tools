@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "col", 
+  "value": [
+    "<%", 
+    "", 
+    "%>", 
+    "<div class=\"column[[%tabstop: is-[[%tabstop:]]]]\">", 
+    "\t[[%tabstop:]]", 
+    "</div>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

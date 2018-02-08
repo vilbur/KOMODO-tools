@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "word_under_cursor_select", 
+  "value": [
+    "scimoz.setSel(scimoz.wordStartPosition(scimoz.currentPos, true), scimoz.wordEndPosition(scimoz.currentPos, true));[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo_auto.png"
+}

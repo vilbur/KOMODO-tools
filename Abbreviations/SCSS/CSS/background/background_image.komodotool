@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "bgi", 
+  "value": [
+    "background-image:\turl(\"[[%tabstop:url]]\");", 
+    "background-size:\t[[%tabstop:cover]];", 
+    "background-repeat:\t[[%tabstop:no-repeat]];", 
+    "background-position:\t[[%tabstop:center]] [[%tabstop:center]];!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

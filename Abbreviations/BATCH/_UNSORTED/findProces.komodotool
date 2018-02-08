@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "findProces", 
+  "value": [
+    "@echo off", 
+    "tasklist /nh /fi \"imagename eq wmplayer.exe\" | find /i \"wmplayer.exe\" >nul && (", 
+    "    echo Windows Media Player is running", 
+    ") || (", 
+    "    echo Windows Media Player is not running", 
+    ")!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

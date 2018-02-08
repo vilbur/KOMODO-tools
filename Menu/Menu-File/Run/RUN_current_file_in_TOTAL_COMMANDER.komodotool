@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "RUN current file in TOTAL COMMANDER", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postsave", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "var file_path = ko.views.manager.currentView.koDoc.file.path;", 
+    "", 
+    "/*\tRUN CURRENT FILEPATH VIA TOTAL COMMANDER COMMAND LINE\t*/", 
+    "ko.run.output.endSession();", 
+    "ko.run.runEncodedCommand( window, \"C:\\\\GoogleDrive\\\\TotalComander\\\\_Commands\\\\File\\\\Run_current_file_via_TC_command_line.ahk \" + '\"' +file_path+ '\"' )"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs/code/Komodo/Icons/TotalCommander/total_commander_open.ico"
+}

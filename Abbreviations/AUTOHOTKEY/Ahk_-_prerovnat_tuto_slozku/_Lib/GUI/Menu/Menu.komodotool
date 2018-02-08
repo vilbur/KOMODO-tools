@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Menu", 
+  "value": [
+    "[[%tabstop:Menu\t:= ]][[%tabstop:new ]]Menu()", 
+    "\t\t[[%tabstop:.default(true)]]", 
+    "\t\t[[%tabstop:.item([[%tabstop:\"[[%tabstop:Label]]\"]], [[%tabstop:\"[[%tabstop:CallBack]]\"]])]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

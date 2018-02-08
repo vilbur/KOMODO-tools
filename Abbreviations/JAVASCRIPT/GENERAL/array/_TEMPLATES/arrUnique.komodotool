@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "arrUnique", 
+  "value": [
+    "[[%tabstop:var [[%tabstop1:array]][[%tabstop:]] = ]] [[%tabstop1:array]].filter(function (value, index, self) {", 
+    "    return self.indexOf(value) === index;", 
+    "});!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

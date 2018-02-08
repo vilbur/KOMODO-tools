@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "logS", 
+  "value": [
+    "<%", 
+    "\tvar koFile\t= require(\"ko/file\");", 
+    "\t//var current_filename = ko.views.manager.currentView.koDoc.file.path.split(/\\/+/g).pop();", 
+    "%>", 
+    "Logger.info([[%tabstop:'[[%tabstop:message]]']])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
+}

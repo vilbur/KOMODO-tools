@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "error_call", 
+  "value": [
+    ":MESSAGE_[[%tabstop:NAME]]", 
+    "[[%tabstop:echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo.]]", 
+    "echo.", 
+    "echo.", 
+    "echo ------------------------------------------------------------------------------------------", 
+    "echo. ERROR: [[%tabstop:Description]]", 
+    "echo.", 
+    "echo. CALL OF: %dpnx0", 
+    "[[%tabstop:echo. [[%tabstop:PARAM 1]]: %1]]", 
+    "[[%tabstop:echo. [[%tabstop:PARAM 2]]: %2]]", 
+    "echo. [[%tabstop:]]", 
+    "echo.", 
+    "echo ------------------------------------------------------------------------------------------", 
+    "pause", 
+    "goto [[%tabstop:EXIT]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

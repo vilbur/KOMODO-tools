@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fak_person_name", 
+  "value": [
+    "$faker->name([[%tabstop:'[[%tabstop:male]]|[[%tabstop:female]]']]);[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

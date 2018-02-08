@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "newFloater", 
+  "value": [
+    "global [[%tabstop1:FloaterName]]Floater", 
+    "function create[[%tabstop1:FloaterName]]Floater = (", 
+    "    try( cui.UnRegisterDialogBar [[%tabstop1:FloaterName]]Floater)catch() --try to unregister if already registered", 
+    "    try( closeRolloutFloater     [[%tabstop1:FloaterName]]Floater)catch() --try to destroy the dialog if already existing", 
+    "\t/* define floater */", 
+    "    [[%tabstop1:FloaterName]]Floater = newRolloutFloater \"[[%tabstop1:FloaterName]]Floater\" 270 1000 0 90", 
+    "    cui.RegisterDialogBar [[%tabstop1:FloaterName]]Floater style:#(#cui_dock_left,#cui_dock_right,#cui_floatable,#cui_handles)\t\t\t\t", 
+    "    cui.DockDialogBar     [[%tabstop1:FloaterName]]Floater #cui_dock_right\t", 
+    ")    !@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

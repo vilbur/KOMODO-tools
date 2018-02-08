@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "_OpenOrRun Lib\\Test.ahk", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "ko.extensions.FileOpenOrRun( ko.extensions.getAhkPath('\\\\Lib\\\\_Test.ahk'))"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": false, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs/Core/Komodo/Icons/Autohotkey/ahk.ico"
+}

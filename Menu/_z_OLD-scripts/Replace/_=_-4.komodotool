@@ -1,0 +1,33 @@
+{
+  "keyboard_shortcut": "", 
+  "name": " '  =>  \"", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Sun Sep 28 2014 07:59:30 GMT+0200 (Central Europe Standard Time)", 
+    "", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "try {", 
+    " ", 
+    "", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 1, '\\'', '\\\"', false, 0, 1, false, false);", 
+    "", 
+    "", 
+    "    ", 
+    "    ", 
+    "    ", 
+    "    ", 
+    "", 
+    "} finally {", 
+    "    ko.views.manager.currentView.scimoz.endUndoAction()", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs_code/Komodo/icons/convert_singleQuotes.ico"
+}

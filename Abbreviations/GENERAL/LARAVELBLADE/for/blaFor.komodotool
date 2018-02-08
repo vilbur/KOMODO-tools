@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@For", 
+  "value": [
+    "@foreach($[[%tabstop1:model]]s as $[[%tabstop1:model]])", 
+    "\t[[%tabstop:]]", 
+    "@endforeach!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Remove Empty Lines All", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    "/*", 
+    "\tRemove empty lines from selected text if any, or from all file", 
+    "*/", 
+    "", 
+    "var scimoz = ko.views.manager.currentView.scimoz;", 
+    "", 
+    "if (scimoz.anchor == scimoz.currentPos);", 
+    "\tscimoz.selectAll()", 
+    "", 
+    "var text\t= scimoz.selText", 
+    "", 
+    "var result = text.removeEmptyLines(0)", 
+    "", 
+    "scimoz.replaceSel( result )"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_startup"
+}

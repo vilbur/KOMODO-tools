@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "getFileContent", 
+  "value": [
+    "set \"[[%tabstop1:variable]]=\"", 
+    "for /f \"delims=\" %%%x in (%[[%tabstop:file]]%) do set [[%tabstop1:variable]]=![[%tabstop1:variable]]!%%%x", 
+    "IF \"![[%tabstop1:variable]]!\"==\"\"    echo FILE IS EMPTY", 
+    "IF \"![[%tabstop1:variable]]: =!\"==\"\" echo FILE CONTAIN ONLY WHITESPACE", 
+    "", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "stylishEscapeHtml", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    "ko.extensions.stylishEscapeHtml = (function(script) {", 
+    "\treturn stylishEscapeHtml;", 
+    "});"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

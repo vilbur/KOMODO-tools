@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file_write", 
+  "value": [
+    "var filePath\t= \"c:/windows/temp/komodo_[[%tabstop:file]].txt\";", 
+    "var [[%tabstop:koFile]].x\t= Components.classes[\"@activestate.com/[[%tabstop:koFile]].x;1\"].createInstance(Components.interfaces.koIFileEx);", 
+    "[[%tabstop:koFile]].x.path\t= filePath; // forward slashes fine", 
+    "[[%tabstop:koFile]].x.open(\"w\");", 
+    "[[%tabstop:koFile]].x.puts(\"[[%tabstop:Hello there\\n]]\");", 
+    "[[%tabstop:koFile]].x.close();!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "true"
+}

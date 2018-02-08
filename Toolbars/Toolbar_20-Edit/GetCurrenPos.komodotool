@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "GetCurrenPos", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "//var scimoz\t= ko.views.manager.currentView.scimoz;", 
+    "", 
+    "var Logger\t= new ko.extensions.Logger('GetCurrenPos.js');", 
+    "Logger.info('currentPos').variable(ko.views.manager.currentView.scimoz.currentPos);", 
+    "Logger.info('anchor').variable(ko.views.manager.currentView.scimoz.anchor);"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": false, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/cursor2.svg"
+}

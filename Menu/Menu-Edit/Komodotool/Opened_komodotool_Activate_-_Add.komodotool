@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Opened *.komodotool Activate - Add suffix '_X'", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    "// Macro recorded on: Tue Feb 28 2017 19:19:04 GMT+0100 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "/**", 
+    " * TODO: CREAATE NEW VERSION OF REPLACED IN FILES POWERED BY SYSTEM !!!!", 
+    " *", 
+    " *", 
+    " *", 
+    " */", 
+    "", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 2, '\\\"name\\\":\\s*\\\"(\\w+)\\\", ', '\\\"name\\\": \\\"\\1_X\\\",', false, 2, 1, false, false);"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": 0, 
+  "type": "macro"
+}

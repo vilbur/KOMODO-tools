@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "line_go_down", 
+  "value": [
+    "[[%tabstop:scimoz.]]lineDown()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png"
+}

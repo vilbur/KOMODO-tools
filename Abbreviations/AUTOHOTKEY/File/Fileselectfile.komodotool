@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Fileselectfile", 
+  "value": [
+    "Fileselectfile, $[[%tabstop1:selected_file]], [[%tabstop:M: Multi-select|S: Save button|1: File Must Exist|2: Path Must Exist|8: Prompt to Create New File|16: Prompt to OverWrite File]], [[%tabstop:A_ScriptDir]], [[%tabstop:Browse file]][[%tabstop:, [[%tabstop:Documents (*.txt)]]]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

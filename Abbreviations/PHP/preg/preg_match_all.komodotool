@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "preg_match_all", 
+  "value": [
+    "preg_match_all([[%tabstop:/[[%tabstop:.*]]/[[%tabstop:gi]]]], $[[%tabstop:replace]], $[[%tabstop:string]], $[[%tabstop:matches]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "LESS to SASS", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "if ( komodo.view ) { komodo.view.setFocus(); }", 
+    "scimoz = ko.views.manager.currentView.scimoz;", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 0, '@', '$', false, 2, 0, false, false); //replace variables", 
+    "ko.find.replaceAllInMacro(window, 0, '.bTest.*', '', false, 2, 0, false, false); // remove bTest", 
+    "ko.find.replaceAllInMacro(window, 0, '$import', '@import', false, 2, 0, false, false); //replace @import", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 0, '^\\\\.(?!col)(\\\\S+)\\\\s*(\\\\(.*)$', '@mixin \\\\1\\\\2', false, 2, 0, false, false); // LESS '.mixin' to SASS '@mixin' EXCEPT .col-..-..", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 0, '(^\\\\s*)\\\\.(.*;)$', '\\\\1@\\\\2', false, 2, 0, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, ':(\\\\s*)~', ':\\\\1', false, 2, 0, false, false);   // remove '~' prefix from -ms-filter", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 0, '\\\\$media.+?\\\\(', '@media (', false, 2, 0, false, false);", 
+    "", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 0, '\\.less', '.scss', false, 2, 0, false, false); // replace .LESS to .SCSS"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

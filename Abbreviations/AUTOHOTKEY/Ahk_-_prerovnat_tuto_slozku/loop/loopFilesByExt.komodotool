@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "loopFilesByExt", 
+  "value": [
+    "loop, %%[[%tabstop:[[%tabstop:A_WorkingDir]]]]%%\\[[%tabstop:*.*]], [[%tabstop:0-Files|1-Both|2-Folders]], [[%tabstop:0-Recurseive]]", 
+    "\tif A_LoopFileExt in [[%tabstop:\"[[%tabstop:txt]],[[%tabstop:ini]]\"]]", 
+    "\t\t[[%tabstop:A_LoopFileFullPath]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

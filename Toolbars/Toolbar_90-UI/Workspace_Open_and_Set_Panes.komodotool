@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Workspace Open and Set Panes", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "//close all panes", 
+    "ko.extensions.runCmd( ko.extensions.getAhkPath('\\\\Scripts\\\\Komodo\\\\FloatingPanes\\\\Close-all.ahk') );", 
+    "// open workspace", 
+    "ko.commands.doCommand('cmd_openWorkspace');", 
+    "", 
+    "//// set floating panes positions", 
+    "//setTimeout( function(){ ", 
+    "//\tko.extensions.setFloatingPanesPositons();", 
+    "//}, 2000)"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/layout-hf-2-equal.png"
+}

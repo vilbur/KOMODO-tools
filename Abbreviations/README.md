@@ -1,0 +1,1 @@
+Abbreviations for Komodo IDE

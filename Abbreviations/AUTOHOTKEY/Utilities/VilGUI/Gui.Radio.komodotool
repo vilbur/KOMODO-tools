@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Gui_Radio", 
+  "value": [
+    "$[[%tabstop1:GUIname]].Radio.new([[%tabstop:\"[[%tabstop:]]\"]]).items([[%tabstop:\"[[%tabstop:array|string]]\"]])[[%tabstop:.checked([[%tabstop:\"[[%tabstop:index|key]]\"]])]].add()[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Escape Script '<'", 
+  "language": "JavaScript", 
+  "trigger": "trigger_startup", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro"
+}

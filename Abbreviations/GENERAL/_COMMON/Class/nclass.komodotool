@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "nclass", 
+  "value": [
+    "<% ", 
+    "\tvar Var = new ko.extensions.Variable()", 
+    "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
+    "\t ", 
+    "\tif(lang=='Komodo Snippet') lang='JavaScript'", 
+    "\t", 
+    "%> ", 
+    "<% if(lang=='PHP') { %>", 
+    "DEFINE snippet 'nclass' for <%=lang%>", 
+    "<%", 
+    "} else if(lang=='Autohotkey') { %>", 
+    "[[%tabstop:$[[%tabstop1:Class]] \t:= ]]new [[%tabstop1:Class]][[%tabstop:]]();", 
+    "<% } else if(lang=='JavaScript') { %>", 
+    "[[%tabstop:[[%tabstop:var ]][[%tabstop1:Class]]\t= ]]new [[%tabstop:ko.extensions.]][[%tabstop1:Class]]([[%tabstop:]][[%soft:)]][[%soft:;]][[%tabstop:]] <% } else { %>", 
+    "DEFINE snippet 'nclass' for <%=lang%><% } %>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

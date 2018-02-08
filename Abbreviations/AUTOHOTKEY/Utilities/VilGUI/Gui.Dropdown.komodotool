@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Gui_Dropdown", 
+  "value": [
+    "$[[%tabstop1:GUIname]].Dropdown.new([[%tabstop:\"[[%tabstop:]]\"]]).items([[%tabstop:\"[[%tabstop:array|string]]\"]])[[%tabstop:.label(\"[[%tabstop:Label]]\")]].add()[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

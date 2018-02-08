@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "run_GULP", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "\tvar file_path = ko.views.manager.currentView.koDoc.file.path;", 
+    "\tvar file_path = ' \"'+file_path.replace(/\\\\/gi, '\\\\\\\\') +'\"';", 
+    "", 
+    "\t//var batch_path = 'start \"\" c:\\\\wamp\\\\laravel\\\\laravel_batch\\\\artisan\\\\call_gulp.bat '+file_path +' \"watch\"';", 
+    "\t//var batch_path = 'start /min c:\\\\wamp\\\\laravel\\\\laravel_batch\\\\artisan\\\\call_gulp.bat '+file_path +' \"watch\"';", 
+    "\tvar batch_path = 'start \"gulp\" c:\\\\wamp\\\\laravel\\\\laravel_batch\\\\artisan\\\\call_gulp.bat '+file_path +' \"watch\"';", 
+    "", 
+    "    var command = batch_path + ' ' + file_path;", 
+    "", 
+    "    ko.run.output.endSession();", 
+    "    ko.run.runEncodedCommand( window, command );", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "//alert( ahk_dock_window );"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": 1, 
+  "type": "macro"
+}

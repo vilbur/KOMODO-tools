@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file_create", 
+  "value": [
+    "[[%tabstop:koFile]].create([[%tabstop:path_file]])[[%soft:;]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png"
+}

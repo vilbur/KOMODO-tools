@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "text_selected_get_range", 
+  "value": [
+    "[[%tabstop:var [[%tabstop:text]]\t= ]][[%tabstop:scimoz.]]getTextRange([[%tabstop:liPosS]], [[%tabstop:liPosE]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png"
+}

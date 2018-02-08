@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "select_line", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Wed Nov 26 2014 05:11:56 GMT+0100 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.commands.doCommand('cmd_home')", 
+    "ko.commands.doCommand('cmd_selectEnd')"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

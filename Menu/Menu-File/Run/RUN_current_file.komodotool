@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "Ctrl+Shift+R", 
+  "name": "RUN_current_file", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postsave", 
+  "value": [
+    "ko.extensions.RunCurrentFile();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "chrome://famfamfamsilk/skin/icons/page_forward.png"
+}

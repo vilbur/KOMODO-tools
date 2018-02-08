@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Dt", 
+  "value": [
+    "Dump(this.[[%tabstop1:variable]], [[%tabstop:\"this.[[%tabstop1:variable]]\"]], [[%tabstop:1]])[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

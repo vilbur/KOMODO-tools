@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "-ejs_snippet_ZKONTROLOVAT CO TO JE", 
+  "value": [
+    "<%", 
+    "\tvar _Snippet = new ko.extensions.Snippet();", 
+    "", 
+    "\t/* get buffer text */", 
+    "\tvar line_content\t= _Snippet.getLineContent();", 
+    "\tvar selected_text\t= _Snippet.getSelectionText('\\t');\t// set indentation prefix to every line, variable insertion should be on start of line for prevent indentation issue", 
+    "\tvar selection\t= _Snippet.getSelectionTextOrLine();", 
+    "", 
+    "\t/* select text before insertion */", 
+    "\t_Snippet.selectKeyword();", 
+    "\t_Snippet.selectLine();", 
+    "\t_Snippet.selectSelection();", 
+    "\t_Snippet.selectSelectionOrLineAndKeyword();", 
+    "", 
+    "%>", 
+    "[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

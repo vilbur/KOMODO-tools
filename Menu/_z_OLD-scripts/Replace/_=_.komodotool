@@ -1,0 +1,15 @@
+{
+  "name": "\\ => \\\\", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Mon Sep 07 2015 10:05:12 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 1, '\\\\', '\\\\\\\\', false, 0, 0, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

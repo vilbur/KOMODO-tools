@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "getTime", 
+  "value": [
+    ":GET_DATE", 
+    "for /f \"tokens=1-4 delims=/ \" %%i in (\"%date%\") do ( set \"dow=%%i\"", 
+    "    set \"month=%%j\"", 
+    "    set \"day=%%k\"", 
+    "    set \"year=%%l\"", 
+    "", 
+    ")", 
+    "set \"suffix_date=%month%%day%%year%\"", 
+    "", 
+    ":GET_TIME", 
+    "for /f \"tokens=1-4 delims=:, \" %%i in (\"%time%\") do ( set \"dow=%%i\"", 
+    "    set \"hour=%%i\"", 
+    "    set \"min=%%j\"", 
+    "    set \"sec=%%k\"", 
+    ")  ", 
+    "", 
+    "", 
+    "set \"suffix_time=%hour%:%min%\"", 
+    "rem echo %suffix_time%", 
+    "rem pause!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

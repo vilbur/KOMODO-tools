@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "msg_warning", 
+  "value": [
+    "ko.statusBar.AddMessage([[%tabstop:'[[%tabstop:message]]']][[%tabstop:, '[[%tabstop:label]]']], 0, [[%tabstop:true]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

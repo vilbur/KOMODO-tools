@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "alC", 
+  "value": [
+    "<%", 
+    "\t////insert JavaScript 'Alert Function with clipboard content'", 
+    "\tvar clip_content\t= getClip();", 
+    "%>", 
+    "alert( [[%tabstop:<%=clip_content%>]] );[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png"
+}

@@ -1,0 +1,33 @@
+{
+  "keyboard_shortcut": "Ctrl+Alt+Shift+F", 
+  "name": "show in places", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postsave", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "var file_path = ko.views.manager.currentView.koDoc.file.path;", 
+    "", 
+    "var file_path = ko.views.manager.currentView.koDoc.file.path;", 
+    "var curent_filename = file_path.split(/(\\\\|\\/)/g).pop();", 
+    "var curent_dir =  file_path.split(curent_filename).shift();", 
+    "var curent_ext = curent_filename.split(/(\\.)/g).pop();", 
+    "", 
+    " var command =  ko.extensions.getAhkPath('\\\\scripts\\\\komodo\\\\actions\\\\show_in_places.ahk',curent_dir)", 
+    "", 
+    "ko.run.output.endSession();", 
+    "ko.run.runEncodedCommand( window, command )", 
+    "", 
+    "", 
+    "setTimeout( function(){", 
+    "", 
+    "\tif (komodo.view) { komodo.view.setFocus(); }", 
+    "\tko.commands.doCommand('cmd_placeView_showCurrent_TabInPlaces')", 
+    "}, 300);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro"
+}

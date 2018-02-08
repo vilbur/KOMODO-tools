@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fak_image", 
+  "value": [
+    "<%", 
+    "/* https://lorempixel.com service is slow now - workoround with \"https://picsum.photos\"", 
+    "$faker->imageUrl([[%tabstop:1280]], [[%tabstop:768]][[%tabstop:, '[[%tabstop:abstract[[%tabstop:|technics|animals|business|cats|city|food|night|life|fashion|people|nature|sports|transport]]]]']]),[[%tabstop:]]", 
+    "*/", 
+    "%>", 
+    "\"https://picsum.photos/[[%tabstop:1600]]/[[%tabstop:1200]]?image=\" . $faker->numberBetween(1, 100),[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": ""
+}

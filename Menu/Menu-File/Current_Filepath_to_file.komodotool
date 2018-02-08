@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "Ctrl+Shift+C", 
+  "name": "Current Filepath to file", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "rank": 100, 
+  "trigger": "trigger_postsave", 
+  "value": [
+    "/**", 
+    " * write current filepath to file \"c:/windows/temp/Komodo/Komodo_GetCurrentFileObjectViaTitle.txt\"", 
+    " *", 
+    " */ ", 
+    "//alert( ko.extensions.getWindowsEnvVariable('%temp%\\\\Ahk\\\\Komodo\\\\current_file.txt') );", 
+    "//alert( ko.extensions.getCurrentFilePath('\\\\') );", 
+    "", 
+    "ko.extensions.fileWrite( ko.extensions.getWindowsEnvVariable('%temp%\\\\Ahk\\\\Komodo\\\\current_file.txt'), ko.extensions.getCurrentFilePath('\\\\') );"
+  ], 
+  "version": "1.0.12", 
+  "async": 1, 
+  "type": "macro"
+}

@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "false", 
+    "keyboard_shortcut": "", 
+    "name": "#Commentflag", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "#Commentflag"
+    ], 
+    "version": "1.0.12"
+}

@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "Ctrl+Alt+P", 
+  "name": "7 close right", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Mon Apr 18 2016 11:25:52 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "_part = komodo.findPart('macro', ' CLOSE  right')", 
+    "if (!_part) {alert(\"Couldn't find a macro called ' CLOSE  right' when executing macro.\"); return", 
+    "}", 
+    "ko.projects.invokePart(_part);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs/code/Komodo/icons/close_right.ICO"
+}

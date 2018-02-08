@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "_OpenOrRun Komodotool", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "ko.extensions.FileOpenOrRun( 'macro2://27919/Komodotool.js' )"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/wrench-screwdriver.png"
+}

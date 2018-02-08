@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "searchAndReplaceWithVariable", 
+  "value": [
+    "setlocal enabledelayedexpansion", 
+    "", 
+    "set \"str=in searchFoo hat\"", 
+    "set \"searchVar=searchFoo\"", 
+    "set \"replaceVar=replaceFoo\"", 
+    "", 
+    "set \"str=!str:%searchVar%=%replaceVar%!\"", 
+    "echo.%str%", 
+    "pause!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

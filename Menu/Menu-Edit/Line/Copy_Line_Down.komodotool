@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "Ctrl+Shift+Down", 
+  "name": "Copy Line Down", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Wed Feb 18 2015 10:04:53 GMT+0100 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.commands.doCommand('cmd_end')", 
+    "ko.commands.doCommand('cmd_selectHome')", 
+    "ko.commands.doCommand('cmd_selectHome')", 
+    "ko.commands.doCommand('cmd_copy')", 
+    "ko.commands.doCommand('cmd_end')", 
+    "ko.commands.doCommand('cmd_newline')", 
+    "ko.commands.doCommand('cmd_home')", 
+    "ko.commands.doCommand('cmd_paste')"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

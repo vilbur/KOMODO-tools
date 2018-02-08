@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "loopParse", 
+  "value": [
+    "Loop, Parse, % [[%tabstop:$[[%tabstop1:string]]]][[%tabstop:, [[%tabstop:Delimiters]]]][[%tabstop:, [[%tabstop:OmitChars]]]]", 
+    "\t%[[%tabstop:A_LoopField]]%!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "Ctrl+Alt+Shift+C", 
+  "name": "Toolbox Close All Folders ", 
+  "language": "JavaScript", 
+  "trigger": "trigger_startup", 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "///* TRY SET WINDOWS IMMEDIATELY  */", 
+    "try {", 
+    "\tko.extensions.runCmd('%path_ahk%\\\\scripts\\\\komodo\\\\UI\\\\FloatingPanes\\\\Toolbox-close-opened-items.ahk 1')", 
+    "} catch(e) {", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/folder-upload2.svg"
+}

@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "snippet_fake", 
+  "value": [
+    "var [[%tabstop1:name]]_snippet = {", 
+    "\thasAttribute: function(name) {", 
+    "\t\treturn name in this;", 
+    "\t},", 
+    "\tgetStringAttribute: function(name) {", 
+    "\t\treturn this[name];", 
+    "\t},", 
+    "\tname:\t\"[[%tabstop1:name]] snippet\",", 
+    "\tindent_relative: \"true\",", 
+    "\tvalue:\t[[%tabstop:\"[[%tabstop1:name]][[%tabstop:]]\"]]", 
+    "};", 
+    "ko.projects.snippetInsert([[%tabstop1:name]]_snippet);!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

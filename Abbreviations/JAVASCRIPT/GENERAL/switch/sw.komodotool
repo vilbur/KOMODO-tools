@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "sw", 
+  "value": [
+    "switch ([[%tabstop:expression]]) {", 
+    "\tcase '[[%tabstop:]]':\t[[%tabstop1:result]] = \"[[%tabstop:result1]]\";break;", 
+    "\tcase '[[%tabstop:]]':\t[[%tabstop1:result]] = \"[[%tabstop:result2]]\";break;", 
+    "\tcase '[[%tabstop:]]':\t[[%tabstop1:result]] = \"[[%tabstop:result3]]\";break;", 
+    "\tdefault:\t[[%tabstop1:result]] = \"[[%tabstop:resultDefalut]]\";", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

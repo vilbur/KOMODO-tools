@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "switch array keys and values", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Wed Oct 19 2016 05:46:11 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "", 
+    "/*", 
+    "", 
+    "", 
+    "*/", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "", 
+    "//ko.find.replaceAllInMacro(window, 1, '([\\'\\\"])([^\\'\\\"]+)[\\'\\\"]\\\\s*=>\\\\s*([\\'\\\"])([^\\'\\\"]+)[\\'\\\"],*', '\\\\1\\\\2\\\\1 => \\\\3\\\\4\\\\3,', false, 2, 1, false, false);", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 1, '([\\'\\\"])([^\\'\\\"]+)[\\'\\\"]\\\\s*=>\\\\s*([\\'\\\"])([^\\'\\\"]+)[\\'\\\"],*', '\\\\1\\\\4\\\\1 => \\\\3\\\\2\\\\3,', false, 2, 1, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/transmission.svg"
+}

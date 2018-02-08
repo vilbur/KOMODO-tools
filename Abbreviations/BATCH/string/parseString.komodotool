@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "parseString", 
+  "value": [
+    "@echo off & setlocal", 
+    "set string=Test.bat ParsString.bat testX.txt", 
+    "set string_tmp=%%string%%", 
+    ":loop", 
+    "for /f \"tokens=1*\" %%%%a in (\"%%string_tmp%%\") do (", 
+    "   echo %%%%a", 
+    "   set string_tmp=%%%%b", 
+    "   )", 
+    "if defined string_tmp goto :loop!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

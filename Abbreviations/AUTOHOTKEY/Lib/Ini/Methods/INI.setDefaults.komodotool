@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "INI_setDefaults", 
+  "value": [
+    "$[[%tabstop:INI]].setDefaults($[[%tabstop:default_data]][[%tabstop:, $[[%tabstop:overwrite]]]])[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": ""
+}

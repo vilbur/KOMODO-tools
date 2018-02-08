@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "gw.Checkbox", 
+  "value": [
+    "[[%tabstop:this.]][[%tabstop:gw]].AddControl(\"cbx[[%tabstop1:Name]]\", \"Checkbox\", \"checked[[%tabstop:0|1]]\", \"[[%tabstop1:Name]]\", Func(\"[[%tabstop:EventFn]]\"))[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

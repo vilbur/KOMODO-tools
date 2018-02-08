@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@Inc", 
+  "value": [
+    "<%", 
+    "/*", 
+    " * Generate string:@include('partials.folder.file')", 
+    "*/", 
+    "", 
+    "\tvar path_current_file\t= ko.views.manager.currentView.koDoc.file.path;", 
+    "\tvar laravel_path\t= ko.extensions.getLaravelPath(path_current_file);", 
+    "\tvar views_path\t= laravel_path + '\\\\resources\\\\views';", 
+    "\tvar file_path\t= ko.filepicker.browseForFile(views_path);", 
+    "\tvar view_path\t= file_path.split(/\\\\views\\\\/gi).pop().replace(/[\\\\\\/]/gi, '.').replace(/\\.blade.php$/gi, '');", 
+    "", 
+    "%>", 
+    "@include('<%=view_path%>')[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

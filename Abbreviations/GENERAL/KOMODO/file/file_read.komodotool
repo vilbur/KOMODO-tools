@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file_read", 
+  "value": [
+    "[[%tabstop:koFile]].read([[%tabstop:filePath]])[[%soft:;]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png"
+}

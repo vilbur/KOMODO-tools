@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "getPath", 
+  "value": [
+    "for /f \"delims=\" %%%F IN ('dir /b /s \"%[[%tabstop:path]]%\"') do (", 
+    "", 
+    "\tset \"removed_quotes=%~F\"", 
+    "    set \"drive=%%%~dF\"", 
+    "  \tset \"path=%%%~pF\"", 
+    "\tset \"file_name=%%%~nF\"", 
+    "\tset \"extension=%%%~xF\"", 
+    "\tset \"date_time=%%%~tF\"", 
+    "\tset \"drive=%%%~dF\"", 
+    "  ", 
+    " \tset \"full_dir_path=%%%~dpF\"", 
+    " \tset \"full_filename=%%%~nxF\"", 
+    " ", 
+    "    ", 
+    ")!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "W H I T E S P A C E", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Sat Oct 25 2014 09:26:49 GMT+0200 (Central Europe Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 1, '\\\\s+(?=[^a-zA-Z0-9])', '', false, 2, 0, true, false);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

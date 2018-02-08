@@ -1,0 +1,14 @@
+{
+    "auto_abbreviation": "false", 
+    "icon": "", 
+    "indent_relative": "false", 
+    "keyboard_shortcut": "", 
+    "name": "#Winactivateforce", 
+    "set_selection": "false", 
+    "treat_as_ejs": "true", 
+    "type": "snippet", 
+    "value": [
+        "#Winactivateforce"
+    ], 
+    "version": "1.0.12"
+}

@@ -1,0 +1,15 @@
+{
+	"auto_abbreviation"	: "true", 
+	"icon"	: "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo_auto_ejs.png", 
+	"indent_relative"	: "true", 
+	"keyboard_shortcut"	: "", 
+	"name"	: "koDoc", 
+	"set_selection"	: "true", 
+	"treat_as_ejs"	: "true", 
+	"type"	: "snippet", 
+	"value"	: [
+		"[[%tabstop:var [[%tabstop:koDoc]]\t= ]]ko.views.manager.currentView.koDoc;[[%tabstop:]]", 
+		"!@#_currentPos!@#_anchor"
+	], 
+	"version"	: "1.0.12"
+}

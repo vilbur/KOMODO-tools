@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "cmd_vim", 
+  "value": [
+    "vim_doCommand([[%tabstop:'[[%tabstop:cmd_vim_[[%tabstop:]]]]']]);[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png"
+}

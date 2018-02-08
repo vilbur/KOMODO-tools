@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "Ctrl+Space", 
+  "name": "Insert Snippet", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "rank": 100, 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "//ko.extensions.ConsoleClear();", 
+    "var _Snippet = new ko.extensions.Snippet('insertSnippet');"
+  ], 
+  "version": "1.0.12", 
+  "async": 0, 
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/scissors.png"
+}

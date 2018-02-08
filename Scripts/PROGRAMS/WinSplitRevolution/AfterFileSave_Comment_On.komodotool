@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "AfterFileSave_Comment_On", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "try {", 
+    "\tko.extensions.WinsplitLayoutCommentsToggle()", 
+    "} finally {", 
+    "\tko.views.manager.currentView.scimoz.endUndoAction()", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_postsave"
+}
