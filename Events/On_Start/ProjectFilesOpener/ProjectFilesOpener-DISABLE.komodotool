@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ProjectFilesOpener-DISABLE", 
+  "language": "JavaScript", 
+  "trigger_enabled": 1, 
+  "value": [
+    "", 
+    "", 
+    "window.removeEventListener(\"project_opened\",\tko.extensions.ProjectFilesOpener.onProjectOpen);", 
+    "window.removeEventListener(\"view_opened\",\tko.extensions.ProjectFilesOpener.onFileOpen);", 
+    "window.removeEventListener(\"view_closed\",\tko.extensions.ProjectFilesOpener.onFileClose);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_quit"
+}
