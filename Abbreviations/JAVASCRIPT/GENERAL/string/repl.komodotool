@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "repl", 
   "value": [
-    "replace(/[[%tabstop:]]/[[%tabstop:gi]], '[[%tabstop:$1]]');!@#_currentPos!@#_anchor"
+    "replace([[%tabstop:/[[%tabstop:]]/[[%tabstop:gi]]]], '[[%tabstop:$1]]');!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo.png"
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

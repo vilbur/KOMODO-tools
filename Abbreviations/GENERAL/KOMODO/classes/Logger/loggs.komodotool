@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "logS", 
+  "name": "loggs", 
   "value": [
     "<%", 
     "\tvar koFile\t= require(\"ko/file\");", 
@@ -10,9 +10,9 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "true", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
 }

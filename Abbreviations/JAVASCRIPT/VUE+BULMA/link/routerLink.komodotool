@@ -8,12 +8,12 @@
     "\tvar router_view_tab\t= file_content.match(/<router-view>/gi)?'':'\\n<router-view></router-view>';", 
     "", 
     "%>", 
-    "<router-link :to=\"[[%tabstop1:link]]\" class=\"navbar-item\" [[%tabstop:exact]]>[[%tabstop:]][[%tabstop1:link]]</router-link><%=router_view_tab%>[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<router-link :to=\"[[%tabstop1:link]]\" class=\"[[%tabstop:]]\" [[%tabstop:@click.native=\"[[%tabstop:event]]\"]] [[%tabstop:exact]]>[[%tabstop:]][[%tabstop1:link]]</router-link><%=router_view_tab%>[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }

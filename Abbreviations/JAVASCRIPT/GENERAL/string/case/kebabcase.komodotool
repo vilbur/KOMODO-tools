@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "kebabcase", 
+  "value": [
+    "[[%tabstop1:string]].replace(/[^A-Z]+/gi, ' ').replace(/\\w\\S*/g, function(str){return str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();}).replace(/\\s+/gi, '');[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

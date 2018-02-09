@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "ifFileIsEmpty", 
   "language": "JavaScript", 
-  "trigger_enabled": 1, 
+  "trigger_enabled": 0, 
   "rank": 100, 
   "trigger": "trigger_postopen", 
   "value": [

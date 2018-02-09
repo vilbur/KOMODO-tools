@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "arr", 
   "value": [
-    "var [[%tabstop:array]]\t= [[[%tabstop:value]]];[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "var [[%tabstop:array]]\t= [[[%tabstop:]]];[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }

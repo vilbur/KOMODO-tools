@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "match", 
   "value": [
-    "match(/[[%tabstop:]]/gi)[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "match([[%tabstop:/[[%tabstop:]]/gi]])[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }

@@ -12,7 +12,7 @@
   ], 
   "version": "1.0.12", 
   "rank": 100, 
-  "trigger_enabled": 1, 
+  "trigger_enabled": 0, 
   "async": 1, 
   "type": "macro"
 }

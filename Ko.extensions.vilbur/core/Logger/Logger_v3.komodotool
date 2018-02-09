@@ -1,8 +1,8 @@
 {
-  "keyboard_shortcut": "Alt+Shift+T", 
+  "keyboard_shortcut": "", 
   "name": "Logger_v3", 
   "language": "JavaScript", 
-  "trigger_enabled": 0, 
+  "trigger_enabled": 1, 
   "rank": 100, 
   "trigger": "trigger_startup", 
   "value": [
