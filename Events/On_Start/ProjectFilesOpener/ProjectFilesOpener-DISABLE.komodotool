@@ -6,9 +6,11 @@
   "value": [
     "", 
     "", 
-    "window.removeEventListener(\"project_opened\",\tko.extensions.ProjectFilesOpener.onProjectOpen);", 
-    "window.removeEventListener(\"view_opened\",\tko.extensions.ProjectFilesOpener.onFileOpen);", 
-    "window.removeEventListener(\"view_closed\",\tko.extensions.ProjectFilesOpener.onFileClose);"
+    "if( typeof ko.extensions.ProjectFilesOpener !== 'undefined' ){", 
+    "\twindow.removeEventListener(\"project_opened\",\tko.extensions.ProjectFilesOpener.onProjectOpen);", 
+    "\twindow.removeEventListener(\"view_opened\",\tko.extensions.ProjectFilesOpener.onFileOpen);", 
+    "\twindow.removeEventListener(\"view_closed\",\tko.extensions.ProjectFilesOpener.onFileClose);", 
+    "}"
   ], 
   "version": "1.0.12", 
   "rank": 100, 
