@@ -1,12 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "p", 
+  "name": "model_table", 
   "value": [
-    "padding:\t[[%tabstop:1]]em;[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "protected $appends = ['[[%tabstop:column]]'[[%tabstop:]]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
+  "treat_as_ejs": "true", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "true"

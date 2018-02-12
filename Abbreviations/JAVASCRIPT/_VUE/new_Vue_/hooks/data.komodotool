@@ -1,12 +1,16 @@
 {
   "keyboard_shortcut": "", 
-  "name": "model_prop_fillable", 
+  "name": "data", 
   "value": [
-    "protected $fillable = ['[[%tabstop:column]]'[[%tabstop:]]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "data:{", 
+    "\treturn {", 
+    "\t\t[[%tabstop:]]", 
+    "\t};", 
+    "},[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
+  "treat_as_ejs": "false", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "true"

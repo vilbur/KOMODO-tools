@@ -1,15 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "mounted", 
+  "name": "model_sluggable", 
   "value": [
-    "mounted(){", 
-    "\t[[%tabstop:]]", 
-    "},[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "protected $sluggable = ['[[%tabstop:column]]'[[%tabstop:]]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
   "indent_relative": "true", 
   "type": "snippet", 
-  "treat_as_ejs": "false", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }

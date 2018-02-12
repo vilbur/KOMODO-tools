@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Close non project files", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "/* Close all tabs in active pane", 
+    "", 
+    "*/", 
+    "var project\t= ko.projects.manager.currentProject;", 
+    "", 
+    "", 
+    "var closeNoneProjectFiles = function()", 
+    "{", 
+    "\tvar views\t= ko.views.manager.topView.getDocumentViews(true);", 
+    "\tfor (var v = 0; v < views.length; v++)", 
+    "\t\tif (views[v].koDoc && views[v].koDoc.file)", 
+    "\t\t\tif(! views[v].koDoc.file.path.match(project.liveDirectory.replace(/\\\\/gi, '\\\\\\\\')))", 
+    "\t\t\t\t views[v].close();", 
+    "};", 
+    "", 
+    "if( project )", 
+    "\tcloseNoneProjectFiles();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://famfamfamsilk/skin/icons/page_delete.png"
+}

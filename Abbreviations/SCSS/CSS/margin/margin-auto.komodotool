@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "pt", 
+  "name": "ma", 
   "value": [
-    "padding-top:\t[[%tabstop:1]]em;[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "margin-top:\t0 auto[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "true"
 }

@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "model_prop_table", 
+  "name": "pdt", 
   "value": [
-    "protected $appends = ['[[%tabstop:column]]'[[%tabstop:]]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "padding-top:\t[[%tabstop:1]]em;[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
   "indent_relative": "true", 
   "type": "snippet", 
-  "treat_as_ejs": "true", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "true"
 }

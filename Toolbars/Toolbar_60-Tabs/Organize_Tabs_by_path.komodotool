@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "Organize TABS", 
+  "name": "Organize Tabs by path", 
   "language": "JavaScript", 
   "trigger": "trigger_postopen", 
   "value": [
@@ -58,5 +58,6 @@
   "rank": 100, 
   "trigger_enabled": false, 
   "async": false, 
-  "type": "macro"
+  "type": "macro", 
+  "icon": "chrome://famfamfamsilk/skin/icons/application_view_list.png"
 }
