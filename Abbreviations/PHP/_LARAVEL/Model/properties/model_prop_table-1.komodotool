@@ -1,14 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "Fileread", 
+  "name": "model_prop_table", 
   "value": [
-    "Fileread, $[[%tabstop1:OutputVar]], %$[[%tabstop2:filename]]%!@#_currentPos!@#_anchor"
+    "protected $appends = ['[[%tabstop:column]]'[[%tabstop:]]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
   "indent_relative": "true", 
   "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": ""
+  "auto_abbreviation": "true"
 }

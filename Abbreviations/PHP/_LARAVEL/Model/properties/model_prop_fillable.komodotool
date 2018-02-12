@@ -1,12 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vfori", 
+  "name": "model_prop_fillable", 
   "value": [
-    "v-for=\"([[%tabstop:model]], index) in [[%tabstop:model]][[%tabstop:s]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "protected $fillable = ['[[%tabstop:column]]'[[%tabstop:]]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
+  "treat_as_ejs": "true", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "true"

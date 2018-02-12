@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "heroBody", 
+  "value": [
+    "<div class=\"hero-[[%tabstop:body]]\">", 
+    "\t<div class=\"container\">", 
+    "\t\t", 
+    "\t</div>", 
+    "</div>", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

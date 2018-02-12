@@ -2,11 +2,10 @@
   "keyboard_shortcut": "", 
   "name": "getClip", 
   "language": "JavaScript", 
-  "trigger_enabled": 0, 
+  "trigger_enabled": 1, 
   "rank": 100, 
   "trigger": "trigger_startup", 
   "value": [
-    "", 
     "ko.extensions.getClip = function() {", 
     "\tvar runSvc    = Components.classes[\"@activestate.com/koRunService;1\"].createInstance(Components.interfaces.koIRunService);", 
     "\tvar process   = runSvc.RunAndNotify(\"GetClip.exe\", \"\", \"\" , \"\" );", 

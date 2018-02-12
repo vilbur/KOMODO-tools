@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "relBelongsToMany", 
+  "value": [
+    "<%", 
+    "/* generate seeder class", 
+    " *", 
+    " *", 
+    "*/", 
+    "//var Logger\t= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear(false).off(false) : require('ko/console');", 
+    "", 
+    "var current_file\t= ko.views.manager.currentView.koDoc.file.pathDir;", 
+    "var model_path\t= ko.filepicker.browseForFile(current_file);", 
+    "var model_namespace\t= ko.extensions.vilbur.Laravel.path(model_path).namespace();", 
+    "var model_name\t= model_namespace.split('\\\\').pop();", 
+    "var model_camelcase\t= model_name.charAt(0).toLowerCase() + model_name.slice(1);", 
+    "", 
+    "", 
+    "%>", 
+    "public function <%=model_camelcase%>s(){", 
+    "\treturn $this->hasMany('[[%tabstop:<%=model_namespace%>]]');", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

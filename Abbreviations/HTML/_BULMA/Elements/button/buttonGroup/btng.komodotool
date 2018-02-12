@@ -1,8 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vfori", 
+  "name": "btng", 
   "value": [
-    "v-for=\"([[%tabstop:model]], index) in [[%tabstop:model]][[%tabstop:s]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<div class=\"field is-grouped\">", 
+    "\t<p class=\"control\">", 
+    "\t\t<button class=\"button\">[[%tabstop:Button]]</button>", 
+    "\t</p>", 
+    "</div>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

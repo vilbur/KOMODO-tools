@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "logg", 
+  "value": [
+    "<%", 
+    "", 
+    "%>", 
+    "Logger.info([[%tabstop1:variable]], [[%tabstop:'[[%tabstop1:variable]]']])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
+}

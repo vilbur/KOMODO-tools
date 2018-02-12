@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vfori", 
+  "name": "test", 
   "value": [
-    "v-for=\"([[%tabstop:model]], index) in [[%tabstop:model]][[%tabstop:s]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "Komodo Snippet!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

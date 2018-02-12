@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "setClip", 
   "language": "JavaScript", 
-  "trigger_enabled": 0, 
+  "trigger_enabled": 1, 
   "rank": 100, 
   "trigger": "trigger_startup", 
   "value": [

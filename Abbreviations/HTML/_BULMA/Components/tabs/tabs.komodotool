@@ -1,8 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vfori", 
+  "name": "tabs", 
   "value": [
-    "v-for=\"([[%tabstop:model]], index) in [[%tabstop:model]][[%tabstop:s]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<div class=\"tabs is-centered\">", 
+    "\t<ul>", 
+    "\t\t<li>[[%tabstop:Tab1]]</li>", 
+    "\t\t<li>[[%tabstop:Tab2]]</li>", 
+    "\t</ul>", 
+    "</div>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

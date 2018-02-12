@@ -5,7 +5,9 @@
   "trigger_enabled": 1, 
   "value": [
     "/** Get path to Laravel", 
-    " *  Find .env file from current file path", 
+    " *  Find .env file from given path", 
+    " *", 
+    " *  @param string path to anywhere in laravel", 
     " *", 
     " * @return string|null", 
     " */", 

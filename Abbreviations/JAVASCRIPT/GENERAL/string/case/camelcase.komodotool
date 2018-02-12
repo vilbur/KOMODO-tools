@@ -1,8 +1,10 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vfori", 
+  "name": "camelcase", 
   "value": [
-    "v-for=\"([[%tabstop:model]], index) in [[%tabstop:model]][[%tabstop:s]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop1:string]].toLowerCase().replace(/(?:(^.)|(\\s+.))/g, function(match) {", 
+    "\treturn match.charAt(match.length-1).toUpperCase();", 
+    "});!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
