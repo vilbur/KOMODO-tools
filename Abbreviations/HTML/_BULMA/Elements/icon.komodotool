@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "icon", 
+  "value": [
+    "<span class=\"icon\"><i class=\"fa fa-[[%tabstop:home]]\"></i></span>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

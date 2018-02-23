@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "path_filename", 
+  "value": [
+    "$[[%tabstop:path_info]]\t= pathinfo ( string $[[%tabstop:path]] )[[%soft:;]][[%tabstop:]]", 
+    "$path_info['[[%tabstop:dirname|basename|filename|extension]]'][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "pathinfo", 
+  "value": [
+    "pathinfo ( string $[[%tabstop:path]], PATHINFO_DIRNAME | PATHINFO_BASENAME | PATHINFO_EXTENSION | PATHINFO_FILENAME ] )!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

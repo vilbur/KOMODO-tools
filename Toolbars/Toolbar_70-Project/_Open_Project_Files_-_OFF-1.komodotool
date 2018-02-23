@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "  Open Project Files - OFF", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "value": [
+    "ko.extensions.ProjectFilesOpener.disable();"
+  ], 
+  "trigger": "trigger_startup", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "chrome://famfamfamsilk/skin/icons/package_stop.png"
+}

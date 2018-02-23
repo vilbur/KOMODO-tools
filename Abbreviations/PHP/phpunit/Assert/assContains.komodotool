@@ -1,14 +1,14 @@
 {
-    "auto_abbreviation": "false", 
-    "icon": "", 
-    "indent_relative": "true", 
-    "keyboard_shortcut": "", 
-    "name": "assContains", 
-    "set_selection": "false", 
-    "treat_as_ejs": "true", 
-    "type": "snippet", 
-    "value": [
-        "assertContains([[%tabstop:template]]);[[%tabstop:]]"
-    ], 
-    "version": "1.0.12"
+  "keyboard_shortcut": "", 
+  "name": "assContains", 
+  "value": [
+    "assertContains([[%tabstop:'[[%tabstop:needle]]']], [[%tabstop:string_or_array]]);[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

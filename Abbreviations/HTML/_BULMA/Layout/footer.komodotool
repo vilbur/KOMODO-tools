@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "footer", 
+  "value": [
+    "<footer class=\"footer\">", 
+    "\t<div class=\"container\">", 
+    "\t\t<div class=\"content has-text-centered\">", 
+    "\t\t\t[[%tabstop:]]", 
+    "\t\t</div>", 
+    "\t</div>", 
+    "</footer>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

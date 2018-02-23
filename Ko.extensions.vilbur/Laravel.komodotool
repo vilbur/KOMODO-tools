@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "Laravel", 
   "language": "JavaScript", 
-  "trigger_enabled": false, 
+  "trigger_enabled": 1, 
   "value": [
     "", 
     "if( typeof ko.extensions.vilbur === 'undefined' )", 
@@ -117,7 +117,7 @@
   ], 
   "version": "1.0.12", 
   "rank": 100, 
-  "async": false, 
+  "async": 1, 
   "type": "macro", 
-  "trigger": "trigger_postopen"
+  "trigger": "trigger_startup"
 }
