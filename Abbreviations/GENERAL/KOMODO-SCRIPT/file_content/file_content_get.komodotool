@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file_content_get", 
+  "value": [
+    "[[%tabstop:[[%tabstop:var ]][[%tabstop:file]]_[[%tabstop:content]]\t= ]][[%tabstop:koEditor]].getValue()[[%tabstop:.replace(/^/gm, '~~~').replace(/~~~\\n~~~/gm, '~~~').replace(/~~~/gm, '');]] // remove even empty line for file write[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png"
+}

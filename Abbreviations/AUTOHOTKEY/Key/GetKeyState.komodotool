@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "GetKeyState", 
+  "value": [
+    "$[[%tabstop1:key]]_key\t:= GetKeyState(\"[[%tabstop1:key]][[%tabstop:]]\"[[%tabstop:, \"Mode\"]]) [[%tabstop:; https://autohotkey.com/docs/KeyList.htm]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "MsgBox_Top", 
+  "value": [
+    "global $ActiveWindowID", 
+    "WinGet, $ActiveWindowID, ID, A", 
+    "OnMessage(0x44, \"centerMsgToWinow\")", 
+    "centerMsgToWinow($wParam)", 
+    "{", 
+    "\tWinGetPos, $X, $Y, $W, $H, ahk_id %$ActiveWindowID%", 
+    "    if ($wParam = 1027) { ; AHK_DIALOG", 
+    "        Process, Exist", 
+    "        DetectHiddenWindows, On", 
+    "        if WinExist(\"ahk_class #32770 ahk_pid \" . ErrorLevel) {", 
+    "\t\t\tWinGetPos,,, $mW, $mH, A", 
+    "\t\t\tWinMove, ($W-$mW)/2 + $X, ($H-$mH)/2 + $Y", 
+    "        }", 
+    "    }", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": ""
+}

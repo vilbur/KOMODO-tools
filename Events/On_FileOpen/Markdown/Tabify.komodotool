@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Tabify", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "/* Tabify file on file open", 
+    " */", 
+    "", 
+    "if( typeof ko.views.manager.currentView.languageObj !== 'undefined' ){", 
+    "\t", 
+    "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
+    "\t", 
+    "\tif( lang=='Markdown' ){", 
+    "\t\tko.extensions.vilbur.TabifyToggle('tabify');", 
+    "\t\tif (komodo.view) { komodo.view.setFocus(); }", 
+    "\t\tko.commands.doCommand('cmd_save')", 
+    "\t\t", 
+    "\t}", 
+    "\t", 
+    "}"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": 0, 
+  "async": 1, 
+  "type": "macro"
+}

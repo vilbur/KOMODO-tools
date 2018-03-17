@@ -1,0 +1,14 @@
+{
+	"auto_abbreviation": "false", 
+	"icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Autohotkey.png", 
+	"indent_relative": "false", 
+	"keyboard_shortcut": "", 
+	"name": "strCs", 
+	"set_selection": "true", 
+	"treat_as_ejs": 0, 
+	"type": "snippet", 
+	"value": [
+		"StringCaseSense, [[%tabstop:On]]!@#_currentPos!@#_anchor"
+	], 
+	"version": "1.0.12"
+}

@@ -1,0 +1,15 @@
+{
+	"auto_abbreviation"	: "false", 
+	"icon"	: "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png", 
+	"indent_relative"	: "false", 
+	"keyboard_shortcut"	: "", 
+	"name"	: "strTrWs", 
+	"set_selection"	: "true", 
+	"treat_as_ejs"	: 0, 
+	"type"	: "snippet", 
+	"value"	: [
+		"$[[%tabstop1:string]] := RegExReplace($[[%tabstop1:string]], \"(^[\\s'[[%tabstop2:\"]]\"]*|[\\s'[[%tabstop2:\"]]\"]*$)\", \"\" )", 
+		"!@#_currentPos!@#_anchor"
+	], 
+	"version"	: "1.0.12"
+}

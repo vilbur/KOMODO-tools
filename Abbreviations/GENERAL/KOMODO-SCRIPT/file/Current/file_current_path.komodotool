@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file_current_path", 
+  "value": [
+    "[[%tabstop:var match_komodotool\t= /^(?!file)([^\\d]+)\\d*:\\/\\/\\d+\\/(\\w+).(?:js|komodotool)/gi.exec(ko.views.manager.currentView.koDoc.file.URI);]]", 
+    "[[%tabstop:var [[%tabstop:current_file]]\t=]][[%tabstop:match_komodotool ? (komodo.findPart(match_komodotool[1], match_komodotool[2] )).path : ]]ko.views.manager.currentView.koDoc.file.path[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

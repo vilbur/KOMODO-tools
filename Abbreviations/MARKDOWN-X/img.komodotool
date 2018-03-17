@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "img", 
+  "value": [
+    "[[%tabstop1:alt text]]", 
+    "![[[%tabstop1:alt text]]]([[%tabstop:URL]] [[%tabstop:\"[[%tabstop1:alt text]]\"]])!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

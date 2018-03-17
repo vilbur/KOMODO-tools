@@ -23,7 +23,6 @@
     "\t\tvar path;", 
     "\t\tvar laravel_path;", 
     "", 
-    "", 
     "\t\tthis.path = function(_path){", 
     "\t\t\t//if( _path!=='' ){", 
     "\t\t\t\tpath\t= _path;", 

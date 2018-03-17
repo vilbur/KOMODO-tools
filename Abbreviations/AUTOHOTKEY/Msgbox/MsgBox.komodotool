@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "MsgBox", 
+  "value": [
+    "<%", 
+    "/*", 
+    "MsgBox, 262144[[%tabstop::AlwaysOnTop]],[[%tabstop1:]], [[%tabstop2:Test]],[[%tabstop:2]][[%tabstop:]]", 
+    "*/", 
+    "%>", 
+    "MsgBox,262144,[[%tabstop1:]], [[%tabstop2:Test]],[[%tabstop:2]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

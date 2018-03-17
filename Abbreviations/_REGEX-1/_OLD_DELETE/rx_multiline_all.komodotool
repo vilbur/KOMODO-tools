@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "rx_multiline_all", 
+  "value": [
+    "<%", 
+    "\t/* match any mutliline like: 'first Line\\nSecond Line\\nThird Line'", 
+    "\t *", 
+    "\t*/", 
+    "", 
+    "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
+    "", 
+    "\tvar str_pref\t= '/';", 
+    "\tvar str_suff\t= '/';", 
+    "\tvar modifiers\t= 'gi';", 
+    "\t", 
+    "\tif(lang === \"Autohotkey\"){", 
+    "\t\tstr_pref\t= '';", 
+    "\t\tstr_suff\t= '';\t", 
+    "\t}", 
+    "%>", 
+    "<%=str_pref%>((?:.*|[\\r\\n])+)<%=str_suff%><%=modifiers%>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

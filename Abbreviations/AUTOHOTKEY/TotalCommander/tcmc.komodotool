@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "tcmc", 
+  "value": [
+    "[[%tabstop:$path_tcmc\t= %Commander_Path%\\_Extensions\\TCMC\\TCMC.exe", 
+    "]]$[[%tabstop1:parameters]]\t:= \"[[%tabstop:50 CMcm_GotoPreviousDir]]\"", 
+    "RunWait %comspec% /c %$path_tcmc% %$[[%tabstop1:parameters]]%,,Hide!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png"
+}

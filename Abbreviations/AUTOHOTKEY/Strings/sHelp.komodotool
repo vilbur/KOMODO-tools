@@ -1,0 +1,26 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "sHelp", 
+  "value": [
+    "$var1 := \"foo\"", 
+    "$var2 := \"bar\"", 
+    "", 
+    ";;; SET QUOTES", 
+    "$string := $var1 . \" \" . \"\"\"\" . $var2 . \"\"\"\" ;;; foo \"\"bar\"\"", 
+    "MsgBox,,, %$string%, 1", 
+    "", 
+    ";;; CONCAT VARIABLES", 
+    "$string := $var1 \" \" $var2 ;;; foo bar", 
+    "MsgBox,,, %$string%, 1", 
+    "", 
+    ";;; SET PATH", 
+    "$path = %$var1%\\%$var2%.ext", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "data", 
   "value": [
-    "data:{", 
+    "data(){", 
     "\treturn {", 
     "\t\t[[%tabstop:]]", 
     "\t};", 

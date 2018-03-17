@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "strReplace", 
+  "value": [
+    "$[[%tabstop1:string]] := StrReplace( $[[%tabstop1:string]], $[[%tabstop:search]], $[[%tabstop:replace]] )!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": 0, 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}
