@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "CodeMatcher_test_on_document", 
+  "name": "CodeMatcher_test_document", 
   "language": "JavaScript", 
   "trigger_enabled": 0, 
   "rank": 100, 

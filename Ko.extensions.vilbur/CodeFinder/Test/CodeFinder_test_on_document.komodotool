@@ -9,7 +9,7 @@
     "/**", 
     " * FIRST Summary  ipsum luctus habitasse ac aenean.", 
     " *", 
-    " * Description  Lorem ipsum luctus habitasse ac aenean.", 
+    " //* Description  Lorem ipsum luctus habitasse ac aenean.", 
     " *", 
     " *", 
     " */", 
