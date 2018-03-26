@@ -1,34 +1,47 @@
 
 
-
+|	|	|
+|---
+|__Snippet__()	|MarkdownDocumentator	|
 
 
 |	|	|
 |---
-|__Snippet__()	|MarkdownDocumentator		|
+|__DocBlock__( DocBlocks )	|convert	|
+|`@param string` DocBlocks	||	|
+
 
 |	|	|
 |---
-|__DocBlock__( DocBlocks )	|convert		|
-|`@param string` DocBlocks	|		|
+|__setSnippet__( DocBlock )	|setSnippet	|
+|`@param string` DocBlock	||	|
+
 
 |	|	|
 |---
-|__setSnippet__( DocBlock )	|setSnippet		|
-|`@param string` DocBlock	|		|
+|__setFnNameRow__()	|set Fn Name Row	|
+
 
 |	|	|
 |---
-|__setFnNameRow__()	|var setSnippet = function(DocBlock),			{		|
+|__params_string__()	|params_string	|
+
 
 |	|	|
 |---
-|__params_string__()	|var setFnNameRow = function(),				{		|
+|__getParameterRows__()	|insert fake snippet	|
+
 
 |	|	|
 |---
-|__getParameterRows__()	|insertFakeSnippet		|
+|__joinedSnippet__()	|joined Snippet	|
+
 
 |	|	|
 |---
-|__insert__()	|var getParameterRows = function(),				{		|
+|__rows__()	|rows	|
+
+
+|	|	|
+|---
+|__insert__()	|insert	|

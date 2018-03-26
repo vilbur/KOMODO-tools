@@ -110,7 +110,7 @@
     "\t\t\t\t\t\tdoc_block_input.push([ '@param', getDataType(param_split[1]), param_split[0]  ]);", 
     "\t\t\t\t\t};", 
     "", 
-    "\t\t\t\t\tif( typeof match_fn[2] !== 'undefined'  )", 
+    "\t\t\t\t\tif( typeof match_fn[2] !== 'undefined' && ! match_fn[2].match(/^\\s*$/gi) )", 
     "\t\t\t\t\t\t//var params = match_fn[2].replace(/,\\s*(\\$*[A-Z]+)/gi, ',~~~$1')", 
     "\t\t\t\t\t\t match_fn[2].replace(/,\\s*(\\$*[A-Z]+)/gi, ',~~~$1').split(/,~~~/gi).map(function(parameter){", 
     "\t\t\t\t\t\t\tsetParameter(parameter.trim());", 
