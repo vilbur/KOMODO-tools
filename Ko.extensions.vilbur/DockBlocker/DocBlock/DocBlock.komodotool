@@ -233,7 +233,7 @@
     "\t\t\tif( tags_found.length )", 
     "\t\t\t\treturn tags_found.length===1 ? tags_found[0] : tags_found;", 
     "", 
-    "\t\t\treturn null;", 
+    "\t\t\treturn '';", 
     "\t\t};", 
     "", 
     "", 

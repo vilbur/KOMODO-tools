@@ -1,16 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "CodeParserTest", 
+  "name": "CodeDocumentator", 
   "language": "JavaScript", 
   "trigger_enabled": 0, 
   "rank": 100, 
   "trigger": "trigger_startup", 
   "value": [
     "", 
-    "/*\t-------------------------------------------------------------------------------------------------------------\t*/", 
-    "/*\tCodeParser TEST\t*/", 
-    "/*\tProperties test for object\t*/", 
-    "/*\t-------------------------------------------------------------------------------------------------------------\t*/", 
+    "", 
     "", 
     "var Logger\t= new ko.extensions.Logger_v3('CodeParserTest.js').clear(false).off(false).header(false);", 
     "", 
@@ -21,7 +18,7 @@
     "\t'\\n\t\treturn \"string\"'+", 
     "\t'\\n\t}';", 
     "", 
-    "var fn_code_parsed = new ko.extensions.vilbur.CodeParser(code_snippet).lang('JavaScript').parse();", 
+    "var fn_code_parsed = new ko.extensions.vilbur.CodeDocumentator();", 
     "", 
     "Logger.info(fn_code_parsed, 'fn_code_parsed');"
   ], 

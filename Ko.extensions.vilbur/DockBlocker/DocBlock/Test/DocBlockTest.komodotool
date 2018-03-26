@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "DocBlockTest", 
   "language": "JavaScript", 
-  "trigger_enabled": 1, 
+  "trigger_enabled": 0, 
   "rank": 100, 
   "trigger": "trigger_startup", 
   "value": [
