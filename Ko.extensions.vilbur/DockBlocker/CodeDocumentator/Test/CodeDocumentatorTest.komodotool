@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "CodeDocumentator", 
+  "name": "CodeDocumentatorTest", 
   "language": "JavaScript", 
   "trigger_enabled": 0, 
   "rank": 100, 
