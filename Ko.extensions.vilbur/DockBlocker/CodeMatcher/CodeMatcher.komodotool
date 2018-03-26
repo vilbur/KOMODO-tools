@@ -58,7 +58,7 @@
     "\t\t/*------   PROPERTIES PRIVATE   -------------------------------------------------------------------------------------------------*/", 
     "", 
     "\t\t//var _this\t= this; // make private functions access to public PROPERTIES and METHODS()", 
-    "\t\tvar Logger\t= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear(true).off(false) : require('ko/console');", 
+    "\t\tvar Logger\t= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear(false).off(false) : require('ko/console');", 
     "\t\tvar scimoz\t= ko.views.manager.currentView.scimoz;", 
     "", 
     "\t\tvar regex_definition = new ko.extensions.vilbur.regex_code;", 
