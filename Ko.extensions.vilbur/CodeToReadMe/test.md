@@ -5,18 +5,30 @@
 
 |	|	|
 |---
-|__privateWithPrams__( param1, $pString, pBoolean, paramArray, pObj )	|privateFunction comment		|
-|`@param string` param1	|		|
-|`@param string` $pString	|		|
-|`@param boolean` pBoolean	|		|
-|`@param array` paramArray	|		|
-|`@param object` pObj	|		|
+|__Snippet__()	|MarkdownDocumentator		|
 
 |	|	|
 |---
-|__publicOneParam__( param1 )	|publicFunctionOne		|
-|`@param string` param1	|		|
+|__DocBlock__( DocBlocks )	|convert		|
+|`@param string` DocBlocks	|		|
 
 |	|	|
 |---
-|__publicNoPrams__()	|publicFunctionTwo,,  no parameters		|
+|__setSnippet__( DocBlock )	|setSnippet		|
+|`@param string` DocBlock	|		|
+
+|	|	|
+|---
+|__setFnNameRow__()	|var setSnippet = function(DocBlock),			{		|
+
+|	|	|
+|---
+|__params_string__()	|var setFnNameRow = function(),				{		|
+
+|	|	|
+|---
+|__getParameterRows__()	|insertFakeSnippet		|
+
+|	|	|
+|---
+|__insert__()	|var getParameterRows = function(),				{		|

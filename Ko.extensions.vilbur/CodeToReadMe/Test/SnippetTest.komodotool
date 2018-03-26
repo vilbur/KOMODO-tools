@@ -1,12 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "CodeToReadMeTest", 
+  "name": "SnippetTest", 
   "language": "JavaScript", 
   "trigger_enabled": 0, 
   "value": [
     "", 
     "", 
-    "var Logger\t= new ko.extensions.Logger_v3('CodeParserTest.js').clear(true).off(false).header(true);", 
+    "//var Logger\t= new ko.extensions.Logger_v3('CodeToReadMeTest.js').clear(true).off(false).header(true);", 
     "", 
     "var code_snippet = '';", 
     "", 
@@ -51,10 +51,10 @@
     "", 
     "var DocBlocks\t= new ko.extensions.vilbur.CodeDocumentator(code_snippet).lang('JavaScript').getDocBlocks();", 
     "", 
-    "var CodeToReadMe\t= new ko.extensions.vilbur.Markdown.CodeToReadMe();", 
-    "CodeToReadMe.DocBlock(DocBlocks).insertSnippet();", 
+    "var Snippet\t= new ko.extensions.vilbur.CodeToReadMe.Snippet();", 
+    "Snippet.DocBlock(DocBlocks).insertSnippet();", 
     "", 
-    "Logger.info(DocBlocks, 'DocBlocks');"
+    "//Logger.info(DocBlocks, 'DocBlocks');"
   ], 
   "version": "1.0.12", 
   "rank": 100, 
