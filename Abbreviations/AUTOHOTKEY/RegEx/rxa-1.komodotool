@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "rxa", 
+  "value": [
+    "$rx_pos = 1", 
+    "While $rx_pos := RegExMatch($[[%tabstop1:string]], \"[[%tabstop:.*]]\", $[[%tabstop2:match]], $rx_pos+StrLen($[[%tabstop2:match]]))", 
+    "    MsgBox,262144,, %$[[%tabstop2:match]]%, 1!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

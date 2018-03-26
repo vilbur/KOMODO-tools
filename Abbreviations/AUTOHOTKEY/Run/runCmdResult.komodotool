@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "auto_abbreviation": "false", 
+  "value": [
+    "[[%tabstop:$[[%tabstop1:cmd]]\t:= ]]\"[[%tabstop:cmd]] \"\"[[%tabstop:\" $[[%tabstop:parameter]] \"]]\"\"\"", 
+    "$result\t:= ComObjCreate(\"WScript.Shell\").Exec(\"cmd.exe /q /c \" $cmd ).StdOut.ReadAll()!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "name": "runCmdResult"
+}

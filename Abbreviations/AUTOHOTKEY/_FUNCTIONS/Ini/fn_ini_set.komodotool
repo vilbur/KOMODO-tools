@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_ini_set", 
+  "value": [
+    "/** set ini value", 
+    " */", 
+    "[[%tabstop:_]]setIniValue( [[%tabstop1:$ini]], [[%tabstop2:$section]], $key, $value )", 
+    "{", 
+    "\tIniWrite, %$value%, %[[%tabstop1:$ini]][[%tabstop:]]%, %[[%tabstop2:$section]][[%tabstop:]]%, %$key%", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

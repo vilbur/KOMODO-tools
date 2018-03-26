@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "strSplit", 
   "value": [
-    "$[[%tabstop1:string]]_split := StrSplit($[[%tabstop1:string]], \"`n\")!@#_currentPos!@#_anchor"
+    "$[[%tabstop1:string]]_split := StrSplit($[[%tabstop1:string]], [[%tabstop:\"[[%tabstop:`n]]\"]])!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": 0, 
-  "type": "snippet", 
   "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": 0, 
   "auto_abbreviation": "false"
 }

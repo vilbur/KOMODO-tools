@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "rx_matchAll", 
+  "value": [
+    "/** RegEx match all", 
+    "\t@return array of all matches", 
+    " */", 
+    "var matchAll = function( string, regEx )", 
+    "{", 
+    "\tvar matches_all = [];", 
+    "\twhile((match = regEx.exec(string)) !== null) {", 
+    "\t\tmatches_all.push(match);", 
+    "\t\tstring = string.substring(match.index+1); //this is not the same as /g", 
+    "\t}", 
+    "\treturn matches_all;", 
+    "};!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "set", 
+  "value": [
+    "/**", 
+    " */", 
+    "[[%tabstop1:variable]]( $[[%tabstop1:variable]]:=\"\" )", 
+    "{", 
+    "\tif( $[[%tabstop1:variable]] )", 
+    "\t\tthis._[[%tabstop1:variable]] := $[[%tabstop1:variable]]", 
+    "\t", 
+    "\treturn $[[%tabstop1:variable]] ? this : this._[[%tabstop1:variable]]", 
+    "}[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

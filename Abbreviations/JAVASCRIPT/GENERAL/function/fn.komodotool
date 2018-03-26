@@ -7,11 +7,11 @@
     "\t[[%tabstop:]]", 
     "};[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
-  "set_selection": "true", 
+  "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png"
 }

@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_parent", 
+  "value": [
+    "static _Parent := {\"address\":\"\"}", 
+    "", 
+    "/** set\\get parent class", 
+    " * @return object parent class", 
+    "*/", 
+    "Parent($Parent:=\"\"){", 
+    "\tif($Parent)", 
+    "\t\tthis._Parent.address\t:= &$Parent", 
+    "\treturn % $Parent ? this : Object(this._Parent.address)", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

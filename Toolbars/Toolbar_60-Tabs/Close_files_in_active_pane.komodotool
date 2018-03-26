@@ -38,8 +38,12 @@
     "\t\tsplitEmptyView();", 
     "};", 
     "", 
-    "setCurrentViews();", 
-    "closePane();"
+    "", 
+    "var answer = confirm ('Close pane '+tab_active.replace('view-','') +' ?');", 
+    "if (answer){", 
+    "\tsetCurrentViews();", 
+    "\tclosePane();\t", 
+    "} "
   ], 
   "version": "1.0.12", 
   "rank": 100, 

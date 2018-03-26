@@ -2,7 +2,9 @@
   "keyboard_shortcut": "", 
   "name": "prfn", 
   "value": [
-    "_[[%tabstop:fnName]]([[%tabstop: [[%tabstop:param]] ]])", 
+    "/**", 
+    " */", 
+    "_[[%tabstop:fnName]]([[%tabstop: [[%tabstop:par]] ]])", 
     "{", 
     "\t[[%tabstop:]]", 
     "}!@#_currentPos!@#_anchor"

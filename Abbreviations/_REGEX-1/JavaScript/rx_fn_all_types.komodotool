@@ -28,8 +28,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
+  "indent_relative": "true", 
   "type": "snippet", 
-  "indent_relative": "false", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }

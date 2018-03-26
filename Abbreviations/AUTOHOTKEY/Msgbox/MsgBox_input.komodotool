@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "MsgBox_input", 
+  "value": [
+    "InputBox, $[[%tabstop:OutputVar]], [[%tabstop:Title]], [[%tabstop:Prompt]],, [[%tabstop:Width]], [[%tabstop:Height]], [[%tabstop:X]], [[%tabstop:Y]], [[%tabstop:Font]], [[%tabstop:Timeout]], [[%tabstop:Default]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

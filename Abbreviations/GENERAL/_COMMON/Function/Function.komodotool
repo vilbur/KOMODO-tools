@@ -41,8 +41,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "name": "Fn"
 }

@@ -2,14 +2,15 @@
   "keyboard_shortcut": "", 
   "name": "forik", 
   "value": [
-    "for(var [[%tabstop1:key]] in [[%tabstop2:object]]){if ([[%tabstop2:object]].hasOwnProperty([[%tabstop1:key]])){", 
-    "    var [[%tabstop:value]] = [[%tabstop2:object]][[[%tabstop1:key]]];[[%tabstop:]]\t", 
-    "}}!@#_currentPos!@#_anchor"
+    "for(var [[%tabstop1:key]] in [[%tabstop2:object]])", 
+    "\tif ([[%tabstop2:object]].hasOwnProperty([[%tabstop1:key]]))", 
+    "\t\tvar [[%tabstop:value]] = [[%tabstop2:object]][[[%tabstop1:key]]];[[%tabstop:]]", 
+    "!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "false"
 }

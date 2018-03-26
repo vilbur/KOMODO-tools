@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_pathCombine", 
+  "value": [
+    "/** Combine absolute and relative paths", 
+    " */", 
+    "combine_path( $absolute, $relative)", 
+    "{", 
+    "\t$absolute := RegExReplace( $absolute, \"\\\\$\", \"\" ) ;;; remove last  slash\\", 
+    "\t$relative := RegExReplace( RegExReplace( $relative, \"^\\\\\", \"\" ), \"/\", \"\\\" ) ;\" ; remove first \\slash, flip slashes", 
+    "\t\t\t\t\t\t\t\t\t   ", 
+    "\tVarSetCapacity($dest, (A_IsUnicode ? 2 : 1) * 260, 1) ; MAX_PATH", 
+    "\tDllCall(\"Shlwapi.dll\\PathCombine\", \"UInt\", &$dest, \"UInt\", &$absolute, \"UInt\", &$relative)", 
+    "\treturn RegExReplace( $dest, \"\\\\+\", \"\\\" ) ; \"", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

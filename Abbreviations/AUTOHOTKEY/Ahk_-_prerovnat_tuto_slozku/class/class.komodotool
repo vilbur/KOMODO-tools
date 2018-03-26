@@ -9,7 +9,8 @@
     "%>", 
     "/** Class <%=ClassName%>", 
     "*/", 
-    "Class <%=ClassName%>[[%tabstop: extends [[%tabstop:Class]]]]{", 
+    "Class <%=ClassName%>[[%tabstop: extends [[%tabstop:Class]]]]", 
+    "{", 
     "", 
     "\t__New([[%tabstop:$[[%tabstop2:parameter]]:=[[%tabstop:\"[[%tabstop4:value]]\"]]]]){", 
     "\t\t[[%tabstop:this.[[%tabstop2:parameter]] := $[[%tabstop2:parameter]]]]", 
@@ -29,8 +30,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "false", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "false", 
   "auto_abbreviation": "false"
 }

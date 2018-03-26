@@ -10,7 +10,7 @@
     "\tvar runSvc    = Components.classes[\"@activestate.com/koRunService;1\"].createInstance(Components.interfaces.koIRunService);", 
     "\tvar process   = runSvc.RunAndNotify(\"GetClip.exe\", \"\", \"\" , \"\" );", 
     "\tvar clipBoard = process.wait(-1)==0 ? process.getStdout():null;", 
-    "\treturn clipBoard", 
+    "\treturn clipBoard;", 
     "};"
   ], 
   "version": "1.0.12", 

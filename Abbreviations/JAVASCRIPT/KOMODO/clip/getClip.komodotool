@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "getClip", 
+  "value": [
+    "/** get clipoboard content", 
+    "\thttps://developer.mozilla.org/en-US/docs/Archive/Add-ons/Add-on_SDK/High-Level_APIs/clipboard", 
+    "*/", 
+    "var getClip = function() {", 
+    "\treturn require(\"sdk/clipboard\").get();", 
+    "};[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}
