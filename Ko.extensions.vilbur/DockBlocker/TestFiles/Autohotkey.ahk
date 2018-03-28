@@ -10,16 +10,17 @@ Class Autohotkey extends Class
 
 	/** public function summary.
 	  *
-	  * @param string	$param1 foo description
-	  * @param boolean	$param2 foo description
+	  * @param string	$param1 Foo description for param 1
+	  * @param boolean	$param2 Bar description for param 2
 	  *
 	  */
-	publicFunction( $param1:="fooString", $param2:=true,pArray:=[1,2,3] )
+	publicFunction( $param1 := "fooString", $param2:=true,pArray:=[1,2,3] )
 	{
 
 	}
 
 	/**
+	  * @param boolean	$param2 Bar description for param 2
 	 */
 	_privateFunction( $param1, $param2 )
 	{

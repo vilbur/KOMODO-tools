@@ -62,7 +62,6 @@
     "\t\t\t\t\t.insert();", 
     "\t\t};", 
     "", 
-    "", 
     "\t\tif( ! markdown_file ){", 
     "\t\t\talert( 'CodeToReadMe\\n\\nThere is not Markdown file in second pane.' );", 
     "\t\t\treturn;", 

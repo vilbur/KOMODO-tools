@@ -14,7 +14,7 @@
     "", 
     "var Logger\t= new ko.extensions.Logger_v3('CodeParserTest.js').clear(false).off(false).header(false);", 
     "", 
-    "var code_snippet = \t'\tthis.TestPhpDoc = function( param1,$pString=\"fooString\", pBoolean=true,paramArray=[1,\\'string\\',3], pObj={\"key\":\"value\"}  ){'+", 
+    "var code_snippet = \t'\tthis.TestPhpDoc = function( param1,$pString:=\"fooString\", pBoolean=true,paramArray=[1,\\'string\\',3], pObj={\"key\":\"value\"}  ){'+", 
     "\t'\\n\t\t// Code...'+", 
     "\t'\\n\t\t// Code...'+", 
     "\t'\\n\t\t'+", 
