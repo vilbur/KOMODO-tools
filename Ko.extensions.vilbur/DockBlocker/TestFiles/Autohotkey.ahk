@@ -21,7 +21,7 @@ Class Autohotkey extends Class
 
 	/**
 	 */
-	privateFunction( $param1, $param2 )
+	_privateFunction( $param1, $param2 )
 	{
 
 	}
