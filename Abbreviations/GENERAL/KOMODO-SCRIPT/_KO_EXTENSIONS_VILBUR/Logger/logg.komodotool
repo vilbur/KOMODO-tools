@@ -3,9 +3,9 @@
   "name": "logg", 
   "value": [
     "<%", 
-    "", 
+    "\tvar current_filename = ko.views.manager.currentView.koDoc.file.path.split(/[\\\\\\/]+/g).pop().split(/\\./g).shift();", 
     "%>", 
-    "Logger.info([[%tabstop1:variable]], [[%tabstop:'[[%tabstop1:variable]]']])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "Logger.info([[%tabstop1:variable]], '<%=current_filename%>: '+[[%tabstop:'[[%tabstop:[[%tabstop1:variable]]]]']])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

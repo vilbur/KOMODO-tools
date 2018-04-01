@@ -2,16 +2,16 @@
   "keyboard_shortcut": "", 
   "name": "IniRead_section", 
   "value": [
-    "IniRead, $[[%tabstop1:sections]], %$[[%tabstop:file_path]]%[[%tabstop:, %$[[%tabstop:section]]%]][[%tabstop:]]", 
+    "IniRead, $[[%tabstop1:sections]], %$[[%tabstop:ini_path]]%[[%tabstop:, %$[[%tabstop:section]]%]][[%tabstop:]]", 
     "\tLoop Parse, $[[%tabstop1:sections]], `n", 
     "\t\tMsgBox, Line number %A_Index% is %A_LoopField%.", 
     "!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": ""
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

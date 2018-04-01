@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "set", 
+  "value": [
+    "/** set [[%tabstop1:property]]", 
+    "*/", 
+    "this.[[%tabstop1:property]] = function(_[[%tabstop1:property]][[%tabstop:='[[%tabstop:]]']])", 
+    "{", 
+    "\t[[%tabstop:]][[%tabstop1:property]] = _[[%tabstop1:property]];", 
+    "\treturn this;", 
+    "};[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

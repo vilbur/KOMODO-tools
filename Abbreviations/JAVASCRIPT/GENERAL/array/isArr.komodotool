@@ -1,9 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "fori", 
+  "name": "isArr", 
   "value": [
-    "for(var [[%tabstop1:i]]=0; [[%tabstop1:i]]<[[%tabstop2:array]].length;[[%tabstop1:i]]++)", 
-    "    [[%tabstop2:array]][[[%tabstop1:i]]];[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "Array.isArray([[%tabstop:array]])!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

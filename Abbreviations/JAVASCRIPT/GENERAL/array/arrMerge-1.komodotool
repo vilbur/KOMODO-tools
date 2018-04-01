@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "==", 
+  "name": "arrMerge", 
   "value": [
-    "[[%tabstop:this.]]_[[%tabstop1:var_name]]\t:= $[[%tabstop1:var_name]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "var [[%tabstop1:array]]_[[%tabstop:merged]]\t= [].concat.apply([], [[%tabstop1:array]][[%tabstop:, array2_or_matrix]]);!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

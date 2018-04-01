@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "file_content_get", 
   "value": [
-    "[[%tabstop:[[%tabstop:var ]][[%tabstop:file]]_[[%tabstop:content]]\t= ]][[%tabstop:koEditor]].getValue()[[%tabstop:.replace(/^/gm, '~~~').replace(/~~~\\n~~~/gm, '~~~').replace(/~~~/gm, '');]] // remove even empty line for file write[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:[[%tabstop:var ]][[%tabstop:file]]_[[%tabstop:content]]\t= ]][[%tabstop:koEditor]].getValue()[[%tabstop:.replace(/\\r/gm, '') // remove even empty line for file write]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

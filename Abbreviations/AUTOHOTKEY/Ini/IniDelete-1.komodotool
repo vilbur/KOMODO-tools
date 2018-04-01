@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "IniDelete", 
   "value": [
-    "IniDelete, %$[[%tabstop:file_path]]%, [[%tabstop:%$[[%tabstop:section]]%]][[%tabstop:, %$[[%tabstop:key]]%]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "IniDelete, %$[[%tabstop:ini_path]]%, [[%tabstop:%$[[%tabstop:section]]%]][[%tabstop:, %$[[%tabstop:key]]%]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": ""
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

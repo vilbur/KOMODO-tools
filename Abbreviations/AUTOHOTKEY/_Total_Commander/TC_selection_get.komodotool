@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "TC_selection_get", 
+  "value": [
+    "$[[%tabstop:selection]]\t:= new TcSelection().get[[%tabstop:Files]]|[[%tabstop:Folders]]([[%tabstop:\"([[%tabstop:.ahk|.exe]])$\"]])[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png"
+}

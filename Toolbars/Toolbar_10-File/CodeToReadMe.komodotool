@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "CodeToReadMe", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "new ko.extensions.vilbur.CodeToReadMe.CodeToReadMe();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "icon": "file:///C:/GoogleDrive/Programs/Core/Komodo/Icons/logo-icon.ico", 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

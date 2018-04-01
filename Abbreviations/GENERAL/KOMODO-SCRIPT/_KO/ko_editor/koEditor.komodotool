@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "koEditor", 
   "value": [
-    "[[%tabstop:[[%tabstop:var ]][[%tabstop:koEditor\t= ]]]]require(\"ko/editor\")[[%soft:;]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:[[%tabstop:var ]][[%tabstop:koEditor\t= ]]]]require(\"ko/editor\")[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "true", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png"
 }

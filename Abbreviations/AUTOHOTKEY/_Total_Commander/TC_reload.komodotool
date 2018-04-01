@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "TC_reload", 
+  "value": [
+    "/**", 
+    " */", 
+    "_updateTotalCommander($dir)", 
+    "{", 
+    "\tWinGet, $process_name , ProcessName, ahk_class TTOTAL_CMD", 
+    "\tRun, %COMMANDER_PATH%\\%$process_name% /O /S /L=%$dir%", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}
