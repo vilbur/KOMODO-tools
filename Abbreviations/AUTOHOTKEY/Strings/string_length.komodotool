@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
- "name":"strLen",
+  "name": "strLen", 
   "value": [
-    "StringLen, $[[%tabstop1:string]]_length, $[[%tabstop1:string]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:$[[%tabstop1:string]] := ]]StrLen( $[[%tabstop1:string]] )[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": 0, 
-  "type": "snippet", 
   "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": 0, 
   "auto_abbreviation": "false"
 }

@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_array_find", 
+  "value": [
+    "<%", 
+    "\tvar file_content\t= require(\"ko/editor\").getValue(); ", 
+    "\t", 
+    "\tvar isClassFile = file_content.match(/class/gi);", 
+    "\t", 
+    "\tvar fn_name\t= (isClassFile?\"_\":\"\") + \"findInArray\";", 
+    "\tvar _this\t= (isClassFile?\"this.\":\"\");\t", 
+    "\t", 
+    "%>", 
+    "/*", 
+    "*/", 
+    "<%=fn_name%>($object, $item)", 
+    "{", 
+    "\tfor $i, $value in $object", 
+    "\t\tif ($value = $item)", 
+    "\t\t\treturn $i", 
+    "\t", 
+    "\treturn 0", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

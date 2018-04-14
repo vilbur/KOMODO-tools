@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "MsgBoxDebug", 
+  "value": [
+    "MsgBox,262144,, % \"FILE: \" A_LineFile \"`n`nMETHOD: [[%tabstop:methodName]]()[[%tabstop:`n`nVARIABLE: $[[%tabstop:variable]]]] `n`nERROR: [[%tabstop:]]\" !@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_obj_keys", 
+  "value": [
+    "<%", 
+    "\tvar file_content\t= require(\"ko/editor\").getValue(); ", 
+    "\t", 
+    "\tvar isClassFile = file_content.match(/class/gi);", 
+    "\t", 
+    "\tvar fn_name\t= (isClassFile?\"_\":\"\") + \"getObjectKeys\";", 
+    "\tvar _this\t= (isClassFile?\"this.\":\"\");\t", 
+    "\t", 
+    "%>", 
+    "/**", 
+    " */", 
+    "<%=fn_name%>($object, $ignore:=\"\")", 
+    "{", 
+    "\t$keys := []", 
+    "\tFor $key, $value in $object", 
+    "\t\tif( $key!=$ignore )", 
+    "\t\t\t$keys.insert( $key )", 
+    "\t\t\t", 
+    "\treturn %$keys%", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_obj_stringify", 
+  "value": [
+    "<%", 
+    "\tvar file_content\t= require(\"ko/editor\").getValue(); ", 
+    "\t", 
+    "\tvar isClassFile = file_content.match(/class/gi);", 
+    "\t", 
+    "\tvar fn_name\t= (isClassFile?\"_\":\"\") + \"stringifyObject\";", 
+    "\tvar _this\t= (isClassFile?\"this.\":\"\");\t", 
+    "\t", 
+    "%>", 
+    "/** Strigify object", 
+    " */", 
+    "<%=fn_name%>($object, $pair_delimeter:=\"=\", $item_delimeter:=\"`n\")", 
+    "{", 
+    "\tFor $key, $value in $object", 
+    "\t\t$string .= $key $pair_delimeter $value $item_delimeter", 
+    "\t", 
+    "\treturn % SubStr( $string, 1, StrLen($string) - (StrLen($item_delimeter)) )", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

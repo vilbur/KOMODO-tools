@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "LrmI", 
+  "value": [
+    "https://picsum.photos/[[%tabstop:1600]]/[[%tabstop:1200]][[%tabstop:?image=[[%tabstop:]]]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "true"
+}

@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "@par", 
+  "name": "Dpar", 
   "value": [
     "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
     "@param\t[[%tabstop:type]]\t[[%tabstop:name]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"

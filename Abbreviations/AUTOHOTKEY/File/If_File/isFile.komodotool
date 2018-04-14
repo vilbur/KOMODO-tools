@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "ifFi", 
+  "name": "isFile", 
   "value": [
-    "InStr( FileExist([[%tabstop:$[[%tabstop:path]]]]), \"D\" )==0 [[%tabstop:]]!@#_currentPos!@#_anchor"
+    "InStr( FileExist([[%tabstop:$[[%tabstop:path]]]]), \"D\" )==0[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

@@ -8,9 +8,10 @@
   "value": [
     "", 
     "", 
-    "var values\t= Object.values({'key':'value'});", 
+    "var string\t= \"test()\";", 
+    "//var string\t= \"if()\";", 
     "", 
-    "console.log( values );"
+    "alert( new RegExp(/\\b(?!if)(\\w+)\\b\\(([^\\)]*)\\)/gi).exec(string)  );"
   ], 
   "version": "1.0.12", 
   "async": 0, 

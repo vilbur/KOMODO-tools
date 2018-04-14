@@ -70,7 +70,7 @@
     "\t\t\t\t\t\tif( params )", 
     "\t\t\t\t\t\t\tparams.map(function(param){", 
     "\t\t\t\t\t\t\t\tvar param_type\t= param.type\t==='void'\t? '[[%tabstop:string]]'\t: param.type;", 
-    "\t\t\t\t\t\t\t\tvar param_name\t= param.default\t!==''\t? '[ ' +param.name+'='+param.default+ ' ]'\t: param.name;", 
+    "\t\t\t\t\t\t\t\tvar param_name\t= ! param.default.match(/^['\"]+$/)\t\t? '[ ' +param.name+'='+param.default+ ' ]'\t: param.name; // if value not empty string e.g.: \"\"", 
     "\t\t\t\t\t\t\t\tvar param_description\t= param.description\t===''\t? '[[%tabstop:]]'\t: param.description;", 
     "\t\t\t\t\t\t\t\t/* SET ROW ITEMS */", 
     "\t\t\t\t\t\t\t\ttable.push([", 

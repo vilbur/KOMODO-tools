@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "host", 
+  "value": [
+    "<VirtualHost *:80>", 
+    "\tServerName [[%tabstop1:project]]", 
+    "\tDocumentRoot \"c:/wamp64/www/[[%tabstop1:project]]/public\"", 
+    "\t<Directory  \"c:/wamp64/www/[[%tabstop1:project]]/public/\">", 
+    "\t\tOptions Indexes Includes FollowSymLinks MultiViews", 
+    "\t\tAllowOverride All", 
+    "\t\tRequire local", 
+    "\t</Directory>", 
+    "</VirtualHost>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

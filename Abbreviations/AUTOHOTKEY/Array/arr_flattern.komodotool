@@ -1,0 +1,33 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "arr_flattern", 
+  "value": [
+    "/**", 
+    " */", 
+    "flatternObject($object)", 
+    "{", 
+    "\tif (! isobject($object))", 
+    "\t\treturn $object", 
+    "   ", 
+    "\t$flat := {}", 
+    "   ", 
+    "\t$enum := $object._newenum()", 
+    "\tWhile $enum[$key, $value]", 
+    "\t\tif !isobject($value)", 
+    "\t\t\t$flat._Insert($value)", 
+    "\t\telse", 
+    "\t\t{", 
+    "\t\t\t$next := flatternObject($value)", 
+    "\t\t\tloop % $next._MaxIndex()", 
+    "\t\t\t\t$flat._Insert($next[A_Index])", 
+    "\t\t}", 
+    "\treturn $flat", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

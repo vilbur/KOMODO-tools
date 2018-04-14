@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_obj_join", 
+  "value": [
+    "<%", 
+    "\tvar file_content\t= require(\"ko/editor\").getValue(); ", 
+    "\t", 
+    "\tvar isClassFile = file_content.match(/class/gi);", 
+    "\t", 
+    "\tvar fn_name\t= (isClassFile?\"_\":\"\") + \"joinObject\";", 
+    "\tvar _this\t= (isClassFile?\"this.\":\"\");\t", 
+    "\t", 
+    "%>", 
+    "/** join object", 
+    " */", 
+    "<%=fn_name%>($object, $delimeter:=\"`n\")", 
+    "{", 
+    "\tFor $key, $value in $object", 
+    "\t\t$string .= $value $delimeter", 
+    "\t", 
+    "\treturn % SubStr( $string, 1, StrLen($string) - (StrLen($delimeter)) )", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

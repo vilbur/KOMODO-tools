@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vfor", 
+  "name": "ControlGetFocus", 
   "value": [
-    "v-for=\"[[%tabstop1:model]] in [[%tabstop1:model]][[%tabstop:s]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "ControlGetFocus, $[[%tabstop:control_nn]], %$[[%tabstop:win_title]]%!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

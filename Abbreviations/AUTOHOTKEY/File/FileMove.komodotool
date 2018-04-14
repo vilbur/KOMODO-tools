@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "FileMove", 
+  "value": [
+    "FileMove, %$[[%tabstop1:path_source]]%, %$[[%tabstop2:path_target]]%, [[%tabstop:1]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

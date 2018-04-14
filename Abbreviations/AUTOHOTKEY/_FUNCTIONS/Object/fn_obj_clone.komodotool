@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_obj_clone", 
+  "value": [
+    "<%", 
+    "\tvar file_content\t= require(\"ko/editor\").getValue(); ", 
+    "\t", 
+    "\tvar isClassFile = file_content.match(/class/gi);", 
+    "\t", 
+    "\tvar fn_name\t= (isClassFile?\"_\":\"\") + \"objectClone\";", 
+    "\tvar _this\t= (isClassFile?\"this.\":\"\");\t", 
+    "\t", 
+    "%>", 
+    "/* Fully clone object", 
+    "*/", 
+    "<%=fn_name%>($obj)", 
+    "{", 
+    "\t$obj_c := $obj.Clone()", 
+    "\tfor $k,$v in $obj_c", 
+    "\t\tif IsObject($v)", 
+    "\t\t\t$obj_c[$k] := <%=_this%><%=fn_name%>($v)", 
+    "\treturn $obj_c", 
+    "}[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

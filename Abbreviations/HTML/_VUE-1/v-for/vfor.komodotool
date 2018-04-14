@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "vfor", 
+  "value": [
+    "<[[%tabstop1:li]] v-for=\"[[%tabstop1:model]] in [[%tabstop1:model]][[%tabstop:s]]\"[[%tabstop:]]>", 
+    "\t[[%tabstop:]]", 
+    "</[[%tabstop1:li]]>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
- "name":"strSpl",
+  "name": "subStr", 
   "value": [
-    "StringSplit, $[[%tabstop1:string]]_[[%tabstop:split]], $[[%tabstop1:string]], [[%tabstop:%A_Space%]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:$[[%tabstop1:string]] := ]]SubStr( $[[%tabstop1:string]], [[%tabstop:1]][[%tabstop:, StrLen($[[%tabstop1:string]])]] )[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
