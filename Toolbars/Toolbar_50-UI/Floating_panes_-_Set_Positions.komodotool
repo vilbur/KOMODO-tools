@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "Set Positions", 
+  "name": "Floating panes - Set Positions", 
   "language": "JavaScript", 
   "trigger_enabled": 0, 
   "rank": 100, 

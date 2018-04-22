@@ -4,14 +4,16 @@
   "value": [
     "IniRead, $[[%tabstop1:sections]], %$[[%tabstop:ini_path]]%[[%tabstop:, %$[[%tabstop:section]]%]][[%tabstop:]]", 
     "\tLoop Parse, $[[%tabstop1:sections]], `n", 
-    "\t\tMsgBox, Line number %A_Index% is %A_LoopField%.", 
-    "!@#_currentPos!@#_anchor"
+    "\t\t[[%tabstop:{", 
+    "\t\t\t$key_value\t:= StrSplit(A_LoopField, \"=\")", 
+    "\t\t\t", 
+    "\t\t}]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "icon": "", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": ""
 }

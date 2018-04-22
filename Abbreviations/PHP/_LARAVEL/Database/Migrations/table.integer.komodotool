@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "table_integer", 
   "value": [
-    "$table->integer('[[%tabstop1:integer]]',\t[[%tabstop:\\Config::get('migrations.[[%tabstop1:integer]]')]])[[%tabstop:->nullable()]];[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "$table->integer('[[%tabstop1:integer]]')[[%tabstop:->nullable()]];[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "icon": "", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": ""
 }

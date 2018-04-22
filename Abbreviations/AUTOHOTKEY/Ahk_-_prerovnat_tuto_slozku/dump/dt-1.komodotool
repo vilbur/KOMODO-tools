@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "D", 
+  "name": "dt", 
   "value": [
-    "Dump($[[%tabstop1:variable]], [[%tabstop:\"[[%tabstop:[[%tabstop1:variable]]]]\"]], [[%tabstop:1]])[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "Dump(this.[[%tabstop1:variable]], [[%tabstop:\"[[%tabstop:this.[[%tabstop1:variable]]]]\"]], [[%tabstop:1]])[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

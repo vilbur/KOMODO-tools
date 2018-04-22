@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "pos_start", 
+  "name": "WinMove", 
   "value": [
-    "[[%tabstop:var [[%tabstop:pos_start]]\t= ]]scimoz.currentPos < scimoz.anchor ? scimoz.currentPos : scimoz.anchor;!@#_currentPos!@#_anchor"
+    "WinMove, $[[%tabstop:win_title]],, $[[%tabstop:x]], $[[%tabstop:y]], $[[%tabstop:width]], $[[%tabstop:height]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

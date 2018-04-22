@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "table_string", 
+  "name": "@r", 
   "value": [
-    "$table->string('[[%tabstop1:string]]')[[%tabstop:->nullable()]];[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
+    "@return\t[[%tabstop:type]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
   "treat_as_ejs": "true", 
-  "icon": "", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "false"

@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "@var", 
+  "name": "table_text", 
   "value": [
-    "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
-    "@var\t[[%tabstop:type]]\t[[%tabstop:name]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
+    "$table->text('[[%tabstop1:description]]')[[%tabstop:->nullable()]];[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
   "treat_as_ejs": "true", 
+  "icon": "", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "false"

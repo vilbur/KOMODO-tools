@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "vfn", 
+  "value": [
+    "[[%tabstop:/** [[%tabstop1:variable]]", 
+    " */", 
+    "]]var [[%tabstop1:variable]] = (function([[%tabstop:]])", 
+    "{", 
+    "\t[[%tabstop:]]", 
+    "\treturn [[%tabstop:]]", 
+    "})();[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -76,7 +76,7 @@
     "\tgetStringAttribute: function(name) {", 
     "\t\treturn this[name];", 
     "\t},", 
-    "\tname:\t\"fake snippetX\",", 
+    "\tname:\t\"fake snippet\",", 
     "\tindent_relative: \"true\",", 
     "\tvalue: getSnippetValue()", 
     "};", 
@@ -88,8 +88,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }

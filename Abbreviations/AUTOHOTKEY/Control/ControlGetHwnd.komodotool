@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "ControlGetFocus", 
+  "name": "ControlGetHwnd", 
   "value": [
-    "ControlGet, $hwnd, Hwnd,, [[%tabstop:%$[[%tabstop:control_nn]]%]], [[%tabstop:%$[[%tabstop:win_title]]%]]!@#_currentPos!@#_anchor"
+    "ControlGetFocus, $[[%tabstop:control_nn]], %$[[%tabstop:win_title]]%!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

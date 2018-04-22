@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "WinGroupGet", 
+  "value": [
+    "GroupAdd, $[[%tabstop1:Name]]Group, ahk_class [[%tabstop:Chrome_WidgetWin_1]] ", 
+    "GroupActivate $[[%tabstop1:Name]]Group !@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

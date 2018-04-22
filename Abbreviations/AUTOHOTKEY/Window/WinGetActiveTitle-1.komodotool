@@ -1,13 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "param", 
+  "name": "WinGetActiveTitle", 
   "value": [
-    "$[[%tabstop:parameter[[%tabstop1:1]]]]\t= %[[%tabstop1:1]]%[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "WinGetActiveTitle, $[[%tabstop:active]]_win_title!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
   "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo.png", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "false"

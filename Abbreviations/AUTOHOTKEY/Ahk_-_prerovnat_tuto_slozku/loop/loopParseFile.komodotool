@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "loopParseFile", 
+  "value": [
+    "Loop, read, %[[%tabstop:$[[%tabstop1:file]]]]%", 
+    "\tIfInString, A_LoopReadLine, [[%tabstop:%$[[%tabstop:search_string]]%]]", 
+    "\t\t[[%tabstop:MsgBox,262144,, %A_LoopReadLine% ,3]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}
