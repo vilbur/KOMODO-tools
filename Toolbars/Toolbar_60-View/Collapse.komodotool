@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Collapse", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "", 
+    "var scimoz\t= ko.views.manager.currentView.scimoz;", 
+    "var sel_text\t= scimoz.selText;", 
+    "", 
+    "if( sel_text )", 
+    "\tko.commands.doCommand('cmd_foldCollapseRecursive');", 
+    "\t//ko.commands.doCommand('cmd_foldCollapse')", 
+    "", 
+    "else", 
+    "\tko.commands.doCommand('cmd_foldCollapseAll');"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/notebook--minus.png"
+}

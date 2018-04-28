@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "UntabiffyTest", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "", 
+    "\tvar variable\t= \"value\";\t// comment", 
+    "\tvar variable_foo\t= \"value_foo\";\t// comment", 
+    "\tvar variable_foo_bar\t= \"value_foo_bar\";\t// comment", 
+    "", 
+    "", 
+    "\tvar foo;\t// comment", 
+    "\tvar foo_bar;\t// comment", 
+    "\tvar foo_bar_baz;\t// comment\t\t"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

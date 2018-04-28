@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Expand", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "trigger_enabled": false, 
+  "value": [
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "", 
+    "var scimoz\t= ko.views.manager.currentView.scimoz;", 
+    "var sel_text\t= scimoz.selText;", 
+    "", 
+    "if( sel_text )", 
+    "\tko.commands.doCommand('cmd_foldExpandRecursive');", 
+    "\t//ko.commands.doCommand('cmd_foldExpand')", 
+    "", 
+    "else", 
+    "\tko.commands.doCommand('cmd_foldExpandAll');"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/notebook--plus.png"
+}
