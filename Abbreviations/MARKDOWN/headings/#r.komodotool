@@ -2,7 +2,8 @@
   "keyboard_shortcut": "", 
   "name": "#r", 
   "value": [
-    "## Results!@#_currentPos!@#_anchor"
+    "## Result", 
+    "[[%tabstop:link]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

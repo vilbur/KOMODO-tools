@@ -2,7 +2,8 @@
   "keyboard_shortcut": "", 
   "name": "#e", 
   "value": [
-    "## Examples!@#_currentPos!@#_anchor"
+    "## Examples", 
+    "[[%tabstop:import_browse]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
