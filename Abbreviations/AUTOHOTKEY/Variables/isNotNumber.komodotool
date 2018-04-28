@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "isNotNumber", 
+  "value": [
+    "<%", 
+    "/*", 
+    "  ; Recognize number and number in string  is little tricky", 
+    "  ", 
+    "  ; WORKAROUND BELLOW", 
+    "", 
+    "\tv1 := 3", 
+    "\tv2 := \"3\"", 
+    "\tMsgBox, % [v1].GetCapacity(1)", 
+    "\tMsgBox, % [v2].GetCapacity(1)", 
+    "\tMsgBox, % ObjGetCapacity([v1], 1)", 
+    "\tMsgBox, % ObjGetCapacity([v2], 1)", 
+    "\tMsgBox, % Type(v1)", 
+    "\tMsgBox, % Type(v2)", 
+    "", 
+    "*/", 
+    "", 
+    "%>", 
+    "[$[[%tabstop:variable]]].GetCapacity(1)>0", 
+    "\t[[%tabstop:isNumber]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}
