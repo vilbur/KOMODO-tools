@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fn_exit", 
+  "value": [
+    "<%", 
+    "\tvar file_content\t= require(\"ko/editor\").getValue(); ", 
+    "\tvar isClassFile = file_content.match(/class/gi);", 
+    "\t", 
+    "\tvar class_match\t= /class\\s+(\\w+)/gi.exec(file_content);", 
+    "\t", 
+    "\tvar class_name\t= class_match ? class_match.pop() : ''", 
+    "\t", 
+    "\t//var fn_name\t= (isClassFile?\"_\":\"\") + \"joinObject\";", 
+    "\t//var _this\t= (isClassFile?\"this.\":\"\");\t", 
+    "\t", 
+    "%>", 
+    "/** Exit script with message", 
+    " */", 
+    "exit( $message  )", 
+    "{", 
+    "\tMsgBox,262144, <%=class_name%>, %$message%", 
+    "\tExitApp", 
+    "}[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

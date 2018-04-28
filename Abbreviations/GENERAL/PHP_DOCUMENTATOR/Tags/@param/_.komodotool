@@ -8,12 +8,12 @@
     "\tvar prefix\t= lang.match(/php|autohotkey/gi)? \"$\" : \"\";", 
     "", 
     "%>", 
-    "@param\t[[%tabstop:type]]\t<%=prefix%>[[%tabstop:name]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
+    "@param\t[[%tabstop:string]]\t<%=prefix%>[[%tabstop:name]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }

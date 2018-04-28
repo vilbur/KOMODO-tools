@@ -1,9 +1,9 @@
 {
   "keyboard_shortcut": "", 
-  "name": "@rt", 
+  "name": "@rs", 
   "value": [
     "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
-    "@return\t[[%tabstop:type]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
+    "@return\t[[%tabstop:self]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

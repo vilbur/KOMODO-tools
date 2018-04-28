@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "InStr", 
   "value": [
-    "InStr( $[[%tabstop:Haystack]], %$[[%tabstop:Needle]]% )!@#_currentPos!@#_anchor"
+    "InStr( $[[%tabstop:Haystack]], [[%tabstop:%$[[%tabstop:Needle]]%]] )!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "indent_relative": "false", 
-  "type": "snippet", 
   "treat_as_ejs": 0, 
+  "type": "snippet", 
+  "indent_relative": "false", 
   "auto_abbreviation": "false"
 }

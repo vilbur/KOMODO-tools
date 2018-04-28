@@ -1,10 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "**", 
+  "name": "@e", 
   "value": [
-    "/** [[%tabstop:]] ", 
-    " *\t[[%tabstop:]]", 
-    " */!@#_currentPos!@#_anchor"
+    "@example [[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

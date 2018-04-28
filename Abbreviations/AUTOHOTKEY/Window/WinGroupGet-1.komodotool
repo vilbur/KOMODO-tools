@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "WinGroupGet", 
   "value": [
-    "GroupAdd, $[[%tabstop1:Name]]Group, ahk_class [[%tabstop:Chrome_WidgetWin_1]] ", 
-    "GroupActivate $[[%tabstop1:Name]]Group !@#_currentPos!@#_anchor"
+    "GroupAdd, $[[%tabstop1:win]]_group, [[%tabstop:ahk_class [[%tabstop:Chrome_WidgetWin_1]] ]]", 
+    "GroupActivate $[[%tabstop1:win]]_group !@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "false"
 }

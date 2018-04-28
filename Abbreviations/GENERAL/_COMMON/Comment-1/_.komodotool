@@ -1,13 +1,15 @@
 {
   "keyboard_shortcut": "", 
-  "name": "==", 
+  "name": "**", 
   "value": [
-    "[[%tabstop:this.]]_[[%tabstop1:var_name]]\t:= [[%tabstop:$[[%tabstop1:var_name]]]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "/** [[%tabstop:]] ", 
+    " *\t[[%tabstop:]]", 
+    " */!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
   "treat_as_ejs": "false", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "auto_abbreviation": "false"
 }

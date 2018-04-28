@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": ":", 
+  "name": "?", 
   "value": [
     "<%", 
     "\t/* PHP */", 
@@ -17,7 +17,7 @@
     "\t", 
     "\tvar selection = Snip.getSelectionText();", 
     "\t", 
-    "\tSnip.selectLine();", 
+    "\t//Snip.selectLine();", 
     "", 
     "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
     "\t", 
@@ -26,7 +26,7 @@
     "\t//var var_prefix = ( lang == \"PHP\" || lang == \"Autohotkey\" ) ? '$' : '';", 
     "", 
     "%>", 
-    "[[%tabstop:[[%tabstop:[[%tabstop1:variable]]]] <%=comapre_char%> [[%tabstop:\"[[%tabstop:value]]\"]]]] ? [[%tabstop:\"[[%tabstop:value]]\"]] : [[%tabstop:\"[[%tabstop:value]]\"]]<%=Var.lineEnd%>!@#_currentPos!@#_anchor"
+    "[[%tabstop:[[%tabstop:[[%tabstop1:variable]]]]<%=comapre_char%> [[%tabstop:\"[[%tabstop:value]]\"]] ]]? [[%tabstop:\"[[%tabstop:value]]\"]] : [[%tabstop:\"[[%tabstop:value]]\"]]<%=Var.lineEnd%>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

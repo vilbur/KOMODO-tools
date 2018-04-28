@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "IniRead", 
   "value": [
-    "IniRead, $[[%tabstop:OutputVar]], %$[[%tabstop:ini_path]]%[[%tabstop:, %$[[%tabstop:section]]%]][[%tabstop:, %$[[%tabstop:key]]%]][[%tabstop:, [[%tabstop:default]]]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "IniRead, $[[%tabstop:OutputVar]], [[%tabstop:%$[[%tabstop:ini_path]]%]][[%tabstop:, [[%tabstop:%$[[%tabstop:section]]%]]]][[%tabstop:, [[%tabstop:%$[[%tabstop:key]]%]]]][[%tabstop:, [[%tabstop:default]]]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "icon": "", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": ""
 }
