@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "IncluderTest", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "", 
+    "", 
+    "/** Test ", 
+    " */", 
+    "new ko.extensions.vilbur.markdown.Includer().include();", 
+    "", 
+    ""
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}
