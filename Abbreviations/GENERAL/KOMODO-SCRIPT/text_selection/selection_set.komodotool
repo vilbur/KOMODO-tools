@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "text_select_set", 
+  "name": "selection_set", 
   "value": [
-    "[[%tabstop:scimoz.]]setSel[[%soft:(]][[%tabstop:pos_start]], [[%tabstop:pos_end]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:koEditor]].setSelection[[%soft:(]][[%tabstop:pos_start]], [[%tabstop:pos_end]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

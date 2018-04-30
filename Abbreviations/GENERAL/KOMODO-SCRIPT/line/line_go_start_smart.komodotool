@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "line_go_end", 
+  "name": "line_go_start_smart", 
   "value": [
-    "[[%tabstop:koEditor]].goLineEnd()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:koEditor]].goLineStartSmart()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

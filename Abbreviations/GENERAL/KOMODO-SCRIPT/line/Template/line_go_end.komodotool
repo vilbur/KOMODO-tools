@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "pos_current", 
+  "name": "line_go_end", 
   "value": [
-    "[[%tabstop:scimoz.]]currentPos[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "scimoz.lineEnd();[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

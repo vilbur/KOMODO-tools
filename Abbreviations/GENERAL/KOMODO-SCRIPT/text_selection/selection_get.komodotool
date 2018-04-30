@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "pos_start", 
+  "name": "selection_get", 
   "value": [
-    "[[%tabstop:var [[%tabstop:pos_start]]\t= ]]scimoz.currentPos < scimoz.anchor ? scimoz.currentPos : scimoz.anchor;!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:sel_text]]\t= ]][[%tabstop:koEditor]].getSelection()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

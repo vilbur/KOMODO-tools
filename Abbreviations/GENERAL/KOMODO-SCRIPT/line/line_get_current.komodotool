@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "anchor_set", 
+  "name": "line_get_current", 
   "value": [
-    "[[%tabstop:[[%tabstop:scimoz.anchor]]\t= ]][[%tabstop:this.]][[%tabstop:anchor]];[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:line_current]]\t= ]][[%tabstop:koEditor]].getLineNumber()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

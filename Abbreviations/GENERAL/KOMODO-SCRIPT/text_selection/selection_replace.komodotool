@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "text_selected_get", 
+  "name": "selection_replace", 
   "value": [
-    "[[%tabstop:var [[%tabstop:sel_text]]\t= ]][[%tabstop:scimoz.]]selText[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:koEditor]].replaceSelection( [[%tabstop:replacement]] )[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "file_content_get_range", 
+  "name": "file_range_delete", 
   "value": [
-    "[[%tabstop:[[%tabstop:var ]][[%tabstop:file]]_[[%tabstop:range]]\t= ]][[%tabstop:koEditor]].getRange( [[%tabstop:from]], [[%tabstop:to]] )[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:koEditor]].deleteRange( [[%tabstop:from]], [[%tabstop:to]] )[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
