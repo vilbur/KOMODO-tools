@@ -6,40 +6,58 @@
 [include:\Test\IncluderTest.komodotool]  
 
 
-## Result in source of markdown file  
+------------------------------------------------------------------------------------  
+------------------------------------------------------------------------------------  
+
+## RESULT IN SOURCE OF MARKDOWN FILE  
 
 ``` markdown  
 
 ## Structure Test  
-* __[LibNested](Test/TestFolders/Lib/LibNested)__  
-	* __[LibNestedDeep](Test/TestFolders/Lib/LibNested/Lib/LibNestedDeep)__  
-* __[MainA](Test/TestFolders/MainA)__  
-	* __[SubA](Test/TestFolders/MainA/SubA)__  
-		* __[SubSubA](Test/TestFolders/MainA/SubA/SubSubA)__  
+* [LibNested](Test/TestFolders/Lib/LibNested)  
+  * [LibNestedDeep](Test/TestFolders/Lib/LibNested/Lib/LibNestedDeep)  
+* [MainA](Test/TestFolders/MainA)  
+  * [SubA](Test/TestFolders/MainA/SubA)  
+    * [SubSubA](Test/TestFolders/MainA/SubA/SubSubA)  
 
 ## Readme Test  
-[Readme source](Test/TestFolders/readme-source.md)  
+[Test](Test/readme-source.md)  
+[TestFolders](Test/TestFolders/readme-source.md)  
 
-## Result Test  
+## Images Test  
 ![MainA suffix](Test/TestFolders/MainA/MainA-suffix.jpg)  
 ![MainA](Test/TestFolders/MainA/MainA.jpg)  
 ![SubA](Test/TestFolders/MainA/SubA/SubA.jpg)  
+
+## Codeblock Test  
+[include :\Test\TestFolders\MainA\MainA.ahk]  
 
 ```  
 
-## Result rendered  
----  
+
+------------------------------------------------------------------------------------  
+------------------------------------------------------------------------------------  
+
+## RESULT RENDERED  
+
+
 ## Structure Test  
-* __[LibNested](Test/TestFolders/Lib/LibNested)__  
-	* __[LibNestedDeep](Test/TestFolders/Lib/LibNested/Lib/LibNestedDeep)__  
-* __[MainA](Test/TestFolders/MainA)__  
-	* __[SubA](Test/TestFolders/MainA/SubA)__  
-		* __[SubSubA](Test/TestFolders/MainA/SubA/SubSubA)__  
+
+* [LibNested](Test/TestFolders/Lib/LibNested)  
+  * [LibNestedDeep](Test/TestFolders/Lib/LibNested/Lib/LibNestedDeep)  
+* [MainA](Test/TestFolders/MainA)  
+  * [SubA](Test/TestFolders/MainA/SubA)  
+    * [SubSubA](Test/TestFolders/MainA/SubA/SubSubA)  
 
 ## Readme Test  
-[Readme source](Test/TestFolders/readme-source.md)  
+[Test](Test/readme-source.md)  
+[TestFolders](Test/TestFolders/readme-source.md)  
 
-## Result Test  
+## Images Test  
 ![MainA suffix](Test/TestFolders/MainA/MainA-suffix.jpg)  
 ![MainA](Test/TestFolders/MainA/MainA.jpg)  
 ![SubA](Test/TestFolders/MainA/SubA/SubA.jpg)  
+
+## Codeblock Test  
+[include:\Test\TestFolders\MainA\MainA.ahk]  
+  

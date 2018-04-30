@@ -3,7 +3,4 @@
 /** SubA
  *
  */
-Class SubA
-{
-	
-}
+Class SubA{}
