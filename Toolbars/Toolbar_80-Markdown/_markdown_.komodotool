@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "_markdown ", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": false, 
+  "type": "macro", 
+  "icon": "file:///C:/Users/vilbur/AppData/Local/ActiveState/KomodoIDE/10.1/Icons/filetypes/Markdown/md-invert.ico"
+}

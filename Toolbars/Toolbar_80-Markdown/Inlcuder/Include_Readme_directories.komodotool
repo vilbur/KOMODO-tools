@@ -1,0 +1,33 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Include Readme directories", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "", 
+    "/** Search files with name matching '-source' with extension 'md' in main directory", 
+    " */", 
+    "", 
+    "", 
+    "var level\t= require(\"ko/dialogs\").prompt('Level of subdirs');", 
+    "", 
+    "", 
+    "//alert( level ); ", 
+    "", 
+    "var Includer =\tnew ko.extensions.vilbur.markdown.Includer()", 
+    "\t\t\t\t\t\t\t\t\t\t.searchName('readme')", 
+    "\t\t\t\t\t\t\t\t\t\t//.textBy('file')", 
+    "\t\t\t\t\t\t\t\t\t\t.searchExt('md');", 
+    "", 
+    "if( level )", 
+    "\tIncluder.maxLevel(level);", 
+    "", 
+    "", 
+    "Includer.includeIndent();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

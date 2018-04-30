@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "json_to_obj", 
+  "value": [
+    "[[%tabstop:var [[%tabstop1:string]]_obj\t= ]]JSON.parse([[%tabstop1:string]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

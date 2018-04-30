@@ -23,7 +23,7 @@
     "\tsnake_case = '[[%tabstop2:'+snake_case+']]';\t", 
     "\t", 
     "%>", 
-    "/** set <%=snake_case%>", 
+    "/** Set <%=snake_case%>", 
     " *", 
     " * @param\tstring\t<%=snake_case%>", 
     " * @return\tthis ", 
@@ -36,8 +36,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }
