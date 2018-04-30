@@ -3,9 +3,7 @@
 
 Příliš žluťoučký kůň úpěl ďábelské ódy.  
 Lorem ipsum luctus habitasse ac aenean donec ultrices maecenas arcu, risus  
-primis sodales urna feugiat platea conubia volutpat duis nisl, eleifend netus dolor iaculis END  
-
-
+primis sodales urna feugiat platea conubia volutpat duis nisl, eleifend netus dolor  
 
 ## Structure Test  
 * [LibNested](TestFolders/Lib/LibNested)  
@@ -27,9 +25,8 @@ primis sodales urna feugiat platea conubia volutpat duis nisl, eleifend netus do
 [include:\TestFolders\MainA\MainA.ahk]  
 [include:\TestFolders\MainA\SubA\SubA.ahk]  
 
-## START heading  
+# NEW LABEL  
 
-Příliš žluťoučký kůň úpěl ďábelské ódy.  
-Nechť již hříšné saxofony ďáblů rozzvučí síň úděsnými tóny waltzu, tanga a quickstepu.  
-Lorem ipsum luctus habitasse ac aenean donec ultrices maecenas arcu, risus  
+
+ean donec ultrices maecenas arcu, risus  
 primis sodales urna feugiat platea conubia volutpat duis nisl, eleifend netus dolor iaculis ante  

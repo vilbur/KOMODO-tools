@@ -2,13 +2,20 @@
   "keyboard_shortcut": "", 
   "name": "selection_set", 
   "value": [
-    "[[%tabstop:koEditor]].setSelection[[%soft:(]][[%tabstop:pos_start]], [[%tabstop:pos_end]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<%", 
+    "/*", 
+    "[[%tabstop:koEditor]].setSelection[[%soft:(]][[%tabstop:{{line, ch}]], [[%tabstop:{{line, ch}]])[[%soft:;]][[%tabstop:]]", 
+    "", 
+    "*/", 
+    "%>", 
+    "[[%tabstop:scimoz]].currentPos\t= [[%tabstop:current_pos]];[[%tabstop:]]", 
+    "scimoz.anchor\t= [[%tabstop:anchor]];[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo.png"
 }

@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "pos_get", 
+  "name": "selection_all", 
   "value": [
-    "[[%tabstop:[[%tabstop:var ]][[%tabstop:current_pos]]\t= ]][[%tabstop:koEditor]].getCursorPosition([[%tabstop:'absolute']])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:koEditor]].selectAll()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
