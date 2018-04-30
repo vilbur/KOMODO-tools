@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "rx", 
   "value": [
-    "new RegExp([[%tabstop:'[[%tabstop2:(.*)]]']], 'gi')[[%tabstop:.exec([[%tabstop1:string]])]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:new RegExp([[%tabstop:'[[%tabstop2:(.*)]]']], 'gi')]][[%tabstop:.exec([[%tabstop1:string]])]][[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "false"
 }
