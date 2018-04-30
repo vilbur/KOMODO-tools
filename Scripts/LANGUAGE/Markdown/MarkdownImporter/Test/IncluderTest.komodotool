@@ -45,7 +45,7 @@
     "\t\t\t.matchDirName('prefix')", 
     "\t\t\t.textBy('file')", 
     "\t\t\t.maxLevel(4)", 
-    "\t\t\t.unique(false) // include even if link is in file already", 
+    "\t\t\t.unique() // include only if not in file allready", 
     "\t\t\t.heading('Images Test')", 
     "\t\t\t.include();", 
     "}", 
@@ -68,9 +68,9 @@
     "-----------------------------------------", 
     "*/", 
     "includeFileStructureTest();", 
-    "//searchByNameWithMaxLevelTest();", 
-    "//searchImagesWithAnySuffix();", 
-    "//searchCodeFilesAndIncludeAsDocblockLinks();"
+    "searchByNameWithMaxLevelTest();", 
+    "searchImagesWithAnySuffix();", 
+    "searchCodeFilesAndIncludeAsDocblockLinks();"
   ], 
   "version": "1.0.12", 
   "rank": 100, 
