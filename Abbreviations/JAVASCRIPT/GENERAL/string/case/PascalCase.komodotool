@@ -1,15 +1,15 @@
 {
   "keyboard_shortcut": "", 
-  "name": "camelcase", 
+  "name": "PascalCase", 
   "value": [
-    "[[%tabstop1:string]].toLowerCase().replace(/(?:(^.)|(\\s+.))/g, function(match) {", 
+    "[[%tabstop:var [[%tabstop:PascalCase]] = ]][[%tabstop1:string]].toLowerCase().replace(/(?:(^.)|(\\s+.))/g, function(match) {", 
     "\treturn match.charAt(match.length-1).toUpperCase();", 
     "});!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }

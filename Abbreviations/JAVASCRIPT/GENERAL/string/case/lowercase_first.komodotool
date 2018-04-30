@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "rand", 
+  "name": "lowercase_first", 
   "value": [
-    "var [[%tabstop:random]]\t= Math.floor((Math.random() * [[%tabstop:10]]) + 1);[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:lowercase_first]] = ]][[%tabstop1:string]].charAt(0).toLowerCase() + [[%tabstop1:string]].slice(1);[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

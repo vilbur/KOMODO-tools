@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "titlecase", 
   "value": [
-    "[[%tabstop1:string]].replace(/\\w\\S*/g, function(str){return str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();});[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:title_case]] = ]][[%tabstop1:string]].replace(/\\w\\S*/g, function(str){return str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();});[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
   "indent_relative": "true", 
   "type": "snippet", 
-  "treat_as_ejs": "false", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }

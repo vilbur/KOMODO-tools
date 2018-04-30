@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "ifRx", 
+  "name": "if_regex_object", 
   "value": [
     "[[%tabstop:[[%tabstop:var ]][[%tabstop1:obj]]_[[%tabstop:isRegex]]\t= ]][[%tabstop1:obj]].constructor.name === 'RegExp'[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "false"
 }

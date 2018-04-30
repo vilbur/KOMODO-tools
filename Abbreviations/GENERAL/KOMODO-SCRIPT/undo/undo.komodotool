@@ -20,17 +20,17 @@
     "\t//_Snippet.selectSelectionOrLineAndKeyword()\t// selected best choice, SELECTION if defined, OR line if not empty, OR ONLY keyword ", 
     "", 
     "%>", 
-    "ko.views.manager.currentView.scimoz.beginUndoAction()", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction();", 
     "try {", 
     "    [[%tabstop://.... code here]]", 
     "} finally {", 
-    "    ko.views.manager.currentView.scimoz.endUndoAction()", 
+    "    ko.views.manager.currentView.scimoz.endUndoAction();", 
     "}!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }

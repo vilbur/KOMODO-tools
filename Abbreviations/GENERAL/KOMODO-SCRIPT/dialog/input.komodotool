@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "input", 
   "value": [
-    "require(\"ko/dialogs\").prompt('[[%tabstop:message]]')!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:variable]]\t= ]]require(\"ko/dialogs\").prompt('[[%tabstop:message]]');[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

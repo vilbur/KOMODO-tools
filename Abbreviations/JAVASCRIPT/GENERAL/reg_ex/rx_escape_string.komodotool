@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "rx_escape_string", 
+  "value": [
+    "var escapeRegExp = function(string){", 
+    "\treturn string.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&').replace(/\\s+/g,'\\\\s+'); [[%tabstop:// $& means the whole matched string]]", 
+    "};[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

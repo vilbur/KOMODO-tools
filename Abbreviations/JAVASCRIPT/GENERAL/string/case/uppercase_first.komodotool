@@ -1,9 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "capitalize", 
+  "name": "uppercase_first", 
   "value": [
-    "[[%tabstop:var [[%tabstop:capitalize]] = ]][[%tabstop1:string]].charAt(0).toUpperCase() + [[%tabstop1:string]].slice(1);", 
-    "!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:lowercase_first]] = ]][[%tabstop1:string]].charAt(0).toUpperCase() + [[%tabstop1:string]].slice(1);[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
