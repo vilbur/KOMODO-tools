@@ -1,4 +1,4 @@
-# MarkdownImporter  * Search in tree of current file, and write links to files matching criteria  ## Examples  
+# MarkdownLinker  * Search in tree of current file, and write links to files matching criteria  ## Examples  
 ``` javascript
 /** Loop all subdirs
  *  Find all files which name is same as folder name E.G.: "FooBar\FooBar.php"
@@ -9,11 +9,12 @@
  */
 function includeFileStructureTest()
 {
-	new ko.extensions.vilbur.markdown.Includer()
+	new ko.extensions.vilbur.markdown.MarkdownLinker()
 			.matchDirName()
 			.linkToDir()			
 			.indentation(' ')
-			.label('Structure Test')
+			.heading('Structure Test')
+			.update()
 			.include();
 }
 
@@ -21,11 +22,11 @@ function includeFileStructureTest()
  */
 function searchByNameWithMaxLevelTest()
 {
-	new ko.extensions.vilbur.markdown.Includer()
+	new ko.extensions.vilbur.markdown.MarkdownLinker()
 			.searchName('.*-source')
 			.searchExt('md')
 			.maxLevel(1)
-			.label('Readme Test')
+			.heading('Readme Test')
 			.include();
 }
 
@@ -35,13 +36,13 @@ function searchByNameWithMaxLevelTest()
 */
 function searchImagesWithAnySuffix()
 {
-	new ko.extensions.vilbur.markdown.Includer()
+	new ko.extensions.vilbur.markdown.MarkdownLinker()
 			.searchExt('jpg')
 			.matchDirName('prefix')
 			.textBy('file')
 			.maxLevel(4)
-			.unique(false) // include even if link is in file already
-			.label('Images Test')
+			.unique() // include only if not in file allready
+			.heading('Images Test')
 			.include();
 }
 /*
@@ -49,12 +50,12 @@ function searchImagesWithAnySuffix()
  */
 function searchCodeFilesAndIncludeAsDocblockLinks()
 {
-	new ko.extensions.vilbur.markdown.Includer()
+	new ko.extensions.vilbur.markdown.MarkdownLinker()
 			.searchExt('php|ahk')
 			.codeBlock()										
 			.matchDirName()
 			.maxLevel(2)
-			.label('Codeblock Test')
+			.heading('Codeblock Test')
 			.include();
 }
 

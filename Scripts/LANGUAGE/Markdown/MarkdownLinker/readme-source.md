@@ -1,9 +1,9 @@
-# MarkdownImporter  
+# MarkdownLinker  
 * Search in tree of current file, and write links to files matching criteria  
 
 
 ## Examples  
-[include:\Test\IncluderTest.komodotool]  
+[include:\Test\MarkdownLinkerTest.komodotool]  
 
 
 ------------------------------------------------------------------------------------  
