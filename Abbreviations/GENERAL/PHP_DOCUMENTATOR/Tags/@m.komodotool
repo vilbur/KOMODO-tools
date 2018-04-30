@@ -3,12 +3,12 @@
   "name": "@m", 
   "value": [
     "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
-    "@method\t[[%tabstop:void]]\t[[%tabstop:methodName]]([[%tabstop: [[%tabstop:@p]] ]])\t[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "@method\t[[%tabstop:void]][[%tabstop:self]]\t[[%tabstop:methodName]]([[%tabstop: [[%tabstop:@p]] ]])\t[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "false"
 }
