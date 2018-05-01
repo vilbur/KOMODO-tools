@@ -2,7 +2,9 @@
   "keyboard_shortcut": "", 
   "name": "clip_set", 
   "value": [
-    "setClip( [[%tabstop:content]][[%tabstop:, timeout=[[%tabstop:0]]]] )!@#_currentPos!@#_anchor"
+    "[[%tabstop:var clip_content = ;", 
+    "]]ko.run.output.endSession();", 
+    "ko.run.runEncodedCommand( window, 'set /p=\"[[%tabstop:'+[[%tabstop:clip_content]]+']]\"<nul| clip' );!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

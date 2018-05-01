@@ -20,13 +20,12 @@
     "*/", 
     "", 
     "%>", 
-    "[$[[%tabstop:variable]]].GetCapacity(1)>0", 
-    "\t[[%tabstop:isNumber]]!@#_currentPos!@#_anchor"
+    "[$[[%tabstop:variable]]].GetCapacity(1)>0[[%tabstop: ; [[%tabstop:isNotNumber]]]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }
