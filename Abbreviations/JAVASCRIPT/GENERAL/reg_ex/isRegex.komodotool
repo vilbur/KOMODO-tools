@@ -1,13 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "if_regex_object", 
+  "name": "isRegex", 
   "value": [
     "[[%tabstop:[[%tabstop:var ]][[%tabstop1:obj]]_[[%tabstop:isRegex]]\t= ]][[%tabstop1:obj]].constructor.name === 'RegExp'[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "false"
 }

@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "file_run", 
+  "value": [
+    "/** Run file and get result", 
+    " * @example runFile(  'c:\\\\file.exe', ['parameter first' , 'parameter second']  )", 
+    " *", 
+    " * @param\tstring\tpath\tPath to file for execution", 
+    " * @param\tstring|array\tparameters\tParameters passedto file", 
+    " *", 
+    " * @return\tmixed|null\tResult of execution", 
+    " */", 
+    "var runFile = function( path, parameters='')", 
+    "{", 
+    "\tvar params_string\t= typeof parameters==='object' ? parameters.map(function(value){return '\"' +value+'\"';}).join(' ') : \"\" +parameters+ \"\";", 
+    "\tvar command\t= 'start \"\" \"\"' + path + '\"\" ' + params_string;", 
+    "\tvar process\t= Components.classes[\"@activestate.com/koRunService;1\"].createInstance(Components.interfaces.koIRunService).RunAndNotify(command, '', '' , '' );", 
+    "\t", 
+    "\treturn process.wait(-1)===0 ? process.getStdout():null;", 
+    "};[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "true"
+}
