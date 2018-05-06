@@ -7,8 +7,7 @@
   "trigger": "trigger_postopen", 
   "value": [
     "", 
-    "", 
-    "alert( ko.views.manager.currentView.languageObj.name ); "
+    "ko.statusBar.AddMessage('message', 'label');"
   ], 
   "version": "1.0.12", 
   "async": 0, 
