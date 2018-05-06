@@ -153,7 +153,7 @@
     "", 
     "", 
     "/* TEST */", 
-    "ko.extensions.vilbur.markdownFormatter();", 
+    "//ko.extensions.vilbur.markdownFormatter();", 
     "", 
     "", 
     "", 

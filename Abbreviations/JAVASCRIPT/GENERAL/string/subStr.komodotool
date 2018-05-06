@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "subStr", 
   "value": [
-    "[[%tabstop:var [[%tabstop1:string]] = ]][[%tabstop1:string]].substring( [[%tabstop:startpos]][[%tabstop:, [[%tabstop:endtpos]]]] );[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop1:string]][[%tabstop:_substr]]\t= ]][[%tabstop1:string]].substring( [[%tabstop:startpos]][[%tabstop:, [[%tabstop:endtpos]]]] );[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "des", 
+  "value": [
+    "<description value=\"[[%tabstop:]]\" ></description>[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

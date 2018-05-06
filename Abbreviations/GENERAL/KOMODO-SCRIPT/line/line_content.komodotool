@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "line_content", 
   "value": [
-    "[[%tabstop:var [[%tabstop:line_content]]\t= ]][[%tabstop:koEditor]].getLine([[%tabstop:line_num]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:line_content]]\t= ]][[%tabstop:koEditor]].getLine(line_current_num[[%tabstop:]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png"
 }

@@ -2,17 +2,18 @@
   "keyboard_shortcut": "", 
   "name": "sw", 
   "value": [
-    "switch ([[%tabstop:expression]]) {", 
-    "\tcase '[[%tabstop:]]':\t[[%tabstop1:result]] = \"[[%tabstop:result1]]\";break;", 
-    "\tcase '[[%tabstop:]]':\t[[%tabstop1:result]] = \"[[%tabstop:result2]]\";break;", 
-    "\tcase '[[%tabstop:]]':\t[[%tabstop1:result]] = \"[[%tabstop:result3]]\";break;", 
-    "\tdefault:\t[[%tabstop1:result]] = \"[[%tabstop:resultDefalut]]\";", 
+    "switch ([[%tabstop:var]])", 
+    "{", 
+    "    case '[[%tabstop:]]':\t[[%tabstop:[[%tabstop1:result]] =\t]]'[[%tabstop:result1]]';break;", 
+    "    case '[[%tabstop:]]':\t[[%tabstop:[[%tabstop1:result]] =\t]]''[[%tabstop:result2]]';break;", 
+    "    case '[[%tabstop:]]':\t[[%tabstop:[[%tabstop1:result]] =\t]]''[[%tabstop:result3]]';break;", 
+    "    default:[[%tabstop2:]]\t[[%tabstop:[[%tabstop1:result]] =\t]]''[[%tabstop:resultDefalut]]';", 
     "}!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "true"
 }

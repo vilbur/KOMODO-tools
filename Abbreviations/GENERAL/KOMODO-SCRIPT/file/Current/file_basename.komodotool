@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "file_basename", 
   "value": [
-    "[[%tabstop:var [[%tabstop:basename]]\t=]] [[%tabstop:koFile]].basename([[%tabstop1:path]]);[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:[[%tabstop:var ]][[%tabstop:basename]] = ]][[%tabstop:koFile]].basename([[%tabstop1:path]]);[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

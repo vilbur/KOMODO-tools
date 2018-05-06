@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "doctype", 
+  "value": [
+    "<!DOCTYPE overlay PUBLIC \"-//MOZILLA//DTD XUL V1.0//EN\" \"http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul\"[[%tabstop:[", 
+    "\t[[%tabstop:import_browse]]", 
+    "] ]]>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

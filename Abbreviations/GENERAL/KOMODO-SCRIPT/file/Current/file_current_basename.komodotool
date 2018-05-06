@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "file_current_name", 
+  "name": "file_current_basename", 
   "value": [
-    "[[%tabstop:[[%tabstop:var ]][[%tabstop:file_current_name]]\t= ]]file_current_basename[[%tabstop:]].split(/\\./g).shift()[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:file_current_basename]]\t= ]][[%tabstop:koFile]].basename(file_current_path[[%tabstop:]]);[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

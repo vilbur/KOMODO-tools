@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "file_current_dir", 
   "value": [
-    "[[%tabstop:var [[%tabstop:current_dir]]\t=]] [[%tabstop:koFile]].dirname(ko.views.manager.currentView.koDoc.file.path);[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:[[%tabstop:var ]][[%tabstop:file_current_dir]]\t= ]][[%tabstop:koFile]].dirname(file_current_path[[%tabstop:]]);[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "true", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png"
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
 }
