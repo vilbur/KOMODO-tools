@@ -1,4 +1,4 @@
-# CaseConverter  
+# CaseConverter  * Convert any case of string to any case  
 ``` javascript
 /*---------------------------------------
 	SUPPORTED TYPES OF CASE

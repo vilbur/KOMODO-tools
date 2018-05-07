@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "CaseConverterTest", 
   "language": "JavaScript", 
-  "trigger_enabled": 1, 
+  "trigger_enabled": 0, 
   "value": [
     "/*---------------------------------------", 
     "\tSUPPORTED TYPES OF CASE", 
