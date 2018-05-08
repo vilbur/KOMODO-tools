@@ -4,12 +4,15 @@
   "language": "JavaScript", 
   "trigger_enabled": false, 
   "value": [
-    "if( typeof ko.extensions.vilbur === 'undefined' )", 
-    "\tko.extensions.vilbur = {};", 
+    "if( typeof ko.extensions.CaseConverter === 'undefined' )", 
+    "\tko.extensions.CaseConverter = {};", 
     "\t", 
+    "//ko.extensions.CaseConverter.StringCaseConverter = {};", 
+    "", 
     "/** Convert any case of string to any case", 
     " */", 
-    "ko.extensions.vilbur.StringCaseConverter = (function()", 
+    "//var StringCaseConverter = (function()", 
+    "ko.extensions.CaseConverter.StringCaseConverter = (function()\t\t\t\t\t\t   ", 
     "{", 
     "\tfunction StringCaseConverter(string)", 
     "\t{\t\t", 
@@ -117,8 +120,7 @@
     "\t}", 
     "\treturn StringCaseConverter;", 
     "", 
-    "})();", 
-    ""
+    "})();"
   ], 
   "trigger": "trigger_postopen", 
   "rank": 100, 

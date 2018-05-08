@@ -30,29 +30,32 @@ var case_types = [
 */
 var getStringTypeTest = function()
 {
-	var Logger	=  require('ko/console');
+	//var Logger	=  require('ko/console');
+	var Logger	= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear(true).off(false) : require('ko/console');
+	
 
 	for(var c=0; c<case_types.length;c++)
 		Logger.info(
-			new ko.extensions.vilbur.StringCaseType(case_types[c]).getStringType(),
+			ko.extensions.CaseConverter.StringCaseType.getStringType(case_types[c]),
 		case_types[c]);
 };
+
 getStringTypeTest();
 
 /* RESULT
-    lower case         = lower case
-    Capital case       = capital case
-    Title Case         = title case
-    UPPER CASE         = upper case
-    snake_case         = lower snake case
-    Snake_capital_case = capital snake case
-    Snake_Title_Case   = title snake case
-    SNAKE_UPPER_CASE   = upper snake case
-    kebab-case         = lower kebab case
-    Kebab-capital-case = capital kebab case
-    Kebab-Title-Case   = title kebab case
-    KEBAB-UPPER-CASE   = upper kebab case
-    camelCase          = camel case
-    PascalCase         = pascal case
+    lower case         = Lower
+    Capital case       = Capital
+    Title Case         = Title
+    UPPER CASE         = Upper
+    snake_case         = Snake lower
+    Snake_capital_case = Snake capital
+    Snake_Title_Case   = Snake title
+    SNAKE_UPPER_CASE   = Snake upper
+    kebab-case         = Kebab lower
+    Kebab-capital-case = Kebab capital
+    Kebab-Title-Case   = Kebab title
+    KEBAB-UPPER-CASE   = Kebab upper
+    camelCase          = Camel
+    PascalCase         = Pascal
 */
 ```    

@@ -36,7 +36,7 @@
     "", 
     "for(var c=0; c<case_types.length;c++)", 
     "{", 
-    "\tvar StringCaseConverter\t= new ko.extensions.vilbur.StringCaseConverter(case_types[c]);\t", 
+    "\tvar StringCaseConverter\t= new ko.extensions.CaseConverter.StringCaseConverter(case_types[c]);\t", 
     "\t", 
     "    Logger.info(StringCaseConverter.toLower(),    'toLowerCase');", 
     "    Logger.info(StringCaseConverter.toCapital(),  'toCapital');", 
