@@ -43,7 +43,7 @@
     "\t\tcase_types[c]);", 
     "};", 
     "", 
-    "getStringTypeTest();", 
+    "//getStringTypeTest();", 
     "", 
     "/* RESULT", 
     "    lower case         = Lower", 
