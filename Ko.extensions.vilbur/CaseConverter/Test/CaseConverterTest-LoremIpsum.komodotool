@@ -4,13 +4,13 @@
   "language": "JavaScript", 
   "trigger_enabled": 0, 
   "value": [
-    "String 1 replace_text_lorem 2 substring ultrices maecenas arcu,", 
+    "String 1 HabitasseAcAeneanx  2 ultrices maecenas arcu,", 
     "", 
-    "String 2 replace_text_lorem 3 substring ultrices maecenas arcu,", 
+    "String 2 HabitasseAcAeneanx  3 ultrices maecenas arcu,", 
     "", 
-    "String 3 replace_text_lorem 4 substring ultrices maecenas arcu,", 
+    "String 3 HabitasseAcAeneanx  4 ultrices maecenas arcu,", 
     "", 
-    "String 4 replace_text_lorem 5 substring ultrices maecenas arcu,"
+    "String 4 HabitasseAcAeneanx  5 ultrices maecenas arcu,"
   ], 
   "trigger": "trigger_postopen", 
   "rank": 100, 
