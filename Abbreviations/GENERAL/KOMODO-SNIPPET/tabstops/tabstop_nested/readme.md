@@ -1,1 +1,0 @@
-#  Tabstop nested  * Make snippets for writing snippets  #### Example in *.snippet  ``` JavaScript  <%      var active_tabstop = '[[%tabstop:THIS IS ACTIVE TABSTOP]]'  %>  [[~~%tabstop:"[[~~%tabstop:placeholder]~~]"]~~]  ```  #### Result in Komodo  ![tabstop nested](tabstop_nested.gif)  
