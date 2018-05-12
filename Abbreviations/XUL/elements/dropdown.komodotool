@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "dropdown", 
+  "value": [
+    "<button type=\"menu\"", 
+    "\t\tlabel=\"&menu.[[%tabstop:label]];\"", 
+    "\t\tclass=\"pane-text\">", 
+    "\t<menupopup>", 
+    "\t\t[[%tabstop:menuitem]]", 
+    "\t</menupopup>", 
+    "</button>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

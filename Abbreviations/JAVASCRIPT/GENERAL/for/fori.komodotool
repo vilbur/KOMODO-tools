@@ -2,13 +2,13 @@
   "keyboard_shortcut": "", 
   "name": "fori", 
   "value": [
-    "for(var [[%tabstop1:i]]=0; [[%tabstop1:i]]<[[%tabstop2:array]].length;[[%tabstop1:i]]++)", 
-    "    [[%tabstop2:array]][[[%tabstop1:i]]];[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "for(let [[%tabstop1:i]]=0; [[%tabstop1:i]]<[[%tabstop:[[%tabstop2:array]].length]];[[%tabstop1:i]]++)", 
+    "    [[%tabstop:[[%tabstop2:array]][[[%tabstop1:i]]] ]];[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "false"
 }

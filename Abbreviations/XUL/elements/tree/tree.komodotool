@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "tree", 
+  "value": [
+    "<tree>", 
+    "", 
+    "\t<treecols>", 
+    "\t\t[[%tabstop:treecol]]", 
+    "\t</treecols>", 
+    "\t", 
+    "\t<treechildren>", 
+    "\t\t[[%tabstop:treeitem]]", 
+    "\t</treechildren>", 
+    "", 
+    "</tree>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

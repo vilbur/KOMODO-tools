@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "pref_set_boolean", 
+  "value": [
+    "[[%tabstop:koPrefs]].setBoolean([[%tabstop1:key]], [[%tabstop1:value]])[[%soft:;]][[%tabstop:]] !@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

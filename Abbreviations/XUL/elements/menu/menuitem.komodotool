@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "menuitem", 
+  "value": [
+    "<menuitem label=\"&menu.[[%tabstop:label]];\"[[%tabstop:", 
+    "\t\t  value=\"[[%tabstop:]]\"]]", 
+    "\t\t  oncommand=\"[[%tabstop:]];\"", 
+    "/>[[%tabstop:", 
+    "menuitem]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

@@ -1,9 +1,11 @@
 {
   "keyboard_shortcut": "", 
-  "name": "Logger", 
+  "name": "--", 
   "value": [
-    "var Logger\t= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear([[%tabstop:true]]).off(false) : require('ko/console');", 
-    "!@#_currentPos!@#_anchor"
+    "/*---------------------------------------", 
+    "\t[[%tabstop:COMMENT]]", 
+    "-----------------------------------------", 
+    "*/[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
