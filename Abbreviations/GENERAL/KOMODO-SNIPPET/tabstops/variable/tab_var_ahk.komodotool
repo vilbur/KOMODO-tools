@@ -5,11 +5,11 @@
     "<%", 
     "", 
     "\tsetTimeout( function(){", 
-    "\t\tko.find.replaceAllInMacro(window, 0, '~', '', false, 2, 1, false, false);", 
+    "\t\trequire(\"ko/editor\").setValue( require(\"ko/editor\").getValue().replace(/([\\[]*)~~([\\]]*)/gi, '$1$2') );", 
     "\t}, 100);", 
     "", 
     "%>", 
-    "[[%~~tabstop:%$[[%~~tabstop:variable]]%]]!@#_currentPos!@#_anchor"
+    "[~~[%tabstop:%$[~~[%tabstop:variable]]% := ]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
