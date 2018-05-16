@@ -20,7 +20,7 @@
     "<%if( tabstop_parent ) { %>[[%tabstop:if( typeof ko.extensions<%=tabstop_parent%> === 'undefined' )", 
     "\tko.extensions<%=tabstop_parent%> = {};", 
     "\t", 
-    "<% } %>]][[%tabstop:if( typeof ko.extensions<%=tabstop_parent%>.<%=tabstop_class%> === 'undefined' )", 
+    "]]<% } %>[[%tabstop:if( typeof ko.extensions<%=tabstop_parent%>.<%=tabstop_class%> === 'undefined' )", 
     "\t]]ko.extensions<%=tabstop_parent%>.<%=tabstop_class%> = {};", 
     "", 
     "/** <%=tabstop_class%>", 
@@ -37,8 +37,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }

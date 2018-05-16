@@ -1,8 +1,10 @@
 {
   "keyboard_shortcut": "", 
-  "name": "getEl", 
+  "name": "vbox", 
   "value": [
-    "document.getElementById('[[%tabstop:id]]')[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<hbox[[%tabstop: [[%tabstop:id]]=\"[[%tabstop:]]\"]]>", 
+    "\t[[%tabstop:]]", 
+    "</hbox>[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

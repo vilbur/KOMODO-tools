@@ -17,7 +17,7 @@
     "(function() {", 
     "", 
     "\tfunction Laravel(){", 
-    "\t\tvar Logger\t= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear(true).off(false) : require('ko/console');", 
+    "\t\tvar Logger\t= ko.extensions.Logger_v3 ? new ko.extensions.Logger_v3(this).clear(false).off(false) : require('ko/console');", 
     "\t\tvar _self\t= this;", 
     "\t\tvar koFile\t= require(\"ko/file\");", 
     "\t\tvar path;", 

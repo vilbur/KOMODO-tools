@@ -19,7 +19,8 @@
     "\t\t\t ", 
     "*/", 
     "", 
-    "ko.extensions.getKomodoEnvVariable = function(key=null,_default=null){", 
+    "ko.extensions.getKomodoEnvVariable = function(key=null,_default=null)", 
+    "{", 
     "\t//alert('getKomodoEnvVariable()');", 
     "\tvar prefs\t= Components.classes['@activestate.com/koPrefService;1'].getService(Components.interfaces.koIPrefService).prefs;", 
     "\tvar values_string\t= prefs.getStringPref(\"userEnvironmentStartupOverride\");", 
@@ -45,11 +46,8 @@
     "\tif(variable === \"true\" || variable === \"false\")", 
     "\t\treturn variable === \"true\" ? true : false;", 
     "\t\t", 
-    "\t\t", 
     "\treturn variable;", 
-    "", 
-    "};", 
-    ""
+    "};"
   ], 
   "version": "1.0.12", 
   "async": 1, 

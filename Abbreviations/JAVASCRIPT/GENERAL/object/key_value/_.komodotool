@@ -1,8 +1,8 @@
 {
-  "keyboard_shortcut": "Ctrl+Shift+$", 
-  "name": "$('element')", 
+  "keyboard_shortcut": "", 
+  "name": ":", 
   "value": [
-    "$([[%tabstop:'[[%tabstop:]]']])[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "'[[%tabstop:property]]':\t[[%tabstop:value]][[%tabstop:, :]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

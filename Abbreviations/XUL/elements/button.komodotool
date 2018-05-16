@@ -3,15 +3,15 @@
   "name": "button", 
   "value": [
     "<button", 
-    "\tclass=\"box-inherit button-menubutton-button\"", 
+    "\t[[%tabstop:class=\"[[%tabstop:box-inherit button-menubutton-button]]\"]]", 
     "\tlabel=\"[[%tabstop:label]]\"", 
     "\toncommand=\"[[%tabstop:ko.extensions.[[%tabstop:Extension]].[[%tabstop:method]]([[%tabstop:]])]]\"", 
     "/>!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }

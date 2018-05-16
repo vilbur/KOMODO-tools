@@ -4,14 +4,12 @@
   "value": [
     "<box[[%tabstop: [[%tabstop:id]]=\"[[%tabstop:]]\"]] orient=\"[[%tabstop:horizontal]][[%tabstop:vertical]]\">", 
     "\t[[%tabstop:]]", 
-    "</box>[[%tabstop:]]", 
-    "", 
-    "!@#_currentPos!@#_anchor"
+    "</box>[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }

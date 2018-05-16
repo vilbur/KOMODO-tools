@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "MarkdownLinker", 
   "language": "JavaScript", 
-  "trigger_enabled": 1, 
+  "trigger_enabled": 0, 
   "value": [
     "if( typeof ko.extensions.vilbur === 'undefined' )", 
     "\tko.extensions.vilbur = {};", 

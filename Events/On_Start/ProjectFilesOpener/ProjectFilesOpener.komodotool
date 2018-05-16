@@ -402,7 +402,7 @@
     "\twindow.removeEventListener(\"view_opened\",\tko.extensions.ProjectFilesOpener.onFileOpen);", 
     "\twindow.removeEventListener(\"view_closed\",\tko.extensions.ProjectFilesOpener.onFileClose);", 
     "", 
-    "\tProjectFilesOpener.apply(ko.extensions.ProjectFilesOpener);", 
+    "\t//ProjectFilesOpener.apply(ko.extensions.ProjectFilesOpener);", 
     "}, 5000);", 
     "", 
     "", 
