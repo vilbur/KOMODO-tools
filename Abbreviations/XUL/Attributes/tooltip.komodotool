@@ -1,10 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "vbox", 
+  "name": "tooltip", 
   "value": [
-    "<hbox[[%tabstop: [[%tabstop:id]]=\"[[%tabstop:]]\"]]>", 
-    "\t[[%tabstop:]]", 
-    "</hbox>[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "tooltiptext=\"[[%tabstop:]]\"[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

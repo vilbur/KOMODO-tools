@@ -2,7 +2,7 @@
   "keyboard_shortcut": "", 
   "name": "menuitem", 
   "value": [
-    "<menuitem label=\"&menu.[[%tabstop:label]];\"[[%tabstop:", 
+    "<menuitem label=\"[[%tabstop:label]]\"[[%tabstop:", 
     "\t\t  value=\"[[%tabstop:]]\"]]", 
     "\t\t  oncommand=\"[[%tabstop:]];\"", 
     "/>[[%tabstop:", 

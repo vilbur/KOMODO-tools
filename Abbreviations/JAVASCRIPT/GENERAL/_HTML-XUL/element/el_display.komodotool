@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "logv", 
+  "name": "el_display", 
   "value": [
-    "console.log(  '[[%tabstop1:variable]]: ' + [[%tabstop1:variable]] );[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:element]].style.display = '[[%tabstop:none]]';[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

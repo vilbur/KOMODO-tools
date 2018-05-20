@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "cbx", 
   "value": [
-    "<checkbox label=\"&checkbox.[[%tabstop:name]];\" checked=\"[[%tabstop:true]]\"/>[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "<checkbox label=\"[[%tabstop:name]]\" checked=\"[[%tabstop:true]]\"/>[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "true"
 }

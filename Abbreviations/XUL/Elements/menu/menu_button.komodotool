@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "menu_button", 
+  "value": [
+    "<button[[%tabstop: [[%tabstop:id]]=\"[[%tabstop:]]\"]]", 
+    "\t\tlabel=\"[[%tabstop:]]\"", 
+    "\t\ttype=\"menu\">", 
+    "\t<menupopup>", 
+    "\t\t[[%tabstop:menuitem]]", 
+    "\t</menupopup>", 
+    "</button>[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "menulist", 
+  "value": [
+    "<menulist[[%tabstop: [[%tabstop:id]]=\"[[%tabstop:]]\"]] >", 
+    "\t<menupopup>", 
+    "\t\t[[%tabstop:menuitem]]", 
+    "\t</menupopup>", 
+    "</menulist>[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

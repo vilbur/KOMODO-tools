@@ -2,7 +2,8 @@
   "keyboard_shortcut": "", 
   "name": "fn", 
   "value": [
-    "function[[%tabstop:]]([[%tabstop: ]]){[[%tabstop:]]}[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "function[[%tabstop:]]([[%tabstop: ]])[[%tabstop:", 
+    "]]{[[%tabstop:]]}[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

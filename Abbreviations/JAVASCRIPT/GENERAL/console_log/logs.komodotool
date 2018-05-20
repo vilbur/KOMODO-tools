@@ -2,12 +2,12 @@
   "keyboard_shortcut": "", 
   "name": "logs", 
   "value": [
-    "console.log('[[%tabstop:]]');!@#_currentPos!@#_anchor"
+    "console.log('[[%tabstop:]]');[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
   "auto_abbreviation": "false"
 }
