@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "line_from_position", 
+  "name": "line_end_position", 
   "value": [
-    "[[%tabstop:scimoz.]]lineFromPosition([[%tabstop:currentPos]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop:line_end_pos]]\t= ]][[%tabstop:scimoz]].getLineEndPosition([[%tabstop:pos_current]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
