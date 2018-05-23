@@ -2,14 +2,14 @@
   "keyboard_shortcut": "", 
   "name": "word_under_cursor_get_position", 
   "value": [
-    "[[%tabstop:var [[%tabstop1:word]]_[[%tabstop:start]] = ]]scimoz.wordStartPosition([[%tabstop:scimoz.currentPos]], true);[[%tabstop:]]", 
-    "[[%tabstop:var [[%tabstop1:word]]_[[%tabstop:end]]   = ]]scimoz.wordEndPosition([[%tabstop:scimoz.currentPos]], true);[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "[[%tabstop:var [[%tabstop1:word]]_[[%tabstop:start]]\t= ]]scimoz.wordStartPosition([[%tabstop:scimoz.currentPos]], true);[[%tabstop:]]", 
+    "[[%tabstop:var [[%tabstop1:word]]_[[%tabstop:end]]\t= ]]scimoz.wordEndPosition([[%tabstop:scimoz.currentPos]], true);[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "true", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto.png"
 }

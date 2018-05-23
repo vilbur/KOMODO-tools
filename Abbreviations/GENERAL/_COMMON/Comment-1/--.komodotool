@@ -2,14 +2,17 @@
   "keyboard_shortcut": "", 
   "name": "--", 
   "value": [
+    "<%", 
+    "\tvar new_line_if_ahk\t= require(\"ko/editor\").getLanguage()==='Autohotkey' ? '\\n': '';", 
+    "%>", 
+    "", 
     "/*---------------------------------------", 
     "\t[[%tabstop:COMMENT]]", 
-    "-----------------------------------------", 
-    "*/[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "-----------------------------------------<%=new_line_if_ahk%>*/[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
+  "treat_as_ejs": "true", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "false"

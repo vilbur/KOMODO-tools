@@ -3,12 +3,12 @@
   "name": "@r", 
   "value": [
     "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
-    "@return\t[[%tabstop:type]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
+    "@return\t[[%tabstop:type]]\t[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }
