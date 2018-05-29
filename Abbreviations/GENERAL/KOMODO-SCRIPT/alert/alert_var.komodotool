@@ -36,19 +36,19 @@
     "    /*\tSELCT SNIPPET KEYWORD TOO\t*/", 
     "    //scimoz.currentPos = selection_end;", 
     " if (line_match) { /* IF VARIABLE FOUND ON LINE E.G.: var var_name = null; alv */ %>", 
-    "<%= current_line %>", 
     "alert('var <%= var_name%>:\\n' + <%= var_name%>);", 
     "<% } else if (var_name){  /* IF VARIABLE FOUND BEFORE SNIPPET KEYWORD E.G.: var_name alv */%>", 
     "alert('var <%= var_name%>:\\n' + <%= var_name%>);", 
-    "<% } else{ /* NORMAL SNIPPET */ %>", 
+    "<% } else{ /* NORMAL SNIPPET */", 
+    "%>", 
     "alert('[[%tabstop1:]]:\\n'+[[%tabstop1:]]);[[%tabstop:]]", 
     "<% } %>!@#_currentPos!@#_anchor"
   ], 
-  "set_selection": "true", 
+  "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

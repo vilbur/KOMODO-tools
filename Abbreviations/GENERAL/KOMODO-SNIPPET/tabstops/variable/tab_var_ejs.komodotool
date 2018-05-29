@@ -1,11 +1,16 @@
 {
-  "keyboard_shortcut": "Ctrl+Alt+T", 
-  "name": "TestScript", 
-  "language": "JavaScript", 
-  "trigger_enabled": 0, 
-  "rank": 100, 
-  "trigger": "trigger_postopen", 
+  "keyboard_shortcut": "", 
+  "name": "tab_var_ejs", 
   "value": [
+    "<%", 
+    "\t/** EJS function for insert snippet which contains literal '[[tabstop:]]'", 
+    "\t * ", 
+    "\t * INACTIVE TABSTOPS: put '' to deactivate tabstops in snippet E.G.: [[%tabstop:]]", 
+    "\t * ACTIVE   TABSTOPS: snippet with active tabstops is defined in var :", 
+    "\t */", 
+    "\t", 
+    "\tvar tabstop_active = 'XXX';", 
+    "\t", 
     "\t/** insertNestedSnippet", 
     "\t */", 
     "\tvar insertNestedSnippet = (function()", 
@@ -51,11 +56,19 @@
     "\t\t\tremoveTabstopTilda();", 
     "\t\t\tsetTimeout( function(){", 
     "\t\t\t\tinsertTabstopSnippet();", 
-    "\t\t\t}, 100)", 
-    "\t\t}, 100)", 
-    "\t})();"
+    "\t\t\t}, 100);", 
+    "\t\t}, 100);", 
+    "\t})();", 
+    "", 
+    "", 
+    "%>", 
+    "[~~[%tabstop:tabstop_active]~~]]!@#_currentPos!@#_anchor"
   ], 
+  "set_selection": "false", 
   "version": "1.0.12", 
-  "async": 0, 
-  "type": "macro"
+  "auto_abbreviation": "true", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
 }

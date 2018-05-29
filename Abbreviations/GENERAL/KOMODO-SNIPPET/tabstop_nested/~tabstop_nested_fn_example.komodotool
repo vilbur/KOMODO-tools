@@ -55,9 +55,9 @@
     "\tsetTimeout( function(){", 
     "\t\tremoveTabstopTilda();", 
     "\t\tsetTimeout( function(){", 
-    "\t\t\tinsertTabstopSnippet();}", 
-    "\t\t, 100)", 
-    "\t}, 100)", 
+    "\t\t\tinsertTabstopSnippet();", 
+    "\t\t}, 100);", 
+    "\t}, 100);", 
     "})(); ", 
     "", 
     "%>", 
@@ -65,8 +65,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }

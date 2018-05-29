@@ -5,7 +5,7 @@
   "trigger": "trigger_postopen", 
   "value": [
     "//close all panes", 
-    "ko.extensions.runCmd( ko.extensions.getAhkPath('\\\\Scripts\\\\Komodo\\\\FloatingPanes\\\\Close-all.ahk') );", 
+    "//ko.extensions.runCmd( ko.extensions.getAhkPath('\\\\Scripts\\\\Komodo\\\\FloatingPanes\\\\Close-all.ahk') );", 
     "// open workspace", 
     "ko.commands.doCommand('cmd_openWorkspace');", 
     "", 
