@@ -2,9 +2,21 @@
   "keyboard_shortcut": "", 
   "name": "ask_fn", 
   "value": [
+    "<%", 
+    "/* OLD VERSION", 
     "[[%tabstop:var [[%tabstop:ask]] = ]]ko.interpolate.interpolateString([", 
     "\t'%(ask1:[[%tabstop:Label]]:[[%tabstop:default]])',", 
-    "]).split(',');!@#_currentPos!@#_anchor"
+    "]).split(',');", 
+    "", 
+    "*/", 
+    "", 
+    "%>", 
+    "[[%tabstop:var [[%tabstop:ask]] = ]]ko.interpolate.interpolateString([[", 
+    "\t['[[%tabstop:Label]]', '[[%tabstop:Value]]'],[[%tabstop:]]", 
+    "\t'[[%tabstop:Only Label]]',[[%tabstop:]]", 
+    "].map(function(value, index){", 
+    "\treturn '%(ask'+index+':'+(typeof value === 'object'?value[0]:value)+':'+(typeof value === 'object'?value[1]:'')+')';", 
+    "})]).split(',');!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

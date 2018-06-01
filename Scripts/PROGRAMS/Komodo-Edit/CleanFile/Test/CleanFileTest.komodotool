@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "CleanFileTest", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "/** Test ko.extensions.CleanFile", 
+    " *", 
+    " *", 
+    "*/", 
+    "var CleanFile = new ko.extensions.CleanFile();", 
+    "", 
+    "", 
+    "CleanFile", 
+    "\t.removeEmptyLines()", 
+    "\t.removeEmptyLineAfterKeyword()", 
+    "\t.removeEmptyLineAfterBracket()", 
+    "\t.replace();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

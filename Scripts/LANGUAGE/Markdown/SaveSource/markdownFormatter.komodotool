@@ -35,7 +35,6 @@
     "\tvar allowed_extensions\t= /(ahk|php|js|komodotool|html|xul)/gi; // allowed extension for including", 
     "\tvar includes\t= file_content.match(/\\[include:.*\\]/gi);", 
     "\t", 
-    "\t", 
     "\tif (! current_file.match(/-source.md$/gi) )", 
     "\t\treturn;", 
     "", 

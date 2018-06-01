@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Clean Current File", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "/** Test ko.extensions.CleanFile", 
+    " *", 
+    " *", 
+    "*/", 
+    "var CleanFile = new ko.extensions.CleanFile();", 
+    "", 
+    "CleanFile.removeEmptyLines().replace();"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "icon": "chrome://fugue/skin/icons/bandaid--plus.png", 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}
