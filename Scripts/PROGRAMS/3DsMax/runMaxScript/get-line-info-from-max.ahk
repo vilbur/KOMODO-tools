@@ -7,12 +7,8 @@
  *	
  */
 
-
 if( ! WinExist( "ahk_class MXS_SciTEWindow") )
 	return
-	
-
-;WinActivate, ahk_class MXS_SciTEWindow
 
 /**
  */
