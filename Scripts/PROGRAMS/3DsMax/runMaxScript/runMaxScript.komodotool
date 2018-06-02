@@ -75,7 +75,6 @@
     "**/", 
     "function execute_script_file( file_path )", 
     "{", 
-    "\t//file_path\t= '\"'+file_path.replace(/\\\\/gi, '\\\\\\\\') +'\"';", 
     "\tfile_path\t= file_path.replace(/\\\\/gi, '\\\\\\\\');", 
     "\t", 
     "\t/** Try get file in subdir '\\Test'", 

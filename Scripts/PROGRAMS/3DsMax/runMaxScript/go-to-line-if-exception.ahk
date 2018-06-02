@@ -16,7 +16,6 @@ goToLineInKomodoIfException()
 	
 	if( $komodo_window )
 		ControlSend,, {Ctrl down}{Alt down}{Shift down}M{Ctrl up}{Alt up}{Shift up}, ahk_id %$komodo_window%
-
 }
 
 /** Close '3Ds Max script exception window' 
