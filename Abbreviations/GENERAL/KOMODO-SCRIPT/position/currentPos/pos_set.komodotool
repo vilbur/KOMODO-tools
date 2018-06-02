@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "pos_set", 
+  "value": [
+    "scimoz.currentPos\t= [[%tabstop:pos_current]];[[%tabstop:", 
+    "scimoz.anchor\t= [[%tabstop:pos_anchor]];]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@rb", 
+  "value": [
+    "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
+    "@return\t[[%tabstop:boolean]]\t[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

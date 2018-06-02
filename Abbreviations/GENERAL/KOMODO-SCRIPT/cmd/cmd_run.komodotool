@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "cmd_run", 
+  "value": [
+    "var command = [[%tabstop:'[[%tabstop2:commmand]]']];", 
+    "", 
+    "ko.run.output.endSession();", 
+    "ko.run.runEncodedCommand( window, command );[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png"
+}

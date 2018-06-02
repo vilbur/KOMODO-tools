@@ -1,14 +1,14 @@
 {
   "keyboard_shortcut": "", 
-  "name": "pos_set", 
+  "name": "pos_set_cursor", 
   "value": [
     "[[%tabstop:koEditor]].setCursor([[%tabstop:position]])[[%soft:;]][[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "false", 
-  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png"
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

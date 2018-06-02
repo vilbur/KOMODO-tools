@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "FileAppendMultiLine", 
+  "value": [
+    "[[%tabstop: /** join object", 
+    "*/", 
+    "_joinObject($object, $delimeter:=\"`n\")", 
+    "{", 
+    "   For $key, $value in $object", 
+    "\t   $string .= $value $delimeter", 
+    "   ", 
+    "   return % SubStr( $string, 1, StrLen($string) - (StrLen($delimeter)) )", 
+    "}]]", 
+    "", 
+    "$lines :=\t[[[%tabstop:\"[[%tabstop:line1]]\"]] ", 
+    "\t[[%tabstop:,\"[[%tabstop:line2]]\"]] ", 
+    "\t[[%tabstop:,\"[[%tabstop:line3]]\"]] ]", 
+    "", 
+    "FileAppend, % this._joinObject($lines), [[%tabstop:%$[[%tabstop2:file_path]]%]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

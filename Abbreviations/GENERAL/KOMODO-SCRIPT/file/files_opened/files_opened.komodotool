@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "files_opened", 
+  "value": [
+    "/** Get all opened files in Komodo    ", 
+    " *\t@return array of opened file path OR uri of *.komodotool ", 
+    " */", 
+    "var opened_files = (function()", 
+    "{", 
+    "\tvar views = ko.views.manager.topView.getDocumentViews(true);", 
+    "\tvar opened_files_all = [];", 
+    "", 
+    "\tfor (var i = 0; i < views.length; i++) {", 
+    "\t\tview = views[i];", 
+    "\t\tif (view.koDoc && view.koDoc.file) ", 
+    "\t\t\topened_files_all.push(  view.koDoc.file.URI.match(/^file/g) ? view.koDoc.file.path : view.koDoc.file.URI );", 
+    "\t}", 
+    "\treturn opened_files_all;", 
+    "})();[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

@@ -10,7 +10,13 @@
     "\t\t'%(ask2:Return:this)',\t// clear input for not return 'this'", 
     "\t]).split(',');", 
     "\t", 
-    "\tvar fn_name_sanitized\t= ask[0].replace(/([A-Z])/g, ' $1').replace(/[\\s+|-]+/g, ' ').replace(/\\s+/g, ' ').trim();", 
+    "\tvar fn_name_sanitized\t= ask[0]", 
+    "\t\t.replace(/([A-Z])/g, ' $1')\t// set whitespace before capital letter", 
+    "\t\t.replace(/([A-Z])\\s([A-Z])/g, '')\t// Remove whitespace between twoo capital letters E.G.: 'This I S typo' >>> 'This IS typo'", 
+    "\t\t.replace(/[\\s+|-]+/g, ' ')\t", 
+    "\t\t.replace(/\\s+/g, ' ')", 
+    "\t\t.toLowerCase()", 
+    "\t\t.trim();", 
     "\t", 
     "\tvar fn_summary\t= fn_name_sanitized.charAt(0).toUpperCase() + fn_name_sanitized.slice(1).toLowerCase();", 
     "\t", 
@@ -43,9 +49,9 @@
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "auto_abbreviation": "true", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png"
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//auto_ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
 }

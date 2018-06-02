@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "openScriptFromMaxScriptEditor", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "//", 
+    "", 
+    "scimoz.currentPos\t= current_pos;", 
+    "scimoz.anchor\t= current_anchor;", 
+    ""
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "trigger": "trigger_postopen"
+}

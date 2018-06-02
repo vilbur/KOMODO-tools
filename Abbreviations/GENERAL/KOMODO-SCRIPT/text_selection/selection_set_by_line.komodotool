@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "selection_set_by_line", 
+  "value": [
+    "<%", 
+    "/*", 
+    "[[%tabstop:koEditor]].setSelection[[%soft:(]][[%tabstop:{{line, ch}]], [[%tabstop:{{line, ch}]])[[%soft:;]][[%tabstop:]]", 
+    "", 
+    "*/", 
+    "%>", 
+    "[[%tabstop:koEditor]].setSelection([[%tabstop:{line:[[%tabstop:]], ch:[[%tabstop:]]}]], [[%tabstop:{line:[[%tabstop:]], ch:[[%tabstop:]]}]])[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes/Komodo.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}
