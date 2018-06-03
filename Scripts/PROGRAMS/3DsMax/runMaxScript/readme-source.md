@@ -15,3 +15,6 @@
 * Run keyboard shortcut for __goToLineInKomodoIfException__.komodotool  
 
 * Get __file__ & __position__ from '__file-info.json__'  and find error line in `Komodo`  
+
+## Example  
+[![runMaxScript](documentation/runMaxScript.gif)](documentation/runMaxScript.gif)  
