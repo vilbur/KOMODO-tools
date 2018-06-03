@@ -18,6 +18,8 @@ goToLineInKomodoIfException()
 	
 	$komodo_window :=  WinExist( "ahk_exe komodo.exe" ) 
 	
+	SetKeyDelay, 50, 50
+	
 	if( $komodo_window )
 		ControlSend,, {Ctrl down}{Alt down}{Shift down}M{Ctrl up}{Alt up}{Shift up}, ahk_id %$komodo_window%
 }

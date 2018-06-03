@@ -19,7 +19,15 @@ DropFiles(window, files*)
     DllCall("GlobalFree", "ptr", hGlobal)
 }
 
-
+/**
+ */
+bringMaxWindowsToFront()
+{
+	GroupAdd, $win_group, ahk_exe 3dsmax.exe
+	
+	WinSet, AlwaysOnTop, On,  ahk_group $win_group
+	WinSet, AlwaysOnTop, Off, ahk_group $win_group
+}
 
 
 /*---------------------------------------
@@ -27,4 +35,6 @@ DropFiles(window, files*)
 -----------------------------------------
 */
 $file	= %1%
-DropFiles("ahk_class 3DSMAX", $file ) 
+DropFiles("ahk_class 3DSMAX", $file )
+
+bringMaxWindowsToFront()

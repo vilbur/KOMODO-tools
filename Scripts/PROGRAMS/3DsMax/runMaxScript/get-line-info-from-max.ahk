@@ -7,6 +7,7 @@
  *	
  */
 
+
 if( ! WinExist( "ahk_class MXS_SciTEWindow") )
 	return
 
@@ -15,9 +16,14 @@ if( ! WinExist( "ahk_class MXS_SciTEWindow") )
 getTextFromExceptionWindow()
 {
 	WinGetText, $exception,	MAXScript FileIn Exception 
-	;MsgBox,262144,exception, %  SubStr( $exception, 20, StrLen($exception) - 19 ) ,3 
-	;Dump($exception, "exception", 1)
-	return % SubStr( $exception, 20, StrLen($exception) - 21 ) ; remove 'OK -- Type error:' 
+
+	$exception := % SubStr( $exception, 8, StrLen($exception) - 9 ) ; remove 'OK -- Type error:'
+	
+	$exception	:= RegExReplace( $exception, """", "'" ) ; "
+	$exception	:= RegExReplace( $exception, "\t+", "" ) ; "
+	$exception	:= RegExReplace( $exception, "\n", "" ) ; "
+	
+	return $exception	
 }
 /**
  */
@@ -35,6 +41,7 @@ getLineInfoFromMaxscriptEditor()
 		,col:	$line_info2
 		,offset:	$line_info3}
 }
+
  /** join object
 */
 _joinObject($object, $delimeter:="`n")
