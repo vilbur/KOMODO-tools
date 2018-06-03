@@ -7,10 +7,14 @@
  */
 goToLineInKomodoIfException()
 {
-	if( checkMaxscriptException() )
-		Run, %A_LineFile%\..\get-line-info-from-max.ahk
+	if( ! maxscriptExceptionWindowExists() )
+		return
+		
+	Run, %A_LineFile%\..\get-line-info-from-max.ahk
 	
-	sleep, 500
+	sleep, 100
+	
+	closeExceptionWindow()
 	
 	$komodo_window :=  WinExist( "ahk_exe komodo.exe" ) 
 	
@@ -18,18 +22,22 @@ goToLineInKomodoIfException()
 		ControlSend,, {Ctrl down}{Alt down}{Shift down}M{Ctrl up}{Alt up}{Shift up}, ahk_id %$komodo_window%
 }
 
+
+
 /** Close '3Ds Max script exception window' 
  */
-checkMaxscriptException()
+maxscriptExceptionWindowExists()
 {
-	$ms_exception_window :=  WinExist( "MAXScript FileIn Exception" ) 
-
-	if( ! $ms_exception_window )
-		return
-	
-	ControlSend, Button1, {Enter}, ahk_id %$ms_exception_window%
-	
-	return true
+	return % WinExist( "MAXScript FileIn Exception" ) 
 }
+/**
+ */
+closeExceptionWindow()
+{
+	GroupAdd, MaxExceptions, MAXScript FileIn Exception
+	
+	WinClose, ahk_group MaxExceptions
 
+	return true	
+}
 goToLineInKomodoIfException()
