@@ -89,7 +89,7 @@
     "\t\t\t\t", 
     "\t\t\t\tvar answer = confirm ('Make Image clickable ?');", 
     "\t\t\t", 
-    "\t\t\t\treturn answer ? '['+ image_link + ']('+link+')' : image_link;", 
+    "\t\t\t\treturn answer ? '['+ image_link + ']('+link+'?raw=true)' : image_link;", 
     "\t\t\t}; ", 
     "\t\t\t", 
     "\t\t\t/* Link to md */", 
@@ -116,8 +116,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "true"
 }
