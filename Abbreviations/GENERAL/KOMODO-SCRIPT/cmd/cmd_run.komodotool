@@ -2,16 +2,26 @@
   "keyboard_shortcut": "", 
   "name": "cmd_run", 
   "value": [
-    "var command = [[%tabstop:'[[%tabstop2:commmand]]']];", 
+    "<%", 
+    "/* THIS vERSION ACTIvATE 'Command output' pane", 
+    " * ", 
+    "\tvar command = [[%tabstop:'[[%tabstop2:commmand]]']];", 
+    "   ", 
+    "   ko.run.output.endSession();", 
+    "   ko.run.runEncodedCommand( window, command );[[%tabstop:]]", 
     "", 
-    "ko.run.output.endSession();", 
-    "ko.run.runEncodedCommand( window, command );[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "*/", 
+    "", 
+    "", 
+    "%>", 
+    "var command = [[%tabstop:'[[%tabstop2:commmand]]']];", 
+    "[[%tabstop:koShell]].exec(command, {});[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
-  "set_selection": "true", 
+  "set_selection": "false", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png", 
   "type": "snippet", 
-  "treat_as_ejs": "false", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//default.png"
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
 }

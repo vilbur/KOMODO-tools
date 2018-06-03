@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "WinCloseGroup", 
+  "value": [
+    "GroupAdd, [[%tabstop1:group_name]], $[[%tabstop:win_title]]", 
+    "WinClose, ahk_group [[%tabstop1:group_name]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "false", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "icon": "file://C:/GoogleDrive/Programs/code/Komodo/Icons/filetypes/Komodo.png"
+}
