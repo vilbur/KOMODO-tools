@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "GroupAdd", 
+  "value": [
+    "GroupAdd, [[%tabstop1:group_name]], [[%tabstop:%$[[%tabstop:win_title]]%]][[%tabstop:, [[%tabstop:WinText]], [[%tabstop:Label]], [[%tabstop:ExcludeTitle]]]][[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

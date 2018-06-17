@@ -129,7 +129,7 @@
     "\t\t\t\t//this._EnvVariableSet('Snippet_Keyword',\tthis.keyword.word );\t\t\t\t", 
     "\t\t\t\t", 
     "\t\t\t\t//Logger.info( this.keyword, 'Snippet: '+'this.keyword');", 
-    "\t\t\t\tconsole.log( this.lang );", 
+    "\t\t\t\t//console.log( this.lang );", 
     "\t\t\t\t", 
     "\t\t\t\t/* INSERT SNIPPET */", 
     "\t\t\t\tif( this.keyword.word.match(/^[A-Z=:]/gi) && this.lang!='XUL'  ) ", 

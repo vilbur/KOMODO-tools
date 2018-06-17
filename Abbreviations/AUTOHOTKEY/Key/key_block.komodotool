@@ -1,13 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "if", 
+  "name": "key_block", 
   "value": [
-    "if( [[%tabstop:]] )", 
-    "\t[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "BlockInput, [[%tabstop:Mode:ON|OFF]][[%tabstop: ; https://autohotkey.com/docs/commands/BlockInput.htm]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
+  "treat_as_ejs": "true", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "true"

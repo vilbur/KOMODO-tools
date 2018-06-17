@@ -5,10 +5,7 @@
     "<%", 
     "\tvar new_line_if_ahk\t= require(\"ko/editor\").getLanguage()==='Autohotkey' ? '\\n': '';", 
     "%>", 
-    "", 
-    "/*---------------------------------------", 
-    "\t[[%tabstop:COMMENT]]", 
-    "-----------------------------------------<%=new_line_if_ahk%>*/[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "/*------ [[%tabstop:COMMENT]] ------<%=new_line_if_ahk%>*/[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

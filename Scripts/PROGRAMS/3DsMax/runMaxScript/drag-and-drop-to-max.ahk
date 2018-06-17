@@ -21,6 +21,15 @@ DropFiles(window, files*)
 
 /**
  */
+killOldDialogs()
+{
+	GroupAdd, $win_group, ahk_exe 3dsmax.exe ahk_class #32770,,, MAXScript Listener
+	
+	WinClose, ahk_group $win_group
+}
+
+/**
+ */
 bringMaxWindowsToFront()
 {
 	GroupAdd, $win_group, ahk_exe 3dsmax.exe
@@ -35,6 +44,8 @@ bringMaxWindowsToFront()
 -----------------------------------------
 */
 $file	= %1%
+
+killOldDialogs()
 DropFiles("ahk_class 3DSMAX", $file )
 
-bringMaxWindowsToFront()
+;bringMaxWindowsToFront()

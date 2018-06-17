@@ -1,5 +1,5 @@
 {
-  "keyboard_shortcut": "Ctrl+Alt+Shift+M", 
+  "keyboard_shortcut": "Ctrl+Alt+Shift+F8", 
   "name": "goToLineInKomodoIfException", 
   "language": "JavaScript", 
   "trigger_enabled": false, 

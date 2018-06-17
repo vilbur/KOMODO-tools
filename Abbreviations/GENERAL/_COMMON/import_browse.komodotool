@@ -91,7 +91,7 @@
     "\t\t\t//var escape_character\t= match_userscript ? '@' : '';", 
     "\t\t\t", 
     "", 
-    "\t\t\treturn '[[%tabstop:filein]] ( getFilenamePath(getSourceFileName()) + \"'+path_relative.substring(2)+'\" );[[%tabstop:]]';", 
+    "\t\t\treturn '[[%tabstop:filein]] ( getFilenamePath(getSourceFileName()) + \"'+path_relative.substring(2)+'\" )[[%tabstop:]]';", 
     "\t\t};", 
     "\t\t/* Import snippets to *.xul files", 
     "\t\t * ", 
@@ -257,8 +257,8 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
   "auto_abbreviation": "false"
 }

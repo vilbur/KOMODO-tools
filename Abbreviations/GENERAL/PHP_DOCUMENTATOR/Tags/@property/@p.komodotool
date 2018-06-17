@@ -7,7 +7,8 @@
     "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
     "\tvar prefix\t= lang.match(/php|autohotkey/gi)? \"$\" : \"\";", 
     "", 
-    "%>[[%tabstop:string]] <%=prefix%>[[%tabstop:param]][[%tabstop:, @p]][[%tabstop:]]!@#_currentPos!@#_anchor"
+    "%>", 
+    "@property\t[[%tabstop:string]]\t<%=prefix%>[[%tabstop:name]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

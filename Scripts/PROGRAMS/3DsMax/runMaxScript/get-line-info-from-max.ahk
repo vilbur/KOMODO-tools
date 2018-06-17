@@ -61,12 +61,22 @@ createFileInfoFile(  )
 	$line_info	:= getLineInfoFromMaxscriptEditor()
 	$line_info.exception	:= getTextFromExceptionWindow()
 	;Dump($line_info, "line_info", 1)
-	;MsgBox,262144,, % getTextFromExceptionWindow(),2 
+	
+	if( iExcluded( $line_info.file ) )
+		return
+	
 	$line_info_file	= %A_LineFile%\..\line-info.json
 	
 	FileDelete, %$line_info_file% 
 	FileAppend, % _joinObject($line_info), %$line_info_file%
 }
+
+/**
+ */
+iExcluded( $filepath )
+{
+	return RegExMatch( $filepath, "i)untitled" )		
+} 
 
 
 createFileInfoFile()

@@ -1,9 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "WinGroupGet", 
+  "name": "GroupCount", 
   "value": [
-    "GroupAdd, $[[%tabstop1:win]]_group, [[%tabstop:ahk_class [[%tabstop:Chrome_WidgetWin_1]] ]]", 
-    "GroupActivate $[[%tabstop1:win]]_group !@#_currentPos!@#_anchor"
+    "WinGet, $count, Count, ahk_group $[[%tabstop1:win]]_group!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
