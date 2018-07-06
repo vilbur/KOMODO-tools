@@ -1,9 +1,9 @@
 {
   "keyboard_shortcut": "", 
-  "name": "@m", 
+  "name": "@ra", 
   "value": [
     "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */ %>", 
-    "@method\t[[%tabstop:void]][[%tabstop:self]]\t[[%tabstop:methodName]]([[%tabstop: [[%tabstop:@par]] ]])\t[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "@return\t[[%tabstop:array]]\t[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 

@@ -1,0 +1,29 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "undo", 
+  "value": [
+    "<%", 
+    "\tvar koEditor\t= require(\"ko/editor\");", 
+    "\tvar lang\t= koEditor.getLanguage();", 
+    "", 
+    "%>", 
+    "<%if( lang=='JavaScript' ) { %> ", 
+    "ko.views.manager.currentView.scimoz.beginUndoAction();", 
+    "try {", 
+    "    [[%tabstop://.... code here]]", 
+    "} finally {", 
+    "    ko.views.manager.currentView.scimoz.endUndoAction();", 
+    "}", 
+    "<% } else if( lang=='Maxscript' ){ %>", 
+    "undo \"[[%tabstop:name]]\" on", 
+    "(", 
+    "\t", 
+    ")<% } %>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

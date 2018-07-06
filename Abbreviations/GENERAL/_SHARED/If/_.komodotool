@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "?", 
+  "value": [
+    "<%", 
+    "\tvar koEditor\t= require(\"ko/editor\");", 
+    "\tvar lang\t= koEditor.getLanguage();", 
+    "", 
+    "%>", 
+    "<%if( lang=='JavaScript' ) { %> ", 
+    "var [[%tabstop:name]]\t= [[%tabstop:condition]] ? [[%tabstop:'[[%tabstop:]]']] : [[%tabstop:'[[%tabstop:]]']];[[%tabstop:]]", 
+    "<% } else { %>", 
+    "[[%tabstop:variable]]\t= if( [[%tabstop:condition]] )then [[%tabstop:\"[[%tabstop:]]\"]] else [[%tabstop:\"[[%tabstop:]]\"]][[%tabstop:]]<% } %> !@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

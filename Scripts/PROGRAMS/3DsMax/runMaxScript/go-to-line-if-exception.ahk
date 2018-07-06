@@ -14,6 +14,11 @@ goToLineInKomodoIfException()
 {
 	if( ! maxscriptExceptionWindowExists() )
 		return
+	
+	;if( isUnknownException() )
+		;return restartMax()
+	;$exception = isUnknownException()
+		;MsgBox,262144,exception, %$exception%,3 
 		
 	Run, %A_LineFile%\..\get-line-info-from-max.ahk
 	
@@ -52,8 +57,27 @@ maxscriptExceptionWindowExists()
 }
 /**
  */
+isUnknownException()
+{
+	WinGetText, $exception,	MAXScript FileIn Exception
+	
+	return % RegExMatch( $exception, "i)Unknown system exception" )
+}
+/**
+ */
+restartMax()
+{
+
+	Process, Close, 3dsmax.exe
+	
+	Run, %ADSK_3DSMAX_x64_2016%\3dsmax.exe
+}
+
+/**
+ */
 closeExceptionWindow()
 {
+	;MsgBox,262144,, closeExceptionWindow,2 
 	GroupAdd, MaxExceptions, MAXScript FileIn Exception
 	
 	WinClose, ahk_group MaxExceptions

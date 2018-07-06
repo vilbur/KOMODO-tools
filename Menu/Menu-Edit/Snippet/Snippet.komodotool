@@ -132,7 +132,7 @@
     "\t\t\t\t//console.log( this.lang );", 
     "\t\t\t\t", 
     "\t\t\t\t/* INSERT SNIPPET */", 
-    "\t\t\t\tif( this.keyword.word.match(/^[A-Z=:]/gi) && this.lang!='XUL'  ) ", 
+    "\t\t\t\tif( this.keyword.word.match(/^[A-Z=:#]/gi) && this.lang!='XUL'  ) ", 
     "\t\t\t\t\tko.commands.doCommand('cmd_expandAbbrev'); // Insert standard abberations, this RESPECT CASE AND LANGUAGE", 
     "\t\t\t\t", 
     "\t\t\t\telse", 

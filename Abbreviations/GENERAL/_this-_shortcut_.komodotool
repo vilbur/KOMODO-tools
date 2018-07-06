@@ -7,7 +7,7 @@
     "\tvar lang = ko.views.manager.currentView.languageObj.name;", 
     "\tswitch (lang) {", 
     "\t\tcase 'PHP':\tsnippet = \"$this->[[%tabstop:[[%tabstop:method]]($[[%tabstop:param]])]]\";break;", 
-    "\t\tcase 'JavaScript':case 'HTML':\tsnippet = \"this.[[%tabstop:]]\";break;", 
+    "\t\tcase 'JavaScript':case 'HTML':case 'Maxscript':\tsnippet = \"this.[[%tabstop:]]\";break;", 
     "\t\tdefault:\tsnippet = \"this[[%tabstop:]]\";", 
     "\t}", 
     "", 
@@ -16,9 +16,9 @@
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "auto_abbreviation": "false", 
-  "indent_relative": "true", 
-  "type": "snippet", 
   "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

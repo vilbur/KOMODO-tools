@@ -1,14 +1,13 @@
 {
   "keyboard_shortcut": "", 
-  "name": "ifX", 
+  "name": "file_browse", 
   "value": [
-    "if( [[%tabstop:]] )", 
-    "\t[[%tabstop:]]!@#_currentPos!@#_anchor"
+    "ko.filepicker.browseForFile();!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
+  "treat_as_ejs": "true", 
   "type": "snippet", 
-  "treat_as_ejs": "false", 
+  "indent_relative": "true", 
   "auto_abbreviation": "true"
 }
