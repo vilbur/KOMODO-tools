@@ -1,0 +1,19 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "@b", 
+  "value": [
+    "<% /* Tags Help:https://www.phpdoc.org/docs/latest/internals/tags.html */", 
+    "", 
+    "\tvar lang\t= ko.views.manager.currentView.languageObj.name;", 
+    "\tvar prefix\t= lang.match(/php|autohotkey/gi)? \"$\" : \"\";", 
+    "", 
+    "%>", 
+    "@param\tboolean\t<%=prefix%>[[%tabstop:name]]\t[[%tabstop:description]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "false"
+}

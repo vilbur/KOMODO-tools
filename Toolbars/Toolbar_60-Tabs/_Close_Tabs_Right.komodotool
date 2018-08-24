@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "Alt+F10", 
-  "name": " Close Right", 
+  "name": " Close Tabs Right", 
   "language": "JavaScript", 
   "trigger": "trigger_postopen", 
   "value": [
@@ -58,5 +58,6 @@
   "rank": 100, 
   "trigger_enabled": false, 
   "async": false, 
-  "type": "macro"
+  "type": "macro", 
+  "icon": "chrome://fugue/skin/icons/document-hf-delete-footer.png"
 }

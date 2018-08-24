@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": ",", 
+  "value": [
+    "<%", 
+    "\tvar koEditor\t= require(\"ko/editor\");", 
+    "\tvar lang\t= koEditor.getLanguage();", 
+    "", 
+    "%>", 
+    "[[%tabstop:\"[[%tabstop:]]\"]],[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
+}

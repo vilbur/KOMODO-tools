@@ -1,8 +1,8 @@
 {
   "keyboard_shortcut": "", 
-  "name": "ControlSend", 
+  "name": "Control_EditPaste", 
   "value": [
-    "ControlSend ,, [[%tabstop:Keys]], %$[[%tabstop:title]]% [[%tabstop:, WinText, ExcludeTitle, ExcludeText]]!@#_currentPos!@#_anchor"
+    "ControlSend, EditPaste, [[%tabstop:\"[[%tabstop:Text]]\"]], [[%tabstop:%$[[%tabstop:control_nn]]%]], [[%tabstop:%$[[%tabstop:win_title]]%]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 

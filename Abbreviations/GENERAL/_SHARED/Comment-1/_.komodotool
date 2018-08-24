@@ -4,12 +4,12 @@
   "value": [
     "/** [[%tabstop:]] ", 
     " *\t[[%tabstop:]]", 
-    " */!@#_currentPos!@#_anchor"
+    " */[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
-  "type": "snippet", 
   "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
   "auto_abbreviation": "false"
 }

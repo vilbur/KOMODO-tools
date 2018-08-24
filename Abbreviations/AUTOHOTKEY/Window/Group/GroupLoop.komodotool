@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "GroupLoop", 
+  "value": [
+    "GroupAdd, [[%tabstop1:group_name]], [[%tabstop:%$[[%tabstop:win_title]]%]][[%tabstop:, [[%tabstop:WinText]], [[%tabstop:Label]], [[%tabstop:ExcludeTitle]]]][[%tabstop:]]", 
+    " ", 
+    "Loop %[[%tabstop1:group_name]]%", 
+    "\t MsgBox % [[%tabstop1:group_name]]%A_Index%!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "false"
+}

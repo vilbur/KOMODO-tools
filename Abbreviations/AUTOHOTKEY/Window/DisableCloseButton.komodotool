@@ -1,0 +1,32 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "DisableCloseButton", 
+  "value": [
+    "/** https://autohotkey.com/board/topic/80593-how-to-disable-grey-out-the-close-button/#entry58524", 
+    " */", 
+    "DisableCloseButton($hwnd=\"\")", 
+    "{", 
+    "", 
+    "\tDetectHiddenWindows, On", 
+    "", 
+    "\t hSysMenu:=DllCall(\"GetSystemMenu\",\"Int\",$hwnd,\"Int\",FALSE)", 
+    "\t", 
+    "\t nCnt:=DllCall(\"GetMenuItemCount\",\"Int\",hSysMenu)", 
+    "\t", 
+    "\t DllCall(\"RemoveMenu\",\"Int\",hSysMenu,\"UInt\",nCnt-1,\"Uint\",\"0x400\")", 
+    "\t", 
+    "\t DllCall(\"RemoveMenu\",\"Int\",hSysMenu,\"UInt\",nCnt-2,\"Uint\",\"0x400\")", 
+    "\t", 
+    "\t DllCall(\"DrawMenuBar\",\"Int\",$hwnd)", 
+    "", 
+    "}", 
+    "", 
+    "DisableCloseButton(WinExist())!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}
