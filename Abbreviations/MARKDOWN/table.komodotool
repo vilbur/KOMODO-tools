@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "table", 
+  "value": [
+    "| [[%tabstop:Header]]\t| [[%tabstop:Center with :-:]]\t| [[%tabstop:Align right with -:]]\t|", 
+    "| -\t| [[%tabstop::-:]]\t| [[%tabstop:-:]]\t|", 
+    "[[%tabstop:| [[%tabstop:]]     \t| [[%tabstop:]]\t| [[%tabstop:]]\t|]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "false", 
+  "auto_abbreviation": "true"
+}

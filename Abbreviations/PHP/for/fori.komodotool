@@ -1,0 +1,14 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "fori", 
+  "value": [
+    "for ($[[%tabstop1:i]] = [[%tabstop:0]]; $[[%tabstop1:i]] [[%tabstop:<]] [[%tabstop:count( $[[%tabstop:array]] )]]; $[[%tabstop1:i]]++)", 
+    "\t[[%tabstop:]]!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

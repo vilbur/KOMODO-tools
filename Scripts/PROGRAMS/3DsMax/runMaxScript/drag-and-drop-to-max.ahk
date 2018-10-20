@@ -1,23 +1,4 @@
-/**  Simulate drag & drop of files into window
- *	https://autohotkey.com/board/topic/109578-simulating-drag-and-drop-file-on-to-program/#post_id_651231
- *
- * @example DropFiles( "ahk_class Notepad", "C:\SomeName.txt" ) 
- *
- */
-DropFiles(window, files*)
-{
-  for k,v in files
-    memRequired+=StrLen(v)+1
-  hGlobal := DllCall("GlobalAlloc", "uint", 0x42, "ptr", memRequired+21)
-  dropfiles := DllCall("GlobalLock", "ptr", hGlobal)
-  NumPut(offset := 20, dropfiles+0, 0, "uint")
-  for k,v in files
-    StrPut(v, dropfiles+offset, "utf-8"), offset+=StrLen(v)+1
-  DllCall("GlobalUnlock", "ptr", hGlobal)
-  PostMessage, 0x233, hGlobal, 0,, %window%
-  if ErrorLevel
-    DllCall("GlobalFree", "ptr", hGlobal)
-}
+
 
 /**
  */
@@ -38,6 +19,44 @@ bringMaxWindowsToFront()
 	WinSet, AlwaysOnTop, Off, ahk_group $win_group
 }
 
+/** Send filein script to Max mini listener
+ */
+sendFileInToMax( $file )
+{
+	$filein = filein "%$file%"
+
+	ControlSetText,	MXS_Scintilla2, %$filein%, ahk_class Qt5QWindowIcon
+	sleep, 100
+	ControlFocus 	MXS_Scintilla2, ahk_class Qt5QWindowIcon
+	sleep, 100
+	Send,	{NumpadEnter}
+}
+
+/**	Simulate drag & drop of files into window
+ *	Works with 3Ds Max 2019 
+ *
+ *	 https://autohotkey.com/board/topic/109578-simulating-drag-and-drop-file-on-to-program/#post_id_651231
+ *
+ * @example DropFiles( "ahk_class Notepad", "C:\SomeName.txt" ) 
+ *
+ */
+DropFiles(window, files*)
+{
+	for k,v in files
+	  memRequired+=StrLen(v)+1
+	hGlobal := DllCall("GlobalAlloc", "uint", 0x42, "ptr", memRequired+21)
+	dropfiles := DllCall("GlobalLock", "ptr", hGlobal)
+	NumPut(offset := 20, dropfiles+0, 0, "uint")
+	for k,v in files
+	  StrPut(v, dropfiles+offset, "utf-8"), offset+=StrLen(v)+1
+	DllCall("GlobalUnlock", "ptr", hGlobal)
+	PostMessage, 0x233, hGlobal, 0,, %window%
+	
+	if ErrorLevel
+	  DllCall("GlobalFree", "ptr", hGlobal)
+}
+
+
 
 /*---------------------------------------
 	RUN DropFiles() BY CALL OF THIS FILE
@@ -45,7 +64,8 @@ bringMaxWindowsToFront()
 */
 $file	= %1%
 
-killOldDialogs()
-DropFiles("ahk_class 3DSMAX", $file )
+;killOldDialogs()
+;DropFiles("ahk_class 3DSMAX", $file )	; Max 2016
+sendFileInToMax($file )	; Max 2019
 
 ;bringMaxWindowsToFront()
