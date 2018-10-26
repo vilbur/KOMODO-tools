@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ControlFocusedGetHwnd", 
+  "value": [
+    "/**  ", 
+    " *\thttps://autohotkey.com/boards/viewtopic.php?t=23987", 
+    " */", 
+    "GetFocusedControlHwnd( )", 
+    "{", 
+    "\tGuiWindowHwnd := WinExist(\"A\")\t\t;stores the current Active Window Hwnd id number in \"GuiWindowHwnd\" variable", 
+    "\t\t\t\t\t;\"A\" for Active Window", 
+    "\t", 
+    "\tControlGetFocus, FocusedControl, ahk_id %GuiWindowHwnd%\t;stores the  classname \"ClassNN\" of the current focused control from the window above in \"FocusedControl\" variable", 
+    "\t\t\t\t\t\t\t;\"ahk_id\" searches windows by Hwnd Id number", 
+    "\t", 
+    "\tControlGet, FocusedControlId, Hwnd,, %FocusedControl%, ahk_id %GuiWindowHwnd%\t;stores the Hwnd Id number of the focused control found above in \"FocusedControlId\" variable", 
+    "\t", 
+    "\treturn, FocusedControlId", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "indent_relative": "true", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}

@@ -29,7 +29,8 @@ sendFileInToMax( $file )
 	sleep, 100
 	ControlFocus 	MXS_Scintilla2, ahk_class Qt5QWindowIcon
 	sleep, 100
-	Send,	{NumpadEnter}
+	;Send,	{NumpadEnter}
+	ControlSend, MXS_Scintilla2,	{NumpadEnter}, ahk_class Qt5QWindowIcon
 }
 
 /**	Simulate drag & drop of files into window
