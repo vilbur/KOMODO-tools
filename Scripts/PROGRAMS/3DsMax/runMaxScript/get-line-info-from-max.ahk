@@ -3,7 +3,7 @@
  *	1) Get current file and position in 3Ds Max script editor
  *	2) Save position
  *	
- *	
+ *	Executed by "go_to_line_if_exception_ahk"
  *	
  */
 

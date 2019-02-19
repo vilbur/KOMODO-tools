@@ -98,9 +98,9 @@
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "true", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
 }

@@ -12,6 +12,7 @@
  */
 goToLineInKomodoIfException()
 {
+
 	if( ! maxscriptExceptionWindowExists() )
 		return
 	

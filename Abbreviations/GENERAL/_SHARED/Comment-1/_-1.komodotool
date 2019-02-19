@@ -2,12 +2,18 @@
   "keyboard_shortcut": "", 
   "name": "*", 
   "value": [
-    "/* [[%tabstop:]] */!@#_currentPos!@#_anchor"
+    "<%", 
+    "\tvar koEditor\t= require(\"ko/editor\");", 
+    "\tvar lang\t= koEditor.getLanguage();", 
+    "\tvar snippet\t= lang == 'Markdown' ? '<!--- [[%tabstop:]] --->' : '/* [[%tabstop:]] */';", 
+    "\t", 
+    "%>", 
+    "<%=snippet%> !@#_currentPos!@#_anchor"
   ], 
   "set_selection": "false", 
   "version": "1.0.12", 
-  "indent_relative": "true", 
+  "treat_as_ejs": "true", 
   "type": "snippet", 
-  "treat_as_ejs": "false", 
+  "indent_relative": "true", 
   "auto_abbreviation": "false"
 }

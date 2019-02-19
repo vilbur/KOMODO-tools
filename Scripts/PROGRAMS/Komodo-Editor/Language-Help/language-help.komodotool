@@ -1,0 +1,27 @@
+{
+  "keyboard_shortcut": "F1", 
+  "name": "language-help", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "/** Go to language help", 
+    " * This script serach by file`s extension", 
+    " *", 
+    " *\t", 
+    " */", 
+    "var scimoz\t= ko.views.manager.currentView.scimoz;", 
+    "var word_cursor\t= ko.interpolate.getWordUnderCursor(scimoz);", 
+    "var file_current_path\t= ko.views.manager.currentView.koDoc.file.path;", 
+    "", 
+    "/* GOOGLE APP SCRIPTS  */ ", 
+    "if (file_current_path.match(/\\.gs$/gi))", 
+    "\tko.run.runEncodedCommand(window, '%(browser) https://developers.google.com/s/results/?q='+word_cursor+'&p=%2Fapps-script%2F');", 
+    "else", 
+    "\tko.commands.doCommand('cmd_helpLanguage');"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}

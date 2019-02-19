@@ -21,7 +21,7 @@
     "function removeTrailingWhitespace()", 
     "{", 
     "\tif (komodo.view) { komodo.view.setFocus(); }", 
-    "\tko.commands.doCommand('cmd_removeTrailingWhitespace')", 
+    "\tko.commands.doCommand('cmd_removeTrailingWhitespace');", 
     "};", 
     "", 
     "/*---------------------------------------", 

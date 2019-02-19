@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "Collapse", 
+  "name": "Collapse fold", 
   "language": "JavaScript", 
   "trigger_enabled": false, 
   "value": [
@@ -19,20 +19,14 @@
     "else", 
     "\tko.commands.doCommand('cmd_foldCollapseAll');", 
     "\t", 
-    "if( lang=='Maxscript' )", 
-    "{", 
     "\t", 
-    "\t", 
-    "\t", 
-    "\tko.commands.doCommand('cmd_foldExpand');", 
-    "\t ", 
-    "\t", 
-    "}"
+    "//if( lang=='Maxscript' )", 
+    "\tko.commands.doCommand('cmd_foldExpand');"
   ], 
   "trigger": "trigger_postopen", 
   "rank": 100, 
   "version": "1.0.12", 
   "async": false, 
   "type": "macro", 
-  "icon": "chrome://fugue/skin/icons/notebook--minus.png"
+  "icon": "chrome://fugue/skin/icons/minus-button.png"
 }

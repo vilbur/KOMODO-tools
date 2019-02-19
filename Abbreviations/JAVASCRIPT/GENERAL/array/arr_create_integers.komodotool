@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "arr_create_integers", 
+  "value": [
+    "/** Create array filled with integers", 
+    "* @param\t\tinteger\tmax\tmax count of items", 
+    "* @example\t arrayIntegers(5) // return [1, 2, 3, 4, 5]", 
+    "* @return\tarray \t ", 
+    "*/", 
+    "function  arrayIntegers(max)", 
+    "{", 
+    "  return max? arrayIntegers(max-1).concat(max):[]", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "indent_relative": "false", 
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "auto_abbreviation": "true"
+}
