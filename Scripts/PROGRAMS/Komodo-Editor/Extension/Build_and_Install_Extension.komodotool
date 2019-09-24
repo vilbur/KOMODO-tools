@@ -41,8 +41,6 @@
     "\t{", 
     "\t\tvar koFile\t= require(\"ko/file\");", 
     "\t\t", 
-    "\t\t", 
-    "\t\t", 
     "\t\t/** Search file or dir in path backwards", 
     "\t\t */", 
     "\t\tvar fileSearchInPath = function( path, search )", 
