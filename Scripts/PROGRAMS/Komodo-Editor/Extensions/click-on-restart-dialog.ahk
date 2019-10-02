@@ -1,7 +1,9 @@
 #NoTrayIcon
 #SingleInstance force
 
-/* Wait for dialo "restart later OR restart now"
+/*script will:
+ *  	1) wait for dialog "restart later OR restart now" in Komodo
+ *  	2) then click on "restart now" button
 */
 
 setTitleMatchMode, 1

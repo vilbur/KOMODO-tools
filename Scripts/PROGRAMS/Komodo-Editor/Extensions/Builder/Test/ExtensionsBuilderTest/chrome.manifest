@@ -1,0 +1,12 @@
+
+
+
+
+
+
+content extensionsbuildertestextension jar:extensionsbuildertestextension.jar!/content/
+skin extensionsbuildertestextension classic/1.0 jar:extensionsbuildertestextension.jar!/skin/
+locale extensionsbuildertestextension en-US jar:extensionsbuildertestextension.jar!/locale/en-US/
+
+
+overlay chrome://komodo/content/komodo.xul chrome://extensionsbuildertestextension/content/extensionsbuildertestextension_overlay.xul
