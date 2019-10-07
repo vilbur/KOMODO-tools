@@ -6,22 +6,7 @@
   "rank": 100, 
   "trigger": "trigger_postopen", 
   "value": [
-    "//var command = '\"c:\\\\GoogleDrive\\\\Programs\\\\Core\\\\Autohotkey\\\\Lib\\\\test.ahk\"';", 
-    "//", 
-    "////alert( command );", 
-    "////ko.run.output.endSession();", 
-    "////ko.run.runEncodedCommand( window, command );", 
-    "////ko.run.command( {}, command );", 
-    "//", 
-    "////require(\"ko/shell\").exec(command , {})", 
-    "//require(\"ko/shell\").showOutputInHud(command , {})", 
-    "//", 
-    "//", 
-    "////ko.run.command( {openOutputWindow:false}, command );", 
-    "//", 
-    "//ko.statusBar.AddMessage('message', 'label');", 
-    "", 
-    "ko.statusBar.AddMessage('', '', 0, true); "
+    "alert( 'TestScript:' ); "
   ], 
   "version": "1.0.12", 
   "async": 0, 
