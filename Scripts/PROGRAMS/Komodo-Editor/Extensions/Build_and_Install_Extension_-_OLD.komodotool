@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "Build and Install Extension", 
+  "name": "Build and Install Extension - OLD", 
   "language": "JavaScript", 
   "trigger": "trigger_startup", 
   "value": [
