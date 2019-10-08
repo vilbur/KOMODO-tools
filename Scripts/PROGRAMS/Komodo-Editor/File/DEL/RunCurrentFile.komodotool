@@ -23,11 +23,11 @@
     "", 
     "", 
     "/* Test", 
-    "*/", 
     "(function RunCurrentFileTest( )", 
     "{", 
     "\tko.extensions.RunCurrentFile();", 
-    "})();"
+    "})();", 
+    "*/"
   ], 
   "version": "1.0.12", 
   "async": 1, 

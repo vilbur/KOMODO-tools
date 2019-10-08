@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "console_clear_fn", 
+  "value": [
+    "/** Clear Komodo Console pane", 
+    " *  IF CONSOLE IS NOT DETACHED", 
+    " */", 
+    "consoleClear = (function(clear_message) {", 
+    "", 
+    "\tvar consoleEL = document.getElementById('console-widget');", 
+    "\tif(consoleEL){", 
+    "\t\t", 
+    "\t\tconsoleEL.contentWindow.document.getElementById('output').innerHTML = '';", 
+    "\t\tif(clear_message)", 
+    "\t\t\trequire('ko/console').info(clear_message);\t", 
+    "\t}", 
+    "});!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

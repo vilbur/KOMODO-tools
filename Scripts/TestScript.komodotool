@@ -6,7 +6,7 @@
   "rank": 100, 
   "trigger": "trigger_postopen", 
   "value": [
-    "alert( 'TestScript:' ); "
+    "alert( 'TestScript:' );"
   ], 
   "version": "1.0.12", 
   "async": 0, 
