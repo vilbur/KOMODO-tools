@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "executeTool", 
+  "language": "JavaScript", 
+  "trigger_enabled": 1, 
+  "value": [
+    "/** Execute Komodotool from toolbox by name", 
+    " */", 
+    "ko.extensions.vilbur.executeTool = (function(macro_name)", 
+    "{", 
+    "\t_part = komodo.findPart('macro', macro_name);", 
+    "\t", 
+    "\tif (!_part)", 
+    "\t\talert(\"Couldn't find a macro called '\"+macro_name+\"' when executing macro.\");", 
+    "\telse", 
+    "\t\tko.projects.invokePart(_part);", 
+    "});"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_startup"
+}
