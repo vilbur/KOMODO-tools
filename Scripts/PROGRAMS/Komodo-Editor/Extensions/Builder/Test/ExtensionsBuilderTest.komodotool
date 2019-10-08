@@ -47,10 +47,11 @@
     "", 
     "", 
     "//BuilderTest.Sync.getProjectFiles();", 
-    "//BuilderTest.Sync.getProjectFiles( BuilderTest.Project.path() );", 
+    "BuilderTest.Sync.getProjectFiles( BuilderTest.Project.path() );", 
     "", 
     "//alert( 'ExtensionsBuilderTest:' ); ", 
-    "//alert( BuilderTest.Project.getProjectName() );"
+    "//alert( BuilderTest.Project.getProjectName() );", 
+    ""
   ], 
   "version": "1.0.12", 
   "rank": 100, 
