@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "namespace", 
+  "language": "JavaScript", 
+  "trigger_enabled": 1, 
+  "value": [
+    "/** Setup hierarchy of objects where scripts are applied", 
+    " */", 
+    "if( typeof ko.extensions.vilbur.ExtensionsBuilderContainer === 'undefined'  )", 
+    "\tko.extensions.vilbur.ExtensionsBuilderContainer =", 
+    "\t{", 
+    "\t\tProject:\t{},", 
+    "\t\tSync:\t{},", 
+    "\t\tBuild:\t{},", 
+    "\t\tInstall:\t{},", 
+    "\t};"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_startup"
+}
