@@ -302,9 +302,9 @@
     "\t\t\t\t\t\t//console.log( path_komodotool );", 
     "\t\t\t\t\t\tvar content_js\t= koFile.read(path_js);", 
     "\t\t\t\t\t\tvar content_komodotool\t= JSON.parse(koFile.read(path_komodotool));\t\t\t\t\t\t", 
-    "", 
+    "\t\t\t\t\t\t", 
     "\t\t\t\t\t\tcontent_komodotool.value = content_js.split(/\\n/g);\t\t\t\t\t\t", 
-    "", 
+    "\t\t\t\t\t\t", 
     "\t\t\t\t\t\twriteToFile( path_komodotool, JSON.stringify(content_komodotool) );", 
     "\t\t\t\t\t}; ", 
     "\t\t\t\t\t", 
@@ -441,9 +441,7 @@
     "\t}", 
     "\treturn BuildAndInstallExtension;", 
     "", 
-    "})();", 
-    "", 
-    ""
+    "})();"
   ], 
   "version": "1.0.12", 
   "rank": 100, 

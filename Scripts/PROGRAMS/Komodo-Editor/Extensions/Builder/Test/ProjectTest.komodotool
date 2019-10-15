@@ -1,16 +1,24 @@
 {
   "keyboard_shortcut": "", 
-  "name": "ExtensionsBuilderTest", 
+  "name": "ProjectTest", 
   "language": "JavaScript", 
   "trigger_enabled": false, 
   "value": [
     "/** Import script for fresh version", 
-    "*/", 
+    " */", 
     "ko.extensions.vilbur.executeTool('ExtensionsBuilder');", 
     "/* Clear Console */", 
     "document.getElementById('console-widget').contentWindow.document.getElementById('output').innerHTML = '';", 
     "", 
-    "var BuilderTest\t= new ko.extensions.vilbur.ExtensionsBuilder();"
+    "var BuilderTest\t= new ko.extensions.vilbur.ExtensionsBuilder();", 
+    "", 
+    "", 
+    "/** Test", 
+    " */", 
+    "", 
+    "BuilderTest.Project.setCurrent();", 
+    "", 
+    "console.log( 'BuilderTest.Project.path():   '\t+ BuilderTest.Project.path() );"
   ], 
   "version": "1.0.12", 
   "rank": 100, 
