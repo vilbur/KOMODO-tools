@@ -1,0 +1,31 @@
+{
+  "keyboard_shortcut": "", 
+  "name": " Execute Tool", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "rank": 100, 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "/** Names of Komodotools for execution", 
+    " */", 
+    "var tools_to_execute = [", 
+    "\t//'ExtensionsBuilderTest',  ", 
+    "\t//'ProjectTest',", 
+    "\t'SyncTest',", 
+    "];", 
+    "", 
+    "/** Execute Komodotools by name", 
+    " */", 
+    "(function executeTools()", 
+    "{", 
+    "\tfor(let f=0; f<tools_to_execute.length;f++)", 
+    "\t\tko.extensions.vilbur.executeTool(tools_to_execute[f]);\t\t", 
+    "})();", 
+    "", 
+    "//ko.projects.invokePart(komodo.findPart('macro', 'SyncTest'));"
+  ], 
+  "version": "1.0.12", 
+  "async": 1, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs/Core/Komodo/Icons/Toolbars/Execute/execute-tool.ICO"
+}

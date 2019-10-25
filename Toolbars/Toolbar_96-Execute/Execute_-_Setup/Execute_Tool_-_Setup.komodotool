@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "Ctrl+Shift+Space", 
+  "name": "Execute Tool - Setup", 
+  "language": "JavaScript", 
+  "trigger_enabled": 0, 
+  "rank": 100, 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "/** Open userscript file for setup", 
+    " */", 
+    "ko.open.URI((komodo.findPart('macro', 'Execute Tool')).url)"
+  ], 
+  "version": "1.0.12", 
+  "async": 0, 
+  "type": "macro", 
+  "icon": "file:///C:/GoogleDrive/Programs/Core/Komodo/Icons/Toolbars/Execute/execute-tool.ICO"
+}
