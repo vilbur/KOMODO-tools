@@ -13,7 +13,11 @@
     "\tif (!_part)", 
     "\t\talert(\"Couldn't find a macro called '\"+macro_name+\"' when executing macro.\");", 
     "\telse", 
+    "\t{", 
+    "\t\tko.statusBar.AddMessage( 'Executed macro: ' + macro_name,  'executeTool.js');", 
     "\t\tko.projects.invokePart(_part);", 
+    "\t}", 
+    "", 
     "});"
   ], 
   "version": "1.0.12", 

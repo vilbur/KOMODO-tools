@@ -1,0 +1,93 @@
+{
+    "Komodo":{
+        "analytics_enabled": 0
+    },
+    "Apperance":{
+        "interface-scheme": "vilbur",		
+        "editor-scheme":    "vilbur",
+        "widget-scheme":    "vilbur",
+        "link-schemes": 1,
+		
+        "ui.hide.chrome":   	0, 
+        "ui.classic.mode":	0,                        
+        "ui.classic.statusbar":	1,
+        "ui.classic.toolbar":    1,
+		
+		"ui.tabs.sidepanes.left.layout" : "vertical", 	
+		"ui.tabs.sidepanes.right.layout": "vertical"
+         
+    },
+	
+
+    "Code intelligence":{
+        "codeintel_selected_catalogs": "[u'jQuery']" 
+    },
+	
+    "Editor":{
+        "editEnableMouseZoom": 0	
+    },
+	
+    "Indentation":{
+		"useSmartTabs": 	0,		
+		"useTabs":	1,		
+		"tabWidth":	4,  		
+		"indentWidth":	4,
+		"enableElasticTabstops":	1
+	},
+	
+    "Snart Editing":{
+		"editSmartWrapSelection":	1,		
+		"editSmartWrapSelectionKeep": 	0,		
+		"wrapSelectionOnlyPlainText":	0, 		
+		"editSmartCutCopyWithoutSelection": 	0	
+    },
+	
+    "Snart Editing - Folding ":{
+		"editFoldStyle":"squaretree",				
+		"editFoldLines":	1,			
+		"editRestoreFoldPoints":	1		
+    },
+	
+	
+    "Key bindings":{
+        "keybinding-scheme": "vilbur"
+
+    },
+    
+    "Primary languages":{
+        "languages/AngularJS/primary":  0,
+        "languages/Autohotkey/primary": 1,
+        "languages/C++/primary":        0,
+        "languages/CoffeeScript/primary":0,
+        "languages/Django/primary":     0,
+        "languages/EJS/primary":        1,
+        "languages/Go/primary":         0,
+        "languages/Less/useTabs":       0,
+        "languages/Markdown/primary":   0,
+        "languages/Node.js/primary":    0,
+        "languages/Perl/primary":       0,
+        "languages/Python/primary":     0,
+        "languages/Python3/primary":		0,
+        "languages/Ruby/primary":		0,
+        "languages/Sass/primary":        1,
+        "languages/Tcl/primary":	0,
+        "languages/Twig/primary":       	0,
+        "languages/XML/primary":        	0
+    },
+	
+	"Language help" : {
+		"DefaultHelpCommand"	:"%(browser) http://www.google.com/search?q=%W",
+		"OtherHelpCommand"	:"%(browser) http://www.google.com/search?q=%W",		
+		"AutohotkeyHelpCommand"	:"%(browser) https://autohotkey.com/docs/commands/%W.htm"		
+	},
+	
+	"Browser":{
+		"browser":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"		
+	},
+	
+
+    "floating panes":{
+        "ui.tabs.sidepanes.state": "{\"widgets\":{},\"panes\":{\"workspace_bottom_area\":{\"collapsed\":true,\"children\":[[{\"id\":\"scc-widget\"}],[{\"id\":\"breakpoints-tabpanel\"}],[{\"id\":\"runoutput-desc-tabpanel\"}],[{\"id\":\"projectUnitTestsResults_tabpanel\"}],[{\"id\":\"notifications-widget\"}],[{\"id\":\"klint_tabpanel\"}],[{\"id\":\"console-widget\"}]],\"selectedTab\":\"scc-widget\"},\"workspace_right_area\":{\"collapsed\":false,\"children\":[[{\"id\":\"toolbox2viewbox\"}],[{\"id\":\"codebrowserviewbox\"}],[{\"id\":\"placesViewbox\"}]],\"selectedTab\":\"toolbox2viewbox\"},\"workspace_left_area\":{\"collapsed\":false,\"children\":[[{\"id\":\"openfilesViewbox\"}],[{\"id\":\"dbexplorer_viewbox\"}],[{\"id\":\"collab-panel\"}],[{\"id\":\"DOMviewbox\"}]],\"selectedTab\":\"openfilesViewbox\"}}}"
+    }
+	
+}

@@ -1,5 +1,5 @@
 {
-  "keyboard_shortcut": "", 
+  "keyboard_shortcut": "Ctrl+Shift+Space", 
   "name": " Execute Tool", 
   "language": "JavaScript", 
   "trigger_enabled": 0, 

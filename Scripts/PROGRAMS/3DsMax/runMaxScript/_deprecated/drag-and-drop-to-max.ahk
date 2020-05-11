@@ -1,4 +1,4 @@
-
+#SingleInstance force
 
 /**
  */
@@ -19,22 +19,9 @@ bringMaxWindowsToFront()
 	WinSet, AlwaysOnTop, Off, ahk_group $win_group
 }
 
-/** Send filein script to Max mini listener
- */
-sendFileInToMax( $file )
-{
-	$filein = filein "%$file%"
-
-	ControlSetText,	MXS_Scintilla2, %$filein%, ahk_class Qt5QWindowIcon
-	sleep, 100
-	ControlFocus 	MXS_Scintilla2, ahk_class Qt5QWindowIcon
-	sleep, 100
-	;Send,	{NumpadEnter}
-	ControlSend, MXS_Scintilla2,	{NumpadEnter}, ahk_class Qt5QWindowIcon
-}
 
 /**	Simulate drag & drop of files into window
- *	Works with 3Ds Max 2019 
+ *	Works with 3Ds Max 2016 
  *
  *	 https://autohotkey.com/board/topic/109578-simulating-drag-and-drop-file-on-to-program/#post_id_651231
  *
@@ -58,6 +45,22 @@ DropFiles(window, files*)
 }
 
 
+/** Send filein script to Max mini listener
+  *
+  * Work with 3Ds Max 2019
+  *
+ */
+sendFileInToMax( $file )
+{
+	$filein = filein "%$file%"
+
+	ControlSetText,	MXS_Scintilla2, %$filein%, ahk_class Qt5QWindowIcon
+	sleep, 100
+	ControlFocus 	MXS_Scintilla2, ahk_class Qt5QWindowIcon
+	sleep, 100
+	;Send,	{NumpadEnter}
+	ControlSend, MXS_Scintilla2,	{NumpadEnter}, ahk_class Qt5QWindowIcon
+}
 
 /*---------------------------------------
 	RUN DropFiles() BY CALL OF THIS FILE
@@ -66,7 +69,8 @@ DropFiles(window, files*)
 $file	= %1%
 
 ;killOldDialogs()
-;DropFiles("ahk_class 3DSMAX", $file )	; Max 2016
-sendFileInToMax($file )	; Max 2019
+DropFiles("ahk_class 3DSMAX", $file )	; Max 2016
+;sendFileInToMax($file)	; Max 2019
 
 ;bringMaxWindowsToFront()
+
