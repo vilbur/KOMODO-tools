@@ -1,11 +1,11 @@
 {
-  "keyboard_shortcut": "Ctrl+Shift+A", 
+  "keyboard_shortcut": "", 
   "name": "runMaxScript", 
   "language": "JavaScript", 
-  "trigger": "trigger_postsave", 
+  "trigger": "trigger_startup", 
   "value": [
     "komodo.assertMacroVersion(3);", 
-    "ko.views.manager.currentView.scimoz.beginUndoAction();", 
+    "//ko.views.manager.currentView.scimoz.beginUndoAction();", 
     "", 
     "", 
     "ko.extensions.RunMaxscript = (function()", 
@@ -19,7 +19,7 @@
   ], 
   "version": "1.0.12", 
   "rank": 100, 
-  "trigger_enabled": 0, 
+  "trigger_enabled": 1, 
   "async": 1, 
   "type": "macro"
 }

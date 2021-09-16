@@ -33,4 +33,7 @@ DropFiles(window, files*)
  */
 $maxscript_file	= %1%
 
+
+
+WinActivate, ahk_class 3DSMAX
 DropFiles("ahk_class 3DSMAX", $maxscript_file )	; Max 2016
