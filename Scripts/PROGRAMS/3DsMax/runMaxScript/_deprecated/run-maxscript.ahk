@@ -1,7 +1,7 @@
-#SingleInstance force
+#SingleInstance Force
+#InstallKeybdHook
+;#NoTrayIcon
 
-/**  Get selected text, and run it in 3Ds Max as Maxscript
- */
 
 /** Get selected text
  */
@@ -31,10 +31,10 @@ saveToFile( $script )
 	return $temp_file 
 }
 
-
-/** Run maxscript file in 3Ds Max
-  * Simulate drag & drop of files into window
- *	https://autohotkey.com/board/topic/109578-simulating-drag-and-drop-file-on-to-program/#post_id_651231
+/**	Simulate drag & drop of files into window
+ *	Works with 3Ds Max 2016 
+ *
+ *	 https://autohotkey.com/board/topic/109578-simulating-drag-and-drop-file-on-to-program/#post_id_651231
  *
  * @example DropFiles( "ahk_class Notepad", "C:\SomeName.txt" ) 
  *
@@ -50,18 +50,17 @@ DropFiles(window, files*)
 	  StrPut(v, dropfiles+offset, "utf-8"), offset+=StrLen(v)+1
 	DllCall("GlobalUnlock", "ptr", hGlobal)
 	PostMessage, 0x233, hGlobal, 0,, %window%
+	
 	if ErrorLevel
 	  DllCall("GlobalFree", "ptr", hGlobal)
 }
 
+/** string $maxscript_file path to maxscript file
+ *	
+ */
+$maxscript_file	= %1%
 
-;DropFiles("ahk_class 3DSMAX", saveToFile( getSelecetdText() ) )
 
 
-WinGetTitle, $win_title, A
-
-;MsgBox,262144,, %$win_title%,2
-
-RegExMatch( $win_title, "i)(.*)\.ms", $win_title_match )
-
-MsgBox,262144,, %$win_title_match1%,2
+WinActivate, ahk_class 3DSMAX
+DropFiles("ahk_class 3DSMAX", $maxscript_file )	; Max 2016

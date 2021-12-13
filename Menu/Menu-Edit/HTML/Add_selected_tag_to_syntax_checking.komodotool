@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "addTagToTidyConfig", 
+  "name": "Add selected tag to syntax checking", 
   "language": "JavaScript", 
   "trigger_enabled": false, 
   "value": [
@@ -8,10 +8,11 @@
     " * Add selected word to tidy config file", 
     " * WHERE IS TIDY FILE CONFIGURED: https://community.komodoide.com/uploads/default/original/1X/5ea9f15267cf77e8df65db5e9c558ee6f5b6b5bc.png", 
     " *", 
+    " * TIDY CONFIG FILE: C:\\GoogleDrive\\Programs\\Core\\Komodo\\AppData\\10.1\\tidy.conf", 
+    " *", 
     "*/", 
-    "/** writeLineToFile", 
-    "*/", 
-    "function writeLineToFile(file, line_content){", 
+    "function writeLineToFile(file, line_content)", 
+    "{", 
     "\tvar runSvc\t= Components.classes[\"@activestate.com/koRunService;1\"].createInstance(Components.interfaces.koIRunService);", 
     "\tko.run.output.endSession();", 
     "", 

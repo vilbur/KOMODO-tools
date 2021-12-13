@@ -7,12 +7,11 @@
     "// Macro recorded on: Sun Apr 02 2017 08:46:05 GMT+0200 (Central Europe Standard Time)", 
     "komodo.assertMacroVersion(3);", 
     "if (komodo.view) { komodo.view.setFocus(); }", 
-    "//ko.commands.doCommand('cmd_minimap_hide')", 
-    "ko.commands.doCommand('cmd_minimap_show')"
+    "ko.commands.doCommand('cmd_minimap_hide')"
   ], 
   "version": "1.0.12", 
   "rank": 100, 
-  "trigger_enabled": false, 
-  "async": false, 
+  "trigger_enabled": 1, 
+  "async": 1, 
   "type": "macro"
 }

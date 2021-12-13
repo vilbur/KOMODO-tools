@@ -3,6 +3,33 @@
 ;#NoTrayIcon
 
 
+/** Get selected text
+ */
+getSelecetdText()
+{
+	$clip_bak := ClipboardAll  ; save clipboard contents
+	Send, ^c
+	ClipWait,1
+	
+	$sel_text := Clipboard 
+	
+	ClipBoard := $clip_bak         ; return original Clipboard contents
+	
+	return $sel_text
+}
+
+/** Save to temp *.ms file
+ */
+saveToFile( $script )
+{
+	$temp_file = %temp%\run-maxscript_temp-file.ms
+	
+	FileDelete, %$temp_file%
+	
+	FileAppend, %$script%, %$temp_file% 
+
+	return $temp_file 
+}
 
 /**	Simulate drag & drop of files into window
  *	Works with 3Ds Max 2016 

@@ -12,13 +12,13 @@
     "\t}", 
     "", 
     "%>", 
-    "<%=snippet%>!@#_currentPos!@#_anchor"
+    "<%=snippet%>[[%tabstop:]]!@#_currentPos!@#_anchor"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "true", 
-  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png", 
-  "type": "snippet", 
+  "auto_abbreviation": "false", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "type": "snippet", 
+  "treat_as_ejs": "true", 
+  "icon": "file://C://GoogleDrive//Programs//code//Komodo//Icons//filetypes//Komodo//ejs.png"
 }

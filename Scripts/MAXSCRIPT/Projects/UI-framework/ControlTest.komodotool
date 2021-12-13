@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "ControlTest", 
+  "language": "JavaScript", 
+  "trigger_enabled": 1, 
+  "value": [
+    "komodo.assertMacroVersion(3);", 
+    "", 
+    "", 
+    "ko.extensions.RunMaxscriptFile('C:\\\\GoogleDrive\\\\Programs\\\\CG\\\\3DsMax\\\\scripts\\\\Library\\\\MAXSCRIPT-UI-framework\\\\Lib\\\\Rolloutor\\\\Controls\\\\ControlsBox\\\\Control\\\\_Test\\\\ControlTest.ms')"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": 1, 
+  "type": "macro", 
+  "trigger": "trigger_startup"
+}
